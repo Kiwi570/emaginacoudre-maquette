@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Atelier de réparation de machines à coudre à Vannes : tarifs · E-maginacoudre</title>
+<meta name="description" content="Diagnostic gratuit en boutique, devis à 30 € déduit, entretien 75 €, révision 119 €, réparation 75 € de l&#39;heure. Machines familiales et industrielles, toutes marques.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://emaginacoudre-maquette.vercel.app/atelier">
+<style>:root{--fond:#FBF8F3;--texte:#172033;--voile-fond:#172033;--ouverture-fond:#172033;--menu-fond:#172033}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/instrument-serif-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/figtree-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#FBF8F3">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="E-maginacoudre">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Atelier de réparation de machines à coudre à Vannes : tarifs · E-maginacoudre">
+<meta property="og:description" content="Diagnostic gratuit en boutique, devis à 30 € déduit, entretien 75 €, révision 119 €, réparation 75 € de l&#39;heure. Machines familiales et industrielles, toutes marques.">
+<meta property="og:url" content="https://emaginacoudre-maquette.vercel.app/atelier">
+<meta property="og:image" content="https://emaginacoudre-maquette.vercel.app/assets/partage/atelier-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="L&#39;atelier de réparation d&#39;E-maginacoudre : diagnostic gratuit, sous vos yeux">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"E-maginacoudre","description":"Vente et réparation de machines à coudre, brodeuses, surjeteuses et recouvreuses Brother et Babylock.","url":"https://www.emaginacoudre.fr","telephone":"+33 2 97 61 20 12","email":"emaginacoudre@orange.fr","foundingDate":"2012","address":{"@type":"PostalAddress","streetAddress":"4 rue Alain-René Lesage","postalCode":"56000","addressLocality":"Vannes","addressCountry":"FR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Wednesday","Thursday","Friday","Saturday"],"opens":"09:30","closes":"12:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Wednesday","Thursday","Friday","Saturday"],"opens":"14:00","closes":"18:30"}],"brand":[{"@type":"Brand","name":"Brother"},{"@type":"Brand","name":"Babylock"}],"sameAs":["https://www.facebook.com/E-maginacoudre-1594245230788176/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img class="voile-logo" src="/assets/images/logo-carre.webp" alt="" width="240" height="240"><span data-voile-libelle>Atelier</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-carre.webp" alt="" width="240" height="240" data-ouverture-objet>
+  <p class="ouverture-nom">E-maginacoudre</p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Machines à coudre · Vannes</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" aria-label="E-maginacoudre, accueil" href="/" data-libelle="Accueil">
+      <img class="logo-entete" src="/assets/images/logo-entete.webp" alt="E-maginacoudre" width="633" height="84">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/machines" data-libelle="Machines">Machines</a></li><li><a href="/atelier" data-libelle="Atelier" aria-current="page">Atelier</a></li><li><a href="/prise-en-main" data-libelle="Prise en main">Prise en main</a></li><li><a href="/la-maison" data-libelle="La maison">La maison</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact?sujet=essai#demande" data-libelle="Contact">Venir essayer</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/machines" class="menu-lien" data-libelle="Machines">Machines</a></li><li style="--i:2"><a href="/atelier" class="menu-lien" data-libelle="Atelier" aria-current="page">Atelier</a></li><li style="--i:3"><a href="/prise-en-main" class="menu-lien" data-libelle="Prise en main">Prise en main</a></li><li style="--i:4"><a href="/la-maison" class="menu-lien" data-libelle="La maison">La maison</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33297612012">Appeler 02 97 61 20 12</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-atelier fond-nuit" id="debut">
+  <figure class="media ouv-atelier-media" data-grok data-iris-centre data-effet="capot" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/atelier-ouverture-mobile-640.webp 640w, /assets/images/grok/atelier-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 50vw">
+    <img src="/assets/images/grok/atelier-ouverture-1280.webp" srcset="/assets/images/grok/atelier-ouverture-640.webp 640w, /assets/images/grok/atelier-ouverture-1280.webp 1280w, /assets/images/grok/atelier-ouverture-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 50vw" alt="Établi de réparation : tournevis de précision, boîtier de canette, canettes et petites pièces rangées" width="1280" height="1600" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="ouv-atelier-texte">
+    <p class="surtitre masque-ecran-tres-bas" data-anime="gsap" data-intro>SAV – Atelier · le domaine de Pascal</p>
+    <h1 data-anime="gsap" data-intro>Diagnostic gratuit, <em>sous vos yeux</em>.</h1>
+    <p class="prix-geant" data-info-cle data-anime="gsap" data-intro><strong data-prix>0 €</strong><span>le diagnostic, en boutique</span></p>
+    <p class="ouv-actions" data-anime="gsap" data-intro>
+      <a href="/contact?sujet=atelier#demande" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Préparer mon passage</a>
+      <a class="bouton bouton--contour" href="#tarifs" data-sans-transition>Voir les tarifs</a>
+    </p>
+    <p class="ouv-atelier-intro masque-ecran-tres-bas" data-anime="gsap" data-intro>Machines à coudre, brodeuses et surjeteuses, familiales ou industrielles, de toutes marques. Vous apportez votre machine en boutique, Pascal cherche la panne devant vous.</p>
+  </div>
+</section>
+<section class="deroule" id="deroule">
+  <div class="conteneur">
+    <h2 data-anime="lignes">Trois étapes, <em>pas de surprise</em></h2>
+    <div class="deroule-piste">
+      <svg class="deroule-fil" viewBox="0 0 1000 40" preserveAspectRatio="none" aria-hidden="true" data-visuel data-fx="trace" data-effet="deroule-fil"><path d="M10 20 C 200 4, 300 36, 500 20 S 800 4, 990 20" data-fx-trait/></svg>
+      <ol class="deroule-etapes" data-anime="cascade">
+        <li><span class="deroule-num">1</span><h3>Le diagnostic</h3><p>En boutique, sous vos yeux, et gratuit : Pascal trouve ce qui cloche avant de toucher à quoi que ce soit.</p></li><li><span class="deroule-num">2</span><h3>Le devis, si vous le voulez</h3><p>30 €, déduits du montant de la réparation si vous acceptez le devis.</p></li><li><span class="deroule-num">3</span><h3>L&#39;entretien, la révision ou la réparation</h3><p>En atelier, aux tarifs affichés ci-dessous.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="tarifs fond-sable" id="tarifs">
+  <div class="conteneur tarifs-grille">
+    <div>
+      <h2 data-anime="lignes">Les tarifs <em>de l'atelier</em></h2>
+      <p data-anime>Choisissez une prestation : elle s&#39;ajoute à votre demande de passage.</p>
+      <ul class="tarifs-petits" data-anime="cascade">
+        <li><span class="tarif-nom">Diagnostic</span><span class="tarif-prix" data-prix>Gratuit</span><span class="tarif-texte">En boutique, sous vos yeux.</span></li><li><span class="tarif-nom">Devis</span><span class="tarif-prix" data-prix>30 €</span><span class="tarif-texte">Déduit du montant de la réparation si vous l&#39;acceptez.</span></li>
+      </ul>
+    </div>
+    <div class="tarifs-cartes" data-anime="cascade" data-choix-prestation>
+      <article class="tarif-carte" data-prestation="entretien">
+        <h3>Entretien</h3>
+        <p class="tarif-carte-prix" data-prix>75 €</p>
+        <p>Nettoyage des parties accessibles, lubrification des mécanismes les plus sollicités, essai de couture.</p>
+        <button type="button" class="bouton bouton--contour tarif-choisir" aria-pressed="false" data-libelle-choisi="Choisi" data-libelle-choisir="Choisir"><span data-libelle-bouton>Choisir</span><span class="visuellement-cache"> : Entretien</span></button>
+      </article><article class="tarif-carte" data-prestation="revision">
+        <h3>Révision</h3>
+        <p class="tarif-carte-prix" data-prix>119 €</p>
+        <p>Forfait machines électroniques : la machine est entièrement ouverte, nettoyée, lubrifiée, puis re-réglée aux réglages d&#39;usine.</p>
+        <button type="button" class="bouton bouton--contour tarif-choisir" aria-pressed="false" data-libelle-choisi="Choisi" data-libelle-choisir="Choisir"><span data-libelle-bouton>Choisir</span><span class="visuellement-cache"> : Révision</span></button>
+      </article><article class="tarif-carte" data-prestation="reparation">
+        <h3>Réparation</h3>
+        <p class="tarif-carte-prix" data-prix>75 € / heure</p>
+        <p>Main-d&#39;œuvre en atelier : intervention mécanique ou électronique, parfois avec remplacement de pièces.</p>
+        <button type="button" class="bouton bouton--contour tarif-choisir" aria-pressed="false" data-libelle-choisi="Choisi" data-libelle-choisir="Choisir"><span data-libelle-bouton>Choisir</span><span class="visuellement-cache"> : Réparation</span></button>
+      </article>
+    </div>
+    <div class="recap" data-recap>
+      <p class="recap-titre">Votre passage</p>
+      <p class="recap-texte" data-recap-texte aria-live="polite">Aucune prestation choisie : le diagnostic en boutique reste gratuit.</p>
+      <a href="/contact?sujet=atelier#demande" class="bouton" data-libelle="Contact" data-recap-lien>Préparer mon passage</a>
+    </div>
+  </div>
+</section>
+<section class="revision" id="revision">
+  <div class="conteneur revision-grille">
+    <div class="revision-photos">
+      <figure class="media revision-media" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/atelier-coeur-640.webp" srcset="/assets/images/atelier-coeur-480.webp 480w, /assets/images/atelier-coeur-640.webp 640w" sizes="(max-width: 760px) 50vw, 22vw" alt="Une machine à coudre entièrement ouverte pendant une révision" width="640" height="801" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Révision à cœur ouvert</figcaption>
+</figure>
+      <figure class="media revision-media revision-media--decale" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/atelier-ouverte-960.webp" srcset="/assets/images/atelier-ouverte-480.webp 480w, /assets/images/atelier-ouverte-640.webp 640w, /assets/images/atelier-ouverte-960.webp 960w" sizes="(max-width: 760px) 50vw, 22vw" alt="Mécanisme d&#39;une machine à coudre ouverte sur l&#39;établi" width="960" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Nettoyage et réglages</figcaption>
+</figure>
+    </div>
+    <div>
+      <h2 data-anime="lignes">Une révision, <em>à cœur ouvert</em></h2>
+      <p data-anime>Pour les machines électroniques, la révision est un forfait de 119 €. Pascal ne se contente pas des parties visibles :</p>
+      <ol class="revision-liste" data-anime="cascade">
+        <li>la machine est entièrement ouverte ;</li><li>elle est nettoyée et lubrifiée selon les préconisations du fabricant ;</li><li>elle est re-réglée aux réglages d&#39;usine ;</li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="industrie fond-nuit" id="industrie">
+  <div class="conteneur industrie-grille">
+    <div>
+      <h2 data-anime="lignes">Familiales <em>et industrielles</em></h2>
+      <p data-anime>Pascal suit aussi les machines industrielles Brother, Dürkopp-Adler, Global, Pfaff et Juki : entretien, réglages, réparation. Le lundi et le mardi, la boutique est fermée : ce sont ses journées d&#39;atelier et de déplacements sur site.</p>
+      <p class="compteur-atelier" data-anime><strong data-compteur="10000">10 000</strong> <span>machines dépannées : la 10 000ᵉ en 2025</span></p>
+    </div>
+    <figure class="media industrie-media" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/atelier-test-960.webp" srcset="/assets/images/atelier-test-480.webp 480w, /assets/images/atelier-test-640.webp 640w, /assets/images/atelier-test-960.webp 960w" sizes="(max-width: 760px) 100vw, 40vw" alt="Test électronique d&#39;une machine en panne, à l&#39;atelier" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="fin fond-nuit" id="fin">
+  <div class="conteneur fin-cadre">
+    <svg class="fin-couture" viewBox="0 0 1000 400" preserveAspectRatio="none" aria-hidden="true" data-superpose data-visuel data-fx="trace" data-effet="couture-appel"><rect x="8" y="8" width="984" height="384" rx="28" data-fx-trait/></svg>
+    <h2 data-anime="lignes">Une machine qui <em>coince</em> ?</h2>
+    <p data-anime>Apportez-la du mercredi au samedi : le diagnostic se fait devant vous.</p>
+    <p class="ouv-actions fin-actions" data-anime>
+      <a href="/contact?sujet=atelier#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Préparer mon passage</a>
+      <a class="bouton bouton--contour" href="tel:+33297612012">Appeler 02 97 61 20 12</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-nom"><img class="pied-logo" src="/assets/images/logo-carre.webp" alt="" width="240" height="240" loading="lazy">E-maginacoudre</p>
+      <p>4 rue Alain-René Lesage, 56000 Vannes<br><a href="tel:+33297612012">02 97 61 20 12</a><br><a href="mailto:emaginacoudre@orange.fr">emaginacoudre@orange.fr</a></p>
+      <p><a href="https://www.google.com/maps/search/?api=1&amp;query=4+rue+Alain-Ren%C3%A9+Lesage+56000+Vannes" target="_blank" rel="noopener">Itinéraire<span class="visuellement-cache"> (nouvel onglet)</span></a> · <a href="https://www.facebook.com/E-maginacoudre-1594245230788176/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a> · <a href="https://www.google.com/search?q=E-maginacoudre+Vannes+avis" target="_blank" rel="noopener">Laisser un avis Google<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/machines" data-libelle="Machines">Machines</a></li><li><a href="/atelier" data-libelle="Atelier" aria-current="page">Atelier</a></li><li><a href="/prise-en-main" data-libelle="Prise en main">Prise en main</a></li><li><a href="/la-maison" data-libelle="La maison">La maison</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">La boutique</p>
+      <p>Du mercredi au samedi, 9 h 30-12 h 30 et 14 h-18 h 30.</p>
+      <p class="pied-note">Hors congés. Lundi et mardi, la boutique est fermée : Pascal se consacre à l&#39;atelier.</p>
+      <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : les formulaires sont simulés, rien n&#39;est envoyé.</p><p>© E-maginacoudre</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33297612012">Appeler</a>
+  <a class="bouton" href="/contact?sujet=essai#demande" data-libelle="Contact">Venir essayer</a>
+</div>
+</body>
+</html>

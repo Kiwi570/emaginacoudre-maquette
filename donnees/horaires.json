@@ -1,0 +1,19 @@
+{
+  "fuseau": "Europe/Paris",
+  "jours": {
+    "0": [], "1": [], "2": [],
+    "3": [["09:30", "12:30"], ["14:00", "18:30"]],
+    "4": [["09:30", "12:30"], ["14:00", "18:30"]],
+    "5": [["09:30", "12:30"], ["14:00", "18:30"]],
+    "6": [["09:30", "12:30"], ["14:00", "18:30"]]
+  },
+  "semaine": [
+    { "jour": 3, "nom": "Mercredi", "texte": "9 h 30 – 12 h 30 · 14 h – 18 h 30" },
+    { "jour": 4, "nom": "Jeudi", "texte": "9 h 30 – 12 h 30 · 14 h – 18 h 30" },
+    { "jour": 5, "nom": "Vendredi", "texte": "9 h 30 – 12 h 30 · 14 h – 18 h 30" },
+    { "jour": 6, "nom": "Samedi", "texte": "9 h 30 – 12 h 30 · 14 h – 18 h 30" },
+    { "jour": 0, "nom": "Dimanche", "texte": "Fermé" },
+    { "jour": 1, "nom": "Lundi", "texte": "Boutique fermée, journée d’atelier" },
+    { "jour": 2, "nom": "Mardi", "texte": "Boutique fermée, journée d’atelier" }
+  ]
+}

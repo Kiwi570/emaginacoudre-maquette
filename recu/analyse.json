@@ -1,0 +1,5316 @@
+{
+  "dossier": "/home/claude/emaginacoudre-maquette/recu",
+  "date": "2026-11-20T15:04:57.524Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg",
+    "planche-3.jpg",
+    "planche-4.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [
+    {
+      "garder": "emaginacoudre-vente-reparations-machines-3.png",
+      "ecarter": "brodeuses-emaginacoudre.jpg",
+      "type": "doublon",
+      "distance": 2,
+      "ressemblance": 1
+    },
+    {
+      "garder": "emaginacoudre-vente-reparations-machines-2.png",
+      "ecarter": "brother-a16.jpg",
+      "type": "doublon",
+      "distance": 5,
+      "ressemblance": 1
+    },
+    {
+      "garder": "emaginacoudre-vente-reparations-machines-14.png",
+      "ecarter": "brother-f420.jpg",
+      "type": "quasi-doublon",
+      "distance": 5,
+      "ressemblance": 0.86
+    },
+    {
+      "garder": "emaginacoudre-vente-reparations-machines-9.png",
+      "ecarter": "brother-cs70s.jpg",
+      "type": "doublon",
+      "distance": 1,
+      "ressemblance": 1
+    },
+    {
+      "garder": "emaginacoudre-vente-reparations-machines-19.png",
+      "ecarter": "brother-a65.png",
+      "type": "doublon",
+      "distance": 0,
+      "ressemblance": 0.99
+    }
+  ],
+  "images": [
+    {
+      "fichier": "logo.gif",
+      "nom": "logo",
+      "drapeau": "logo",
+      "largeur": 981,
+      "hauteur": 92,
+      "ratio": "10.66",
+      "ratio_valeur": 10.663,
+      "orientation": "paysage",
+      "format": "gif",
+      "poids": 16678,
+      "transparence": false,
+      "sujet": {
+        "x": 12.5,
+        "y": 0,
+        "l": 62.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        48
+      ],
+      "cadrage_css": "43% 48%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 50,
+        "bruit": 0.5,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "62595d17135d5d62",
+      "drapeaux": [
+        "logo"
+      ]
+    },
+    {
+      "fichier": "equipements-couture.jpg",
+      "nom": "equipements-couture",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1328,
+      "ratio": "3:2",
+      "ratio_valeur": 1.506,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 439471,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 0,
+        "l": 90.6,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        55
+      ],
+      "cadrage_css": "61% 55%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 28.7,
+        "bruit": 0.74,
+        "compression": 1.33,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "56b46918524606c4",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1125,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 296779,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 5.6,
+        "l": 100,
+        "h": 61.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        32
+      ],
+      "cadrage_css": "62% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "gauche",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 46.7,
+        "bruit": 0.72,
+        "compression": 1.69,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "383e4c4c4c5c5c6e",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "vitrine-emaginacoudre-vente-machine.jpg",
+      "nom": "vitrine-emaginacoudre-vente-machine",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 880,
+      "ratio": "2.27",
+      "ratio_valeur": 2.273,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 195308,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 93.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        53
+      ],
+      "cadrage_css": "49% 53%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.93
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 10.7,
+        "bruit": 0.35,
+        "compression": 1.33,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "57d55531333171ed",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "jeune-femme-cousant-machine.jpg",
+      "nom": "jeune-femme-cousant-machine",
+      "drapeau": "produit",
+      "largeur": 1110,
+      "hauteur": 640,
+      "ratio": "16:9",
+      "ratio_valeur": 1.734,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 154128,
+      "transparence": false,
+      "sujet": {
+        "x": 12.5,
+        "y": 0,
+        "l": 87.5,
+        "h": 89.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        79,
+        36
+      ],
+      "cadrage_css": "79% 36%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "bas",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.9
+        }
+      ],
+      "qualite": {
+        "nettete": 19.1,
+        "bruit": 0.78,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1110 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "519191e0da96568c",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "nous-trouver.jpg",
+      "nom": "nous-trouver",
+      "drapeau": "autre",
+      "largeur": 716,
+      "hauteur": 716,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 55005,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 12.5,
+        "l": 87.5,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        43
+      ],
+      "cadrage_css": "51% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        }
+      ],
+      "qualite": {
+        "nettete": 29.7,
+        "bruit": 0.44,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "716 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "27797933332b4bb2",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "meli-melo-cousu-machine.jpg",
+      "nom": "meli-melo-cousu-machine",
+      "drapeau": "produit",
+      "largeur": 566,
+      "hauteur": 291,
+      "ratio": "1.95",
+      "ratio_valeur": 1.945,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 80481,
+      "transparence": false,
+      "sujet": {
+        "x": 15.6,
+        "y": 11.8,
+        "l": 65.6,
+        "h": 82.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        52
+      ],
+      "cadrage_css": "47% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        }
+      ],
+      "qualite": {
+        "nettete": 45.8,
+        "bruit": 1.36,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "566 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "c88e36333316068e",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "cb-scout5-hdpi.png",
+      "nom": "cb-scout5-hdpi",
+      "drapeau": "autre",
+      "largeur": 430,
+      "hauteur": 1670,
+      "ratio": "0.26",
+      "ratio_valeur": 0.257,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 104139,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 77.8,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        20,
+        43
+      ],
+      "cadrage_css": "20% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 54.7,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "430 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "d7555552d0d0d0d0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "contact.webp",
+      "nom": "contact",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 57138,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        38,
+        48
+      ],
+      "cadrage_css": "38% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 52.9,
+        "bruit": 0.95,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "9892acad999aa6a8",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contact-2.webp",
+      "nom": "contact-2",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 55412,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        54
+      ],
+      "cadrage_css": "35% 54%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 65.2,
+        "bruit": 0.92,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "68ee3633d5a53c34",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contact-3.webp",
+      "nom": "contact-3",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 45954,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 100,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        56
+      ],
+      "cadrage_css": "55% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "gauche",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 52.5,
+        "bruit": 0.91,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "7d43132261ccc298",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contact-4.webp",
+      "nom": "contact-4",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 48904,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 15.6,
+        "l": 100,
+        "h": 84.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        54
+      ],
+      "cadrage_css": "59% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 56.2,
+        "bruit": 0.98,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "3130441c18cf6c4a",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contact-5.webp",
+      "nom": "contact-5",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 64644,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 28.1,
+        "l": 96.9,
+        "h": 65.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        61
+      ],
+      "cadrage_css": "45% 61%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 57.7,
+        "bruit": 0.92,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "84b484191cac490a",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contact-6.webp",
+      "nom": "contact-6",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 44712,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        64
+      ],
+      "cadrage_css": "43% 64%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 49.9,
+        "bruit": 0.81,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "784866c2c04b22a4",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "staticmapservice.jpg",
+      "nom": "staticmapservice",
+      "drapeau": "autre",
+      "largeur": 449,
+      "hauteur": 233,
+      "ratio": "1.93",
+      "ratio_valeur": 1.927,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 19779,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 17.6,
+        "l": 96.9,
+        "h": 82.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        55
+      ],
+      "cadrage_css": "60% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "gauche",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 81,
+        "bruit": 1.32,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "449 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "318dd0680544958d",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-2.png",
+      "nom": "emaginacoudre-vente-reparations-machines-2",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1654,
+      "ratio": "1.21",
+      "ratio_valeur": 1.209,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1595798,
+      "transparence": true,
+      "sujet": {
+        "x": 21.9,
+        "y": 14.8,
+        "l": 59.4,
+        "h": 51.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        38
+      ],
+      "cadrage_css": "51% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "gauche",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "haut",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 32.2,
+        "bruit": 0.47,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "42133333333b0f32",
+      "drapeaux": [
+        "autre",
+        "calme bas/droite"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-3.png",
+      "nom": "emaginacoudre-vente-reparations-machines-3",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1733,
+      "ratio": "1.15",
+      "ratio_valeur": 1.154,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2231920,
+      "transparence": true,
+      "sujet": {
+        "x": 25,
+        "y": 7.1,
+        "l": 59.4,
+        "h": 82.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        35
+      ],
+      "cadrage_css": "50% 35%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "gauche",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 49.2,
+        "bruit": 0.76,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "2f0e1f890b1e3736",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-4.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines-4",
+      "drapeau": "autre",
+      "largeur": 1330,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.665,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 342571,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        48
+      ],
+      "cadrage_css": "41% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 24,
+        "bruit": 0.7,
+        "compression": 0.97,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d9b3737923f3f374",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-5.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines-5",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1330,
+      "ratio": "3:2",
+      "ratio_valeur": 1.504,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 292918,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        55
+      ],
+      "cadrage_css": "56% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 17.3,
+        "bruit": 0.61,
+        "compression": 1.3,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "190b16326040c2c4",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-6.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines-6",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1330,
+      "ratio": "3:2",
+      "ratio_valeur": 1.504,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 172212,
+      "transparence": false,
+      "sujet": {
+        "x": 15.6,
+        "y": 9.1,
+        "l": 84.4,
+        "h": 86.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        59
+      ],
+      "cadrage_css": "48% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.57,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0.41,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        }
+      ],
+      "qualite": {
+        "nettete": 20,
+        "bruit": 0.31,
+        "compression": 1.5,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "fcecef7bf3e3c27c",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-7.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines-7",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1330,
+      "ratio": "3:2",
+      "ratio_valeur": 1.504,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 654812,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        47
+      ],
+      "cadrage_css": "46% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 46.2,
+        "bruit": 1.39,
+        "compression": 1.11,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "38333343535b4b13",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-8.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines-8",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1286,
+      "ratio": "1.56",
+      "ratio_valeur": 1.555,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 375855,
+      "transparence": false,
+      "sujet": {
+        "x": 15.6,
+        "y": 9.5,
+        "l": 75,
+        "h": 76.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        49
+      ],
+      "cadrage_css": "52% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 34.9,
+        "bruit": 1.26,
+        "compression": 1.18,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "924b0a5a33a13191",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-9.png",
+      "nom": "emaginacoudre-vente-reparations-machines-9",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1652505,
+      "transparence": true,
+      "sujet": {
+        "x": 28.1,
+        "y": 18.2,
+        "l": 53.1,
+        "h": 45.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        40
+      ],
+      "cadrage_css": "47% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "haut",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "droite",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 48.7,
+        "bruit": 1.02,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "131b133333332b2f",
+      "drapeaux": [
+        "autre",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-10.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines-10",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 697637,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 6.3,
+        "l": 100,
+        "h": 84.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        68,
+        34
+      ],
+      "cadrage_css": "68% 34%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.82
+        }
+      ],
+      "qualite": {
+        "nettete": 34.9,
+        "bruit": 1.24,
+        "compression": 0.94,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "968ecc8cc4e6fa76",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-11.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines-11",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 655007,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        54
+      ],
+      "cadrage_css": "44% 54%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 37.5,
+        "bruit": 1.25,
+        "compression": 1.22,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "292b2b092a2a0a89",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-12.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines-12",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 924564,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        51
+      ],
+      "cadrage_css": "57% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 47.7,
+        "bruit": 1.65,
+        "compression": 1.13,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "94961416169b121b",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-13.png",
+      "nom": "emaginacoudre-vente-reparations-machines-13",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1062,
+      "ratio": "1.88",
+      "ratio_valeur": 1.883,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1088524,
+      "transparence": true,
+      "sujet": {
+        "x": 12.5,
+        "y": 35.3,
+        "l": 75,
+        "h": 52.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        63
+      ],
+      "cadrage_css": "48% 63%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "gauche",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        }
+      ],
+      "qualite": {
+        "nettete": 26.3,
+        "bruit": 0.28,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "01474949095d1f37",
+      "drapeaux": [
+        "autre",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-14.png",
+      "nom": "emaginacoudre-vente-reparations-machines-14",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1381,
+      "ratio": "1.45",
+      "ratio_valeur": 1.448,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 772236,
+      "transparence": true,
+      "sujet": {
+        "x": 28.1,
+        "y": 30.4,
+        "l": 53.1,
+        "h": 52.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        66,
+        44
+      ],
+      "cadrage_css": "66% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "bas",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 42.9,
+        "bruit": 0.25,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "030b0333b3332725",
+      "drapeaux": [
+        "autre",
+        "calme haut/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-15.png",
+      "nom": "emaginacoudre-vente-reparations-machines-15",
+      "drapeau": "autre",
+      "largeur": 1100,
+      "hauteur": 1422,
+      "ratio": "0.77",
+      "ratio_valeur": 0.774,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 856886,
+      "transparence": true,
+      "sujet": {
+        "x": 28,
+        "y": 25,
+        "l": 64,
+        "h": 25,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        35
+      ],
+      "cadrage_css": "61% 35%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 18.9,
+        "bruit": 0.34,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "02159d0d27231b32",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas/gauche"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-16.png",
+      "nom": "emaginacoudre-vente-reparations-machines-16",
+      "drapeau": "autre",
+      "largeur": 1100,
+      "hauteur": 1242,
+      "ratio": "0.89",
+      "ratio_valeur": 0.886,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 671003,
+      "transparence": true,
+      "sujet": {
+        "x": 24.1,
+        "y": 34.4,
+        "l": 65.5,
+        "h": 37.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        55
+      ],
+      "cadrage_css": "55% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "bas",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.54,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 20.4,
+        "bruit": 0.24,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "01010109193b6346",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut/gauche"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-17.png",
+      "nom": "emaginacoudre-vente-reparations-machines-17",
+      "drapeau": "autre",
+      "largeur": 1100,
+      "hauteur": 1156,
+      "ratio": "0.95",
+      "ratio_valeur": 0.952,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 643898,
+      "transparence": true,
+      "sujet": {
+        "x": 22.6,
+        "y": 31.3,
+        "l": 71,
+        "h": 59.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        51
+      ],
+      "cadrage_css": "58% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        }
+      ],
+      "qualite": {
+        "nettete": 17.5,
+        "bruit": 0.25,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "06165741213b3b33",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut/gauche"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-18.png",
+      "nom": "emaginacoudre-vente-reparations-machines-18",
+      "drapeau": "autre",
+      "largeur": 1100,
+      "hauteur": 1150,
+      "ratio": "0.96",
+      "ratio_valeur": 0.957,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 637054,
+      "transparence": true,
+      "sujet": {
+        "x": 19.4,
+        "y": 34.4,
+        "l": 71,
+        "h": 53.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        64,
+        48
+      ],
+      "cadrage_css": "64% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "bas",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.4
+        }
+      ],
+      "qualite": {
+        "nettete": 22.4,
+        "bruit": 0.25,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "17161531253b1f0e",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-19.png",
+      "nom": "emaginacoudre-vente-reparations-machines-19",
+      "drapeau": "autre",
+      "largeur": 693,
+      "hauteur": 491,
+      "ratio": "1.41",
+      "ratio_valeur": 1.411,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 138181,
+      "transparence": true,
+      "sujet": {
+        "x": 21.9,
+        "y": 8.7,
+        "l": 62.5,
+        "h": 56.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        36
+      ],
+      "cadrage_css": "47% 36%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "droite",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "haut",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 60.5,
+        "bruit": 0.27,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "693 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "1933313333334323",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-20.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines-20",
+      "drapeau": "autre",
+      "largeur": 688,
+      "hauteur": 458,
+      "ratio": "3:2",
+      "ratio_valeur": 1.502,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 183671,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 81.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        34,
+        39
+      ],
+      "cadrage_css": "34% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 21.5,
+        "bruit": 0.7,
+        "compression": 1.13,
+        "faible": true,
+        "raisons": [
+          "688 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "909383cf7778dad8",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-21.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines-21",
+      "drapeau": "autre",
+      "largeur": 566,
+      "hauteur": 291,
+      "ratio": "1.95",
+      "ratio_valeur": 1.945,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 62875,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 0,
+        "l": 75,
+        "h": 94.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        59
+      ],
+      "cadrage_css": "45% 59%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        }
+      ],
+      "qualite": {
+        "nettete": 73,
+        "bruit": 1.87,
+        "compression": 0.98,
+        "faible": true,
+        "raisons": [
+          "566 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "6051534f474743c3",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-22.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines-22",
+      "drapeau": "autre",
+      "largeur": 566,
+      "hauteur": 291,
+      "ratio": "1.95",
+      "ratio_valeur": 1.945,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 58285,
+      "transparence": false,
+      "sujet": {
+        "x": 31.3,
+        "y": 5.9,
+        "l": 62.5,
+        "h": 88.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        52
+      ],
+      "cadrage_css": "58% 52%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 71.4,
+        "bruit": 1.55,
+        "compression": 1.03,
+        "faible": true,
+        "raisons": [
+          "566 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "f8959d999d959595",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "emaginacoudre-vente-reparations-machines-23.jpg",
+      "nom": "emaginacoudre-vente-reparations-machines-23",
+      "drapeau": "autre",
+      "largeur": 566,
+      "hauteur": 291,
+      "ratio": "1.95",
+      "ratio_valeur": 1.945,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 77276,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 93.8,
+        "h": 94.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        48
+      ],
+      "cadrage_css": "49% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 68.4,
+        "bruit": 2.6,
+        "compression": 0.99,
+        "faible": true,
+        "raisons": [
+          "566 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "fbedada9b135141c",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "combinee-aspire-prix-catalogue.jpg",
+      "nom": "combinee-aspire-prix-catalogue",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1334,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 399097,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.1,
+        "l": 100,
+        "h": 86.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        47
+      ],
+      "cadrage_css": "60% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "droite",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        }
+      ],
+      "qualite": {
+        "nettete": 47.2,
+        "bruit": 0.88,
+        "compression": 1.7,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "58380c4c4c5c7c64",
+      "drapeaux": [
+        "produit",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "aspire.png",
+      "nom": "aspire",
+      "drapeau": "produit",
+      "largeur": 1100,
+      "hauteur": 1422,
+      "ratio": "0.77",
+      "ratio_valeur": 0.774,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 453829,
+      "transparence": true,
+      "sujet": {
+        "x": 24,
+        "y": 28.1,
+        "l": 60,
+        "h": 31.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        36
+      ],
+      "cadrage_css": "56% 36%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "haut",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        }
+      ],
+      "qualite": {
+        "nettete": 14.1,
+        "bruit": 0.18,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "0b0f29393b171e00",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "calme bas/gauche"
+      ]
+    },
+    {
+      "fichier": "gloria.jpg",
+      "nom": "gloria",
+      "drapeau": "produit",
+      "largeur": 1100,
+      "hauteur": 1422,
+      "ratio": "0.77",
+      "ratio_valeur": 0.774,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 472912,
+      "transparence": false,
+      "sujet": {
+        "x": 20,
+        "y": 25,
+        "l": 76,
+        "h": 53.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        69,
+        39
+      ],
+      "cadrage_css": "69% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "haut",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 17.6,
+        "bruit": 0.38,
+        "compression": 0.93,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "01024b2029332300",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "ovation.jpg",
+      "nom": "ovation",
+      "drapeau": "produit",
+      "largeur": 800,
+      "hauteur": 813,
+      "ratio": "1:1",
+      "ratio_valeur": 0.984,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 73432,
+      "transparence": false,
+      "sujet": {
+        "x": 21.9,
+        "y": 18.8,
+        "l": 68.8,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        39
+      ],
+      "cadrage_css": "62% 39%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "bas",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.58
+        }
+      ],
+      "qualite": {
+        "nettete": 40.9,
+        "bruit": 0.29,
+        "compression": 1.06,
+        "faible": true,
+        "raisons": [
+          "800 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "07260909252b1b37",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "recouvreuse-babylock-cover-stitch.jpg",
+      "nom": "recouvreuse-babylock-cover-stitch",
+      "drapeau": "produit",
+      "largeur": 1100,
+      "hauteur": 1422,
+      "ratio": "0.77",
+      "ratio_valeur": 0.774,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 404296,
+      "transparence": false,
+      "sujet": {
+        "x": 16,
+        "y": 18.8,
+        "l": 80,
+        "h": 68.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        65,
+        51
+      ],
+      "cadrage_css": "65% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "gauche",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "bas",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        }
+      ],
+      "qualite": {
+        "nettete": 18.9,
+        "bruit": 0.41,
+        "compression": 0.95,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "0021212031331b46",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "recouvreuse-babylock-primo.jpg",
+      "nom": "recouvreuse-babylock-primo",
+      "drapeau": "produit",
+      "largeur": 1100,
+      "hauteur": 1422,
+      "ratio": "0.77",
+      "ratio_valeur": 0.774,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 345671,
+      "transparence": false,
+      "sujet": {
+        "x": 20,
+        "y": 31.3,
+        "l": 68,
+        "h": 43.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        48
+      ],
+      "cadrage_css": "63% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "bas",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 28.2,
+        "bruit": 0.34,
+        "compression": 1.1,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "052615252b1717a1",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "recouvruese-babylock-euphoria.jpg",
+      "nom": "recouvruese-babylock-euphoria",
+      "drapeau": "produit",
+      "largeur": 1100,
+      "hauteur": 1422,
+      "ratio": "0.77",
+      "ratio_valeur": 0.774,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 271205,
+      "transparence": false,
+      "sujet": {
+        "x": 20,
+        "y": 34.4,
+        "l": 72,
+        "h": 46.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        50
+      ],
+      "cadrage_css": "57% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "bas",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        }
+      ],
+      "qualite": {
+        "nettete": 17.8,
+        "bruit": 0.29,
+        "compression": 1.07,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "02071745293b3300",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "calme haut/gauche/bas"
+      ]
+    },
+    {
+      "fichier": "surjeteuse-enspire-prix-catalogue.jpg",
+      "nom": "surjeteuse-enspire-prix-catalogue",
+      "drapeau": "produit",
+      "largeur": 1100,
+      "hauteur": 1422,
+      "ratio": "0.77",
+      "ratio_valeur": 0.774,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 292853,
+      "transparence": false,
+      "sujet": {
+        "x": 28,
+        "y": 34.4,
+        "l": 68,
+        "h": 50,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        52
+      ],
+      "cadrage_css": "62% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "bas",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        }
+      ],
+      "qualite": {
+        "nettete": 17.9,
+        "bruit": 0.26,
+        "compression": 0.97,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "01010b0811395b76",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "calme haut/gauche"
+      ]
+    },
+    {
+      "fichier": "surjeteuse-enlighten-prix-catalogue.jpg",
+      "nom": "surjeteuse-enlighten-prix-catalogue",
+      "drapeau": "produit",
+      "largeur": 1100,
+      "hauteur": 1422,
+      "ratio": "0.77",
+      "ratio_valeur": 0.774,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 309779,
+      "transparence": false,
+      "sujet": {
+        "x": 28,
+        "y": 34.4,
+        "l": 64,
+        "h": 53.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        49
+      ],
+      "cadrage_css": "63% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "bas",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "droite",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 16.6,
+        "bruit": 0.26,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "0a07970919331332",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "calme haut/gauche"
+      ]
+    },
+    {
+      "fichier": "surjeteuse-enspire-prix-catalogue-2.jpg",
+      "nom": "surjeteuse-enspire-prix-catalogue-2",
+      "drapeau": "produit",
+      "largeur": 1100,
+      "hauteur": 1422,
+      "ratio": "0.77",
+      "ratio_valeur": 0.774,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 293657,
+      "transparence": false,
+      "sujet": {
+        "x": 24,
+        "y": 37.5,
+        "l": 68,
+        "h": 50,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        66,
+        54
+      ],
+      "cadrage_css": "66% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "droite",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.4
+        }
+      ],
+      "qualite": {
+        "nettete": 22.6,
+        "bruit": 0.26,
+        "compression": 1.19,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "01012949193b6346",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "calme haut/gauche"
+      ]
+    },
+    {
+      "fichier": "logo-marque-babylock.jpg",
+      "nom": "logo-marque-babylock",
+      "drapeau": "autre",
+      "largeur": 833,
+      "hauteur": 476,
+      "ratio": "16:9",
+      "ratio_valeur": 1.75,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 45530,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 5.3,
+        "l": 93.8,
+        "h": 84.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        54
+      ],
+      "cadrage_css": "50% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "droite",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 18.4,
+        "bruit": 0.34,
+        "compression": 1.31,
+        "faible": true,
+        "raisons": [
+          "833 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "863355555349338e",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "3034dwt.jpg",
+      "nom": "3034dwt",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 85284,
+      "transparence": false,
+      "sujet": {
+        "x": 34.4,
+        "y": 9.1,
+        "l": 37.5,
+        "h": 81.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        68
+      ],
+      "cadrage_css": "51% 68%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "haut",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 24.1,
+        "bruit": 0.23,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0604060e0e164e4d",
+      "drapeaux": [
+        "produit",
+        "calme gauche/haut/droite"
+      ]
+    },
+    {
+      "fichier": "surjeteuse-2104d-prix-catalogue.jpg",
+      "nom": "surjeteuse-2104d-prix-catalogue",
+      "drapeau": "produit",
+      "largeur": 1250,
+      "hauteur": 1191,
+      "ratio": "1.05",
+      "ratio_valeur": 1.05,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 165172,
+      "transparence": false,
+      "sujet": {
+        "x": 28.1,
+        "y": 12.9,
+        "l": 53.1,
+        "h": 61.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        47
+      ],
+      "cadrage_css": "58% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "bas",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        }
+      ],
+      "qualite": {
+        "nettete": 31.7,
+        "bruit": 0.36,
+        "compression": 0.97,
+        "faible": true,
+        "raisons": [
+          "1250 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "060f0c8b9b162e2c",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "calme haut/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "surjeteuse-2104d-prix-catalogue-2.jpg",
+      "nom": "surjeteuse-2104d-prix-catalogue-2",
+      "drapeau": "produit",
+      "largeur": 1250,
+      "hauteur": 950,
+      "ratio": "4:3",
+      "ratio_valeur": 1.316,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 134320,
+      "transparence": false,
+      "sujet": {
+        "x": 31.3,
+        "y": 4,
+        "l": 43.8,
+        "h": 88,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        61
+      ],
+      "cadrage_css": "52% 61%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "haut",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 39.4,
+        "bruit": 0.26,
+        "compression": 1.07,
+        "faible": true,
+        "raisons": [
+          "1250 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "9e0e2c06860e8e96",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "innov-is-f480.jpg",
+      "nom": "innov-is-f480",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1247,
+      "ratio": "16:10",
+      "ratio_valeur": 1.604,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 116860,
+      "transparence": false,
+      "sujet": {
+        "x": 12.5,
+        "y": 20,
+        "l": 71.9,
+        "h": 50,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        34
+      ],
+      "cadrage_css": "60% 34%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "bas",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 49.3,
+        "bruit": 0.28,
+        "compression": 1.32,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "004b4b09093b1323",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "machines-coudre-brodeuses-emaginacoudre.jpg",
+      "nom": "machines-coudre-brodeuses-emaginacoudre",
+      "drapeau": "autre",
+      "largeur": 1250,
+      "hauteur": 700,
+      "ratio": "16:9",
+      "ratio_valeur": 1.786,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 224183,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 16.7,
+        "l": 90.6,
+        "h": 66.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        65,
+        41
+      ],
+      "cadrage_css": "65% 41%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "haut",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        }
+      ],
+      "qualite": {
+        "nettete": 68,
+        "bruit": 0.58,
+        "compression": 0.97,
+        "faible": true,
+        "raisons": [
+          "1250 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "004b4d491971352c",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "machines-coudre-brodeuses-emaginacoudre-2.jpg",
+      "nom": "machines-coudre-brodeuses-emaginacoudre-2",
+      "drapeau": "autre",
+      "largeur": 1250,
+      "hauteur": 603,
+      "ratio": "2.07",
+      "ratio_valeur": 2.073,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 179735,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 18.8,
+        "l": 87.5,
+        "h": 56.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        68,
+        48
+      ],
+      "cadrage_css": "68% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 63.1,
+        "bruit": 0.67,
+        "compression": 0.95,
+        "faible": true,
+        "raisons": [
+          "1250 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "09434d090d31333d",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "machines-coudre-brodeuses-emaginacoudre-3.jpg",
+      "nom": "machines-coudre-brodeuses-emaginacoudre-3",
+      "drapeau": "autre",
+      "largeur": 1250,
+      "hauteur": 585,
+      "ratio": "2.14",
+      "ratio_valeur": 2.137,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 190918,
+      "transparence": false,
+      "sujet": {
+        "x": 15.6,
+        "y": 13.3,
+        "l": 78.1,
+        "h": 66.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        65,
+        42
+      ],
+      "cadrage_css": "65% 42%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        }
+      ],
+      "qualite": {
+        "nettete": 64.9,
+        "bruit": 0.6,
+        "compression": 0.95,
+        "faible": true,
+        "raisons": [
+          "1250 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "124949490931713d",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "brodeuses-emaginacoudre.jpg",
+      "nom": "brodeuses-emaginacoudre",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1733,
+      "ratio": "1.15",
+      "ratio_valeur": 1.154,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 235660,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 7.1,
+        "l": 59.4,
+        "h": 82.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        35
+      ],
+      "cadrage_css": "50% 35%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "gauche",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 48.5,
+        "bruit": 0.65,
+        "compression": 1.05,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "2f0e1f89091e3636",
+      "doublon_de": {
+        "fichier": "emaginacoudre-vente-reparations-machines-3.png",
+        "type": "doublon",
+        "distance": 2,
+        "ressemblance": 1
+      },
+      "drapeaux": [
+        "autre",
+        "doublon de emaginacoudre-vente-reparations-machines-3.png"
+      ]
+    },
+    {
+      "fichier": "brodeuses-emaginacoudre-2.jpg",
+      "nom": "brodeuses-emaginacoudre-2",
+      "drapeau": "autre",
+      "largeur": 1334,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 155154,
+      "transparence": false,
+      "sujet": {
+        "x": 18.2,
+        "y": 31.3,
+        "l": 77.3,
+        "h": 56.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        56
+      ],
+      "cadrage_css": "57% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        }
+      ],
+      "qualite": {
+        "nettete": 37.1,
+        "bruit": 0.45,
+        "compression": 0.97,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "120c9689491e3322",
+      "drapeaux": [
+        "autre",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "brodeuses-emaginacoudre-3.jpg",
+      "nom": "brodeuses-emaginacoudre-3",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 101993,
+      "transparence": false,
+      "sujet": {
+        "x": 15.6,
+        "y": 31.8,
+        "l": 71.9,
+        "h": 45.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        69,
+        47
+      ],
+      "cadrage_css": "69% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "bas",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 26.2,
+        "bruit": 0.24,
+        "compression": 1.38,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0100034919190b38",
+      "drapeaux": [
+        "autre",
+        "calme haut/gauche"
+      ]
+    },
+    {
+      "fichier": "brodeuses-emaginacoudre-4.jpg",
+      "nom": "brodeuses-emaginacoudre-4",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 84993,
+      "transparence": false,
+      "sujet": {
+        "x": 28.1,
+        "y": 18.2,
+        "l": 46.9,
+        "h": 40.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        43
+      ],
+      "cadrage_css": "43% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "haut",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 25.5,
+        "bruit": 0.26,
+        "compression": 1.17,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0017131b1b2f0f00",
+      "drapeaux": [
+        "autre",
+        "calme bas/gauche/droite/haut"
+      ]
+    },
+    {
+      "fichier": "brodeuses-emaginacoudre-5.jpg",
+      "nom": "brodeuses-emaginacoudre-5",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 87431,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 40.9,
+        "l": 78.1,
+        "h": 31.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        62
+      ],
+      "cadrage_css": "47% 62%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 27.5,
+        "bruit": 0.19,
+        "compression": 1.37,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0100074b091d1b01",
+      "drapeaux": [
+        "autre",
+        "calme haut/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "brother-a16.jpg",
+      "nom": "brother-a16",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1654,
+      "ratio": "1.21",
+      "ratio_valeur": 1.209,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 124390,
+      "transparence": false,
+      "sujet": {
+        "x": 21.9,
+        "y": 11.1,
+        "l": 59.4,
+        "h": 55.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        37
+      ],
+      "cadrage_css": "51% 37%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "gauche",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "haut",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        }
+      ],
+      "qualite": {
+        "nettete": 31,
+        "bruit": 0.27,
+        "compression": 1.1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "02133333332b2f3b",
+      "doublon_de": {
+        "fichier": "emaginacoudre-vente-reparations-machines-2.png",
+        "type": "doublon",
+        "distance": 5,
+        "ressemblance": 1
+      },
+      "drapeaux": [
+        "produit",
+        "doublon de emaginacoudre-vente-reparations-machines-2.png",
+        "calme bas/droite"
+      ]
+    },
+    {
+      "fichier": "brother-f400.jpg",
+      "nom": "brother-f400",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 117328,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 25,
+        "l": 56.3,
+        "h": 37.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        46
+      ],
+      "cadrage_css": "62% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "droite",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 37.5,
+        "bruit": 0.28,
+        "compression": 1.2,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "012b2b3333330b21",
+      "drapeaux": [
+        "produit",
+        "calme bas/haut/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "brother-cs70s.jpg",
+      "nom": "brother-cs70s",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 136792,
+      "transparence": false,
+      "sujet": {
+        "x": 28.1,
+        "y": 18.2,
+        "l": 53.1,
+        "h": 45.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        40
+      ],
+      "cadrage_css": "48% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "haut",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "droite",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 48.2,
+        "bruit": 0.35,
+        "compression": 1.12,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "131b133333332b2b",
+      "doublon_de": {
+        "fichier": "emaginacoudre-vente-reparations-machines-9.png",
+        "type": "doublon",
+        "distance": 1,
+        "ressemblance": 1
+      },
+      "drapeaux": [
+        "produit",
+        "doublon de emaginacoudre-vente-reparations-machines-9.png",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "brother-f410.jpg",
+      "nom": "brother-f410",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1394,
+      "ratio": "1.43",
+      "ratio_valeur": 1.435,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 114325,
+      "transparence": false,
+      "sujet": {
+        "x": 28.1,
+        "y": 21.7,
+        "l": 56.3,
+        "h": 43.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        46
+      ],
+      "cadrage_css": "49% 46%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "bas",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        }
+      ],
+      "qualite": {
+        "nettete": 47.3,
+        "bruit": 0.28,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "002b0b1333332b03",
+      "drapeaux": [
+        "produit",
+        "calme haut/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "brother-f420.jpg",
+      "nom": "brother-f420",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1381,
+      "ratio": "1.45",
+      "ratio_valeur": 1.448,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 121607,
+      "transparence": false,
+      "sujet": {
+        "x": 28.1,
+        "y": 30.4,
+        "l": 53.1,
+        "h": 52.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        44
+      ],
+      "cadrage_css": "63% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "gauche",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "bas",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "droite",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 47,
+        "bruit": 0.31,
+        "compression": 1.16,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "010b0313b3332323",
+      "doublon_de": {
+        "fichier": "emaginacoudre-vente-reparations-machines-14.png",
+        "type": "quasi-doublon",
+        "distance": 5,
+        "ressemblance": 0.86
+      },
+      "drapeaux": [
+        "produit",
+        "quasi-doublon de emaginacoudre-vente-reparations-machines-14.png",
+        "calme haut/gauche"
+      ]
+    },
+    {
+      "fichier": "brother-a65.png",
+      "nom": "brother-a65",
+      "drapeau": "produit",
+      "largeur": 693,
+      "hauteur": 491,
+      "ratio": "1.41",
+      "ratio_valeur": 1.411,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 120437,
+      "transparence": false,
+      "sujet": {
+        "x": 21.9,
+        "y": 4.3,
+        "l": 62.5,
+        "h": 60.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        36
+      ],
+      "cadrage_css": "47% 36%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        }
+      ],
+      "qualite": {
+        "nettete": 60.5,
+        "bruit": 0.28,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "693 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "1933313333334323",
+      "doublon_de": {
+        "fichier": "emaginacoudre-vente-reparations-machines-19.png",
+        "type": "doublon",
+        "distance": 0,
+        "ressemblance": 0.99
+      },
+      "drapeaux": [
+        "produit",
+        "petite",
+        "doublon de emaginacoudre-vente-reparations-machines-19.png",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "logo-marque-brother-slogan.jpg",
+      "nom": "logo-marque-brother-slogan",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 524,
+      "ratio": "3.82",
+      "ratio_valeur": 3.817,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 74408,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 88.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        49
+      ],
+      "cadrage_css": "50% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 39,
+        "bruit": 0.16,
+        "compression": 0.87,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "818d8d35796b4949",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "differentes-etapes-entretien-maintenance.jpg",
+      "nom": "differentes-etapes-entretien-maintenance",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1179,
+      "ratio": "1.7",
+      "ratio_valeur": 1.696,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 84487,
+      "transparence": false,
+      "sujet": {
+        "x": 18.8,
+        "y": 5.3,
+        "l": 71.9,
+        "h": 89.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        48
+      ],
+      "cadrage_css": "55% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "bas",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 11.5,
+        "bruit": 0.13,
+        "compression": 2.32,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "fbe2c6868c8ce888",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "operation-maintenance-coeur-ouvert.jpg",
+      "nom": "operation-maintenance-coeur-ouvert",
+      "drapeau": "lieu",
+      "largeur": 1024,
+      "hauteur": 768,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 144069,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        51
+      ],
+      "cadrage_css": "55% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 35.1,
+        "bruit": 0.72,
+        "compression": 1.18,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "b91b1f3333456433",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "machine-coudre-ouverte-effectuer.jpg",
+      "nom": "machine-coudre-ouverte-effectuer",
+      "drapeau": "lieu",
+      "largeur": 960,
+      "hauteur": 640,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 106677,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        43
+      ],
+      "cadrage_css": "50% 43%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 33.1,
+        "bruit": 1.02,
+        "compression": 1.13,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "6c3763caf232f9c9",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "depannage-machine-coudre-test.jpg",
+      "nom": "depannage-machine-coudre-test",
+      "drapeau": "lieu",
+      "largeur": 800,
+      "hauteur": 720,
+      "ratio": "1.11",
+      "ratio_valeur": 1.111,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 134800,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 3.4,
+        "l": 96.9,
+        "h": 93.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        51
+      ],
+      "cadrage_css": "61% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.93
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 15.8,
+        "bruit": 0.49,
+        "compression": 1.18,
+        "faible": true,
+        "raisons": [
+          "800 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "23437336a6b69a9e",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "service-apres-vente-c.jpg",
+      "nom": "service-apres-vente-c",
+      "drapeau": "autre",
+      "largeur": 800,
+      "hauteur": 718,
+      "ratio": "1.11",
+      "ratio_valeur": 1.114,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 116847,
+      "transparence": false,
+      "sujet": {
+        "x": 21.9,
+        "y": 6.9,
+        "l": 71.9,
+        "h": 89.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        51
+      ],
+      "cadrage_css": "55% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "sombre",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.65
+        }
+      ],
+      "qualite": {
+        "nettete": 15,
+        "bruit": 0.44,
+        "compression": 1.18,
+        "faible": true,
+        "raisons": [
+          "800 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "62dcf46ae6253c38",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "aide-prise-main-emaginacoudre.jpg",
+      "nom": "aide-prise-main-emaginacoudre",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 357776,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.4,
+        "l": 100,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        58
+      ],
+      "cadrage_css": "39% 58%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 22.2,
+        "bruit": 0.48,
+        "compression": 1.03,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "dcb2b19994395978",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "outils-reparation-depannage.jpg",
+      "nom": "outils-reparation-depannage",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 981,
+      "ratio": "2:1",
+      "ratio_valeur": 2.039,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 644004,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        44
+      ],
+      "cadrage_css": "50% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        }
+      ],
+      "qualite": {
+        "nettete": 69,
+        "bruit": 2.46,
+        "compression": 1.11,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "2dead66dc5d39294",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "aide-prise-main-c.png",
+      "nom": "aide-prise-main-c",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1415,
+      "ratio": "1.41",
+      "ratio_valeur": 1.413,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1632701,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        48
+      ],
+      "cadrage_css": "50% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 39.8,
+        "bruit": 0.48,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "394d797961695580",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "coutiere-machine-coudre.png",
+      "nom": "coutiere-machine-coudre",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 28688,
+      "transparence": true,
+      "sujet": {
+        "x": 3.1,
+        "y": 3.1,
+        "l": 93.8,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        53
+      ],
+      "cadrage_css": "50% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.85
+        }
+      ],
+      "qualite": {
+        "nettete": 59.2,
+        "bruit": 0.1,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "9d8da607595d1d0d",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "boite-outil-outils.png",
+      "nom": "boite-outil-outils",
+      "drapeau": "lieu",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 21419,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        45
+      ],
+      "cadrage_css": "50% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 60.2,
+        "bruit": 0.07,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "96176f6d6565b233",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "logo-complet.png",
+      "nom": "logo-complet",
+      "drapeau": null,
+      "largeur": 780,
+      "hauteur": 84,
+      "ratio": "9.29",
+      "ratio_valeur": 9.286,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 38621,
+      "transparence": true,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 90.6,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        46
+      ],
+      "cadrage_css": "43% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 72.1,
+        "bruit": 0.69,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "780 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "d5bcbc3b3dbdbcc8",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "logo-entete.png",
+      "nom": "logo-entete",
+      "drapeau": null,
+      "largeur": 633,
+      "hauteur": 84,
+      "ratio": "7.54",
+      "ratio_valeur": 7.536,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 33402,
+      "transparence": true,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 80,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        45
+      ],
+      "cadrage_css": "50% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 73,
+        "bruit": 0.77,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "633 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "dad65e5c5c5656c6",
+      "drapeaux": [
+        "petite"
+      ]
+    }
+  ]
+}

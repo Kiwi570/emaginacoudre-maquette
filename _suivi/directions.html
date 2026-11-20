@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E-maginacoudre · directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Figtree:wght@400;500;600;700&family=Archivo:wdth,wght@62..125,500..900&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;600&family=Syne:wght@600;800&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE : planche de directeur artistique, sobre, pour choisir vite.
+   IDEA : trois cartons d'échantillons, comme les nuanciers de fils d'une mercerie.
+   PICTURE : un premier écran miniature par direction, avec sa couleur et ses polices.
+   COLOUR and TYPE : fond neutre gris chaud, chaque carton porte sa propre direction.
+   LAYOUT : trois colonnes sur ordinateur, une sous 1000 px. */
+:root{color-scheme:light;--bg:#ecebe8;--ink:#1c1c1f;--muted:#5d5b58}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Figtree",system-ui,sans-serif;overflow-x:clip}
+header{padding:clamp(28px,4vw,56px) max(5vw,16px) 8px;max-width:1500px;margin:0 auto}
+header h1{font:400 clamp(34px,4.4vw,56px)/1.05 "Instrument Serif",serif;margin:0 0 10px;text-wrap:balance}
+header p{margin:0;color:var(--muted);max-width:70ch}
+.grille{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;padding:24px max(5vw,16px) 56px;max-width:1500px;margin:0 auto}
+@media(max-width:1000px){.grille{grid-template-columns:minmax(0,1fr)}}
+.carton{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 1px 0 #0001,0 18px 40px -24px #0004;display:flex;flex-direction:column}
+.tete{padding:18px 22px 6px;display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.tete h2{margin:0;font:600 20px/1.2 "Figtree",sans-serif}
+.reco{font-size:13px;font-weight:600;background:#1c1c1f;color:#fff;border-radius:99px;padding:3px 10px;white-space:nowrap}
+.ecran{margin:10px 22px 0;border-radius:12px;overflow:hidden;aspect-ratio:16/10;position:relative}
+.corps{padding:16px 22px 22px;display:grid;gap:14px}
+.corps h3{margin:0 0 4px;font-size:13px;font-weight:600;color:var(--muted)}
+.corps p,.corps li{margin:0;font-size:15px}
+.corps ol{margin:0;padding-left:20px;display:grid;gap:2px}
+.pal{display:flex;gap:6px;flex-wrap:wrap}
+.pal span{display:grid;gap:2px;font-size:12px;color:var(--muted)}
+.pal i{display:block;width:54px;height:40px;border-radius:8px;box-shadow:inset 0 0 0 1px #0002}
+.typo{display:grid;gap:2px}
+/* D1 Coton & framboise */
+.d1{background:#FBF8F3;color:#172033;display:grid;grid-template-columns:1.05fr .95fr}
+.d1 .txt{padding:7% 6%;display:flex;flex-direction:column;justify-content:center;gap:8px}
+.d1 small{font:600 9px/1 "Figtree";letter-spacing:.02em;color:#B8235A}
+.d1 b{font:400 clamp(22px,2.6vw,34px)/1 "Instrument Serif",serif}
+.d1 b em{color:#B8235A}
+.d1 .bt{display:inline-block;background:#B8235A;color:#fff;font:600 9px/1 "Figtree";padding:7px 10px;border-radius:99px;width:max-content}
+.d1 .photo{background:linear-gradient(160deg,#e9d9c9,#c9a98f 60%,#8c6a55);position:relative}
+.d1 .photo svg{position:absolute;inset:0;width:100%;height:100%}
+.d1 .statut{font:500 8px/1 "Figtree";color:#2c6b4f}
+/* D2 Mètre-ruban */
+.d2{background:#17191C;color:#F2F0EA}
+.d2 .txt{position:absolute;left:6%;bottom:9%;z-index:2;display:grid;gap:6px}
+.d2 b{font:900 clamp(24px,3vw,40px)/.92 "Archivo",sans-serif;font-stretch:62%;text-transform:uppercase}
+.d2 b span{color:#F2C230}
+.d2 small{font:400 9px/1.2 "IBM Plex Mono";color:#c9c6bd}
+.d2 svg{position:absolute;right:2%;top:8%;width:52%;height:62%}
+.d2 .ruban{position:absolute;left:0;right:0;top:0;height:14px;background:repeating-linear-gradient(90deg,#1c1c1f 0 1px,transparent 1px 8px),#F2C230}
+/* D3 Tableau des points */
+.d3{background:#F6E3DE;color:#1B2050;display:grid;grid-template-rows:auto 1fr}
+.d3 .txt{padding:6% 6% 2%}
+.d3 b{font:800 clamp(20px,2.4vw,32px)/1 "Syne",sans-serif;letter-spacing:-.01em}
+.d3 b span{color:#2340C8}
+.d3 .points{display:grid;grid-template-columns:repeat(8,1fr);gap:4px;padding:0 6% 6%}
+.d3 .points i{background:#fff;border-radius:6px;display:grid;place-items:center;aspect-ratio:1}
+.d3 .points i.on{background:#2340C8}
+.d3 .points svg{width:70%;height:70%}
+footer{padding:0 max(5vw,16px) 48px;max-width:1500px;margin:0 auto;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<header>
+<h1>E-maginacoudre, Vannes : trois directions</h1>
+<p>Michèle conseille et forme, Pascal répare depuis 1997, la boutique de Vannes existe depuis 2012. Chaque direction garde les vrais prix du site, les tarifs de l'atelier, les horaires et la 10 000<sup>e</sup> machine dépannée en 2025. Un premier écran en miniature, la palette, les polices, le plan de l'accueil et ses animations.</p>
+</header>
+<main class="grille">
+
+<article class="carton">
+<div class="tete"><h2>1. Coton &amp; framboise</h2><span class="reco">Recommandée</span></div>
+<div class="ecran d1" aria-label="Premier écran miniature de la direction 1">
+<div class="txt"><small>Machines à coudre · Vannes</small><b>Coudre, broder, surjeter. <em>Et réparer.</em></b><span class="statut">● Ouvert · jusqu'à 18 h 30</span><span class="bt">Venir essayer</span></div>
+<div class="photo"><svg viewBox="0 0 200 200" preserveAspectRatio="none" aria-hidden="true"><path d="M0 150 L200 120" stroke="#B8235A" stroke-width="3" stroke-dasharray="9 6" fill="none"/><rect x="118" y="40" width="5" height="78" fill="#2a2a30"/><path d="M110 118h22v8h-22z" fill="#2a2a30"/></svg></div>
+</div>
+<div class="corps">
+<div><h3>Ambiance</h3><p>Une boutique claire et accueillante : coton blanc, encre bleu nuit, une seule couleur de fil, framboise. Les photos de la boutique et des mains au travail en grand ; deux bandes bleu nuit pour l'atelier et l'appel final.</p></div>
+<div class="pal"><span><i style="background:#FBF8F3"></i>#FBF8F3 fond</span><span><i style="background:#EFE7DC"></i>#EFE7DC second</span><span><i style="background:#172033"></i>#172033 nuit</span><span><i style="background:#B8235A"></i>#B8235A accent</span></div>
+<div class="typo"><h3>Polices</h3><p style="font:400 26px/1.1 'Instrument Serif',serif">Instrument Serif, <em>un mot en italique</em></p><p style="font-family:Figtree">Figtree pour le texte, sobre et très lisible.</p></div>
+<div><h3>Plan de l'accueil</h3><ol><li>Ouverture : titre et grande photo, une couture qui se pique à travers l'écran</li><li>Quelle machine pour quoi ? Quatre coutures qui se dessinent : point droit, surjet, recouvrement, broderie</li><li>La vitrine : machines en grandes cartes avec leurs prix</li><li>Michèle et Pascal, écran partagé</li><li>L'atelier en bande bleu nuit : tarifs, machine à cœur ouvert</li><li>Chiffres : 29 ans, 10 000<sup>e</sup> machine</li><li>La boutique : horaires en direct, carte, appel final</li></ol></div>
+<div><h3>L'idée et les animations</h3><p>La couture : l'aiguille pique, le point avance au défilement, chaque type de machine montre la couture qu'elle fait. Voile en vague comme un tissu, cartes qui s'inclinent, compteurs, photo qui s'ouvre en plein écran sur la boutique.</p></div>
+<div><h3>Favorite la plus proche</h3><p>Lemoy Premium : clair et sombre alternés, vitrine utile, produits en grand.</p></div>
+</div>
+</article>
+
+<article class="carton">
+<div class="tete"><h2>2. Mètre-ruban</h2></div>
+<div class="ecran d2" aria-label="Premier écran miniature de la direction 2">
+<div class="ruban"></div>
+<svg viewBox="0 0 200 150" aria-hidden="true"><g fill="none" stroke="#F2F0EA" stroke-width="1.2" opacity=".85"><path d="M40 105h120v12H40z"/><path d="M52 105V55c0-8 6-14 14-14h70c8 0 14 6 14 14v50"/><path d="M66 41v-8h70v8"/><path d="M128 62v34" stroke="#F2C230" stroke-dasharray="3 3"/><circle cx="150" cy="70" r="9"/><path d="M76 72h34M76 82h24"/></g><g fill="none" stroke="#F2C230" stroke-width="1"><path d="M150 70l26-18M128 96l40 14M80 60l-30-22"/></g></svg>
+<div class="txt"><small>Atelier agréé · Vannes · depuis 1997</small><b>10 000 machines<br><span>remises en route.</span></b></div>
+</div>
+<div class="corps">
+<div><h3>Ambiance</h3><p>L'atelier de précision de Pascal, ancien de la microélectronique : graphite et papier calque, une seule couleur, le jaune du mètre-ruban. Plus technique, plus fort sur le SAV.</p></div>
+<div class="pal"><span><i style="background:#F2F1EC"></i>#F2F1EC fond</span><span><i style="background:#17191C"></i>#17191C graphite</span><span><i style="background:#2A2D33"></i>#2A2D33 second</span><span><i style="background:#F2C230"></i>#F2C230 accent</span></div>
+<div class="typo"><h3>Polices</h3><p style="font:900 26px/1 Archivo,sans-serif;font-stretch:62%;text-transform:uppercase">Archivo étroit, en capitales</p><p style="font-family:'IBM Plex Sans'">IBM Plex Sans, et <span style="font-family:'IBM Plex Mono'">Plex Mono pour les prix</span>.</p></div>
+<div><h3>Plan de l'accueil</h3><ol><li>Ouverture graphite : machine en trait technique qui s'éclate au défilement</li><li>Votre machine à l'atelier : diagnostic, devis, entretien, révision, réparation</li><li>Les machines en fiches techniques filtrables</li><li>Michèle, le contrepoint chaleureux (prise en main)</li><li>Repères : 1997, 2012, 2025</li><li>Horaires, carte, appel final</li></ol></div>
+<div><h3>L'idée et les animations</h3><p>La vue éclatée : ce que Pascal vérifie pendant une révision, pièce par pièce. Traits qui se dessinent, chiffres à largeur fixe, voile qui glisse comme un ruban.</p></div>
+<div><h3>Favorite la plus proche</h3><p>Pierre Becq-Lanterne : l'expertise mise en scène, sombre et précise.</p></div>
+</div>
+</article>
+
+<article class="carton">
+<div class="tete"><h2>3. Le tableau des points</h2></div>
+<div class="ecran d3" aria-label="Premier écran miniature de la direction 3">
+<div class="txt"><b>Choisissez <span>votre point.</span></b></div>
+<div class="points" aria-hidden="true">
+<i><svg viewBox="0 0 20 20"><path d="M2 10h16" stroke="#1B2050" stroke-width="2" stroke-dasharray="3 2"/></svg></i><i class="on"><svg viewBox="0 0 20 20"><path d="M2 14l4-8 4 8 4-8 4 8" stroke="#fff" stroke-width="2" fill="none"/></svg></i><i><svg viewBox="0 0 20 20"><path d="M3 5v10M7 5v10M11 5v10M15 5v10M3 5h12" stroke="#1B2050" stroke-width="1.6" fill="none"/></svg></i><i><svg viewBox="0 0 20 20"><path d="M2 7h16M2 13h16" stroke="#1B2050" stroke-width="2" stroke-dasharray="3 2"/></svg></i><i><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="5" stroke="#1B2050" stroke-width="1.6" fill="none"/></svg></i><i><svg viewBox="0 0 20 20"><path d="M2 10h3l2-5 2 10 2-10 2 10 2-5h3" stroke="#1B2050" stroke-width="1.5" fill="none"/></svg></i><i><svg viewBox="0 0 20 20"><path d="M10 3l2 5h5l-4 3 2 6-5-4-5 4 2-6-4-3h5z" stroke="#1B2050" stroke-width="1.3" fill="none"/></svg></i><i><svg viewBox="0 0 20 20"><path d="M2 12q4-8 8 0t8 0" stroke="#1B2050" stroke-width="1.8" fill="none"/></svg></i>
+</div>
+</div>
+<div class="corps">
+<div><h3>Ambiance</h3><p>Ludique et créative, comme la boutique le dit d'elle-même : rose poudré, bleu roi, blanc. Le tableau des points imprimé sur le capot des machines devient le terrain de jeu.</p></div>
+<div class="pal"><span><i style="background:#FFFFFF"></i>#FFFFFF fond</span><span><i style="background:#F6E3DE"></i>#F6E3DE second</span><span><i style="background:#1B2050"></i>#1B2050 encre</span><span><i style="background:#2340C8"></i>#2340C8 accent</span></div>
+<div class="typo"><h3>Polices</h3><p style="font:800 24px/1 Syne,sans-serif">Syne, large et joueuse</p><p style="font-family:Outfit">Outfit pour le texte, rond et net.</p></div>
+<div><h3>Plan de l'accueil</h3><ol><li>Ouverture : le tableau des points ; on choisit un point, il se coud sous le titre</li><li>Ce point, quelle machine le fait ? Lien vers le catalogue filtré</li><li>Les machines en grandes cartes colorées, prix au recto</li><li>Michèle et Pascal</li><li>L'atelier : tarifs et dépôt</li><li>La boutique, horaires, appel final</li></ol></div>
+<div><h3>L'idée et les animations</h3><p>Le choix du point : un objet à manipuler qui renvoie vers la bonne machine. Voile en iris depuis le point choisi, cartes en cascade, mots géants qui défilent.</p></div>
+<div><h3>Favorite la plus proche</h3><p>Vizrok : produits en grand, énergie, gamme bien rangée.</p></div>
+</div>
+</article>
+
+</main>
+<footer>Aucune photo ni aucun texte n'est encore définitif : les vraies photos du site et les images générées viendront après le choix.</footer>
+</body>
+</html>

@@ -1,0 +1,175 @@
+{
+  "client": "E-maginacoudre",
+  "activite": "artisanat",
+  "direction": "Coton & framboise",
+  "date": "2026-11-20T14:46:51.121Z",
+  "images": [
+    {
+      "nom": "accueil-ouverture",
+      "fichier": "accueil-ouverture.jpg",
+      "page": "Accueil",
+      "emplacement": "Ouverture : grande photo à droite du titre (ordinateur), sous le titre (téléphone)",
+      "role": "ouverture",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Extreme macro photograph of the needle and presser foot of a plain white unbranded domestic sewing machine, mid-stitch, sewing a straight seam of raspberry red thread across natural cream linen, the finished stitches running diagonally from the lower left corner up to the needle, polished steel catching the light, the machine body only a soft white blur at the top, no hands, no people, no text, no logo, no buttons or screen visible. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, bright and welcoming mood, palette of warm cotton white, natural linen beige, deep night blue and a single raspberry red accent, soft natural window light from the left, tactile natural cream linen, cotton, pale oak and polished steel, set in a small family-run sewing shop workroom in a quiet Breton town on a bright late-autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "atelier-ouverture",
+      "fichier": "atelier-ouverture.jpg",
+      "page": "Atelier",
+      "emplacement": "Ouverture : photo pleine hauteur à gauche, texte sur fond bleu nuit à droite",
+      "role": "ouverture",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mécanismes"
+      ],
+      "consigne": "Top-down view of a tidy repair workbench covered with a deep night-blue cutting mat, precision tool kit with slim precision tools, fine tweezers, a small oil bottle, a soft cleaning brush, a metal bobbin case, three empty metal bobbins, a few tiny screws and two small brass gears laid out in neat parallel rows, one spool of raspberry red thread, careful and precise, no machine, no hands, no people, no text. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, bright and welcoming mood, palette of warm cotton white, natural linen beige, deep night blue and a single raspberry red accent, soft natural window light from the left, tactile natural cream linen, cotton, pale oak and polished steel, set in a small family-run sewing shop workroom in a quiet Breton town on a bright late-autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "prise-en-main-ouverture",
+      "fichier": "prise-en-main-ouverture.jpg",
+      "page": "Prise en main",
+      "emplacement": "Ouverture : grand bandeau photo sous le titre (ordinateur)",
+      "role": "ouverture",
+      "format": "21:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "Wide low-angle view across a pale oak table prepared for a sewing lesson: a spool of raspberry red thread, a threaded hand needle resting on a pincushion, a seam ripper, a loosely coiled cream tape measure, and a square of cream cotton showing a few rows of practice stitches, objects gathered in the lower half and spread along the width, upper part soft and empty, no hands, no people, no machine, no text. Panoramic composition, aspect ratio 21:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, bright and welcoming mood, palette of warm cotton white, natural linen beige, deep night blue and a single raspberry red accent, soft natural window light from the left, tactile natural cream linen, cotton, pale oak and polished steel, set in a small family-run sewing shop workroom in a quiet Breton town on a bright late-autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "prise-en-main-ouverture",
+      "fichier": "prise-en-main-ouverture-mobile.jpg",
+      "page": "Prise en main",
+      "emplacement": "Ouverture : grand bandeau photo sous le titre (téléphone)",
+      "role": "ouverture",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "Wide low-angle view across a pale oak table prepared for a sewing lesson: a spool of raspberry red thread, a threaded hand needle resting on a pincushion, a seam ripper, a loosely coiled cream tape measure, and a square of cream cotton showing a few rows of practice stitches, objects gathered in the lower half and spread along the width, upper part soft and empty, no hands, no people, no machine, no text. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, bright and welcoming mood, palette of warm cotton white, natural linen beige, deep night blue and a single raspberry red accent, soft natural window light from the left, tactile natural cream linen, cotton, pale oak and polished steel, set in a small family-run sewing shop workroom in a quiet Breton town on a bright late-autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "la-maison-ouverture",
+      "fichier": "la-maison-ouverture.jpg",
+      "page": "La maison",
+      "emplacement": "Ouverture plein cadre, grand chiffre posé à gauche (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Wide top-down view of old and new sewing tools on smooth natural linen: wooden spools of thread in cream, navy and raspberry, a piece of tailor's chalk, a pair of steel tailor's shears, a cream tape measure, a small pincushion with pins, all gathered in the right third of the frame, the left two thirds smooth empty linen with a gentle fold, no hands, no people, no machine, no text. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Photorealistic editorial still life for a high-end craft workshop, warm, bright and welcoming mood, palette of warm cotton white, natural linen beige, deep night blue and a single raspberry red accent, soft natural window light from the left, tactile natural cream linen, cotton, pale oak and polished steel, set in a small family-run sewing shop workroom in a quiet Breton town on a bright late-autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "la-maison-ouverture",
+      "fichier": "la-maison-ouverture-mobile.jpg",
+      "page": "La maison",
+      "emplacement": "Ouverture plein cadre, grand chiffre posé à gauche (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Wide top-down view of old and new sewing tools on smooth natural linen: wooden spools of thread in cream, navy and raspberry, a piece of tailor's chalk, a pair of steel tailor's shears, a cream tape measure, a small pincushion with pins, all gathered in the right third of the frame, the left two thirds smooth empty linen with a gentle fold, no hands, no people, no machine, no text. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, bright and welcoming mood, palette of warm cotton white, natural linen beige, deep night blue and a single raspberry red accent, soft natural window light from the left, tactile natural cream linen, cotton, pale oak and polished steel, set in a small family-run sewing shop workroom in a quiet Breton town on a bright late-autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "contact-ouverture",
+      "fichier": "contact-ouverture.jpg",
+      "page": "Contact",
+      "emplacement": "Ouverture : bandeau photo vertical à droite de la carte de visite",
+      "role": "ouverture",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "A wooden wall rack of plain unbranded thread spools in neat rows, mostly cream, linen, navy and raspberry tones with a few softer colours, seen slightly from the side, warm afternoon light from the left, shallow depth of field, no labels, no lettering, no price tags, no hands, no people. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, bright and welcoming mood, palette of warm cotton white, natural linen beige, deep night blue and a single raspberry red accent, soft natural window light from the left, tactile natural cream linen, cotton, pale oak and polished steel, set in a small family-run sewing shop workroom in a quiet Breton town on a bright late-autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. A small family-run sewing shop workroom in a quiet Breton town landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "404",
+      "fichier": "404.jpg",
+      "page": "404",
+      "emplacement": "En-tête de la page introuvable",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "A hand-stitched seam interrupted halfway, one loose thread dangling and the needle lying next to it on natural cream linen, cotton, pale oak and polished steel, raking light, a gentle touch of humour. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Photorealistic editorial still life for a high-end craft workshop, warm, bright and welcoming mood, palette of warm cotton white, natural linen beige, deep night blue and a single raspberry red accent, soft natural window light from the left, tactile natural cream linen, cotton, pale oak and polished steel, set in a small family-run sewing shop workroom in a quiet Breton town on a bright late-autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "duo-pascal",
+      "fichier": "duo-pascal.jpg",
+      "page": "Accueil et La maison",
+      "emplacement": "Écran partagé Michèle et Pascal : côté atelier (si aucune photo de Pascal sur le site)",
+      "role": "portrait",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "conseillée",
+      "gabarit": "portrait-generique",
+      "pieges": [
+        "mains en trop",
+        "visages"
+      ],
+      "consigne": "Close view of a technician's workbench: a metal bobbin case being adjusted with a slim precision screwdriver held by two hands in plain dark work gloves, fingers partly hidden, hands cropped at the edge of the frame, a few loose bobbins and a spool of raspberry thread nearby, deep night-blue mat, only two hands, both belonging to one single person, no face, no machine body, no text. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Photorealistic editorial still life for a high-end craft workshop, warm, bright and welcoming mood, palette of warm cotton white, natural linen beige, deep night blue and a single raspberry red accent, soft natural window light from the left, tactile natural cream linen, cotton, pale oak and polished steel, set in a small family-run sewing shop workroom in a quiet Breton town on a bright late-autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "duo-michele",
+      "fichier": "duo-michele.jpg",
+      "page": "Accueil et Prise en main",
+      "emplacement": "Écran partagé Michèle et Pascal : côté conseil (si la photo de Michèle est trop petite)",
+      "role": "portrait",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "conseillée",
+      "gabarit": "portrait-generique",
+      "pieges": [],
+      "consigne": "Neat stack of folded cotton and linen fabric pieces in cream, sand, navy and soft raspberry on a pale oak counter, two matching spools of thread and a small pair of embroidery scissors beside them, soft window light from the left, no hands, no people, no machine, no text. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Photorealistic editorial still life for a high-end craft workshop, warm, bright and welcoming mood, palette of warm cotton white, natural linen beige, deep night blue and a single raspberry red accent, soft natural window light from the left, tactile natural cream linen, cotton, pale oak and polished steel, set in a small family-run sewing shop workroom in a quiet Breton town on a bright late-autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "cours-couture",
+      "fichier": "cours-couture.jpg",
+      "page": "Prise en main",
+      "emplacement": "Section Cours de couture",
+      "role": "carte-service",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Bright sewing classroom table seen from above: paper sewing patterns, pins, tailor's chalk, cut pieces of cream and navy cotton fabric, a cream tape measure, a pair of shears, arranged with generous empty space, no people, no hands, no machine, no text. Landscape composition, aspect ratio 3:2. Photorealistic editorial still life for a high-end craft workshop, warm, bright and welcoming mood, palette of warm cotton white, natural linen beige, deep night blue and a single raspberry red accent, soft natural window light from the left, tactile natural cream linen, cotton, pale oak and polished steel, set in a small family-run sewing shop workroom in a quiet Breton town on a bright late-autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "texture-lin",
+      "fichier": "texture-lin.jpg",
+      "page": "Accueil",
+      "emplacement": "Fond des quatre cartes « Quelle machine pour quoi ? »",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "facultative",
+      "gabarit": "texture",
+      "pieges": [],
+      "consigne": "Straight-on macro photograph of natural cream linen, cotton, pale oak and polished steel, fine natural grain, evenly lit with soft raking light, filling the whole frame edge to edge, usable as a texture. Landscape composition, aspect ratio 3:2, quiet uncluttered area in the upper half for a title. Photorealistic editorial still life for a high-end craft workshop, warm, bright and welcoming mood, palette of warm cotton white, natural linen beige, deep night blue and a single raspberry red accent, soft natural window light from the left, tactile natural cream linen, cotton, pale oak and polished steel, set in a small family-run sewing shop workroom in a quiet Breton town on a bright late-autumn afternoon, soft raking light that reveals the texture of the material, gentle shadows, shallow depth of field, subtle film grain, calm and tactile, modern minimal composition with generous negative space. No finished piece, no artwork, no product presented as the craftsman's own work, no branded machine, no tattoo designs, no people's faces. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

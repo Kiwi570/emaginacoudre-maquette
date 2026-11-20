@@ -1,0 +1,198 @@
+{
+  "echecs": [],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#deroule « Trois étapes, pas de surprise 1 Le diagnostic En b »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/atelier",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#tarifs « Les tarifs de l'atelier Choisissez une prestation  »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/la-maison",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#histoire « De la microélectronique à la boutique Avant Pascal »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/la-maison",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#actualites « Les actualités Nouveaux horaires La boutique est d »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/machines",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#prix « Comment lire les prix Brother Le prix affiché est  »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/machines",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut « 22 machines, à essayer avant de choisir. Demander  »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/prise-en-main",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#questions « Vos questions La prise en main est-elle comprise ? »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "768×1024 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "rechargement",
+      "detail": "la page ne repart pas du haut pour l'intro (567 px)",
+      "etape": "parcours",
+      "page": "/machines",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    }
+  ],
+  "nonLances": [],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "mesures": 77,
+    "balayage": 6,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 7,
+    "liens et boutons": 7,
+    "liens profonds": 16,
+    "liens vers la page en cours": 6,
+    "changements de hauteur": 3,
+    "parcours du projet": 1
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 5 étape(s) notée(s), 68 min de travail pour 115 min de budget, 46 min d’attente de l’utilisateur.",
+    "Audit standard : étapes lourdes sur /, /atelier, /machines.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés."
+  ],
+  "grille": []
+}

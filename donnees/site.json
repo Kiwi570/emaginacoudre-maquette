@@ -1,0 +1,15 @@
+{
+  "nom": "E-maginacoudre",
+  "adresse": "https://emaginacoudre-maquette.vercel.app",
+  "siteActuel": "emaginacoudre.fr",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "machines", "atelier", "prise-en-main", "la-maison", "contact"],
+  "actionEntete": { "page": "contact", "ancre": "demande", "params": "sujet=essai" },
+  "couleurs": { "fond": "#FBF8F3", "texte": "#172033", "voile": "#172033", "ouverture": "#172033", "menu": "#172033", "theme": "#FBF8F3" },
+  "formeVoile": "vague",
+  "contact": { "telephone": "02 97 61 20 12", "telephoneLien": "+33297612012", "email": "emaginacoudre@orange.fr", "adresse": "4 rue Alain-René Lesage, 56000 Vannes", "itineraire": "https://www.google.com/maps/search/?api=1&query=4+rue+Alain-Ren%C3%A9+Lesage+56000+Vannes", "facebook": "https://www.facebook.com/E-maginacoudre-1594245230788176/", "avis": "https://www.google.com/search?q=E-maginacoudre+Vannes+avis" },
+  "polices": ["/assets/polices/instrument-serif-400.woff2", "/assets/polices/figtree-variable.woff2"],
+  "imagePartage": "grok/accueil-ouverture-1280.webp",
+  "curseur": false
+}

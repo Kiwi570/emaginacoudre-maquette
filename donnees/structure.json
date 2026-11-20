@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "E-maginacoudre",
+  "description": "Vente et réparation de machines à coudre, brodeuses, surjeteuses et recouvreuses Brother et Babylock.",
+  "url": "https://www.emaginacoudre.fr",
+  "telephone": "+33 2 97 61 20 12",
+  "email": "emaginacoudre@orange.fr",
+  "foundingDate": "2012",
+  "address": { "@type": "PostalAddress", "streetAddress": "4 rue Alain-René Lesage", "postalCode": "56000", "addressLocality": "Vannes", "addressCountry": "FR" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Thursday", "Friday", "Saturday"], "opens": "09:30", "closes": "12:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Thursday", "Friday", "Saturday"], "opens": "14:00", "closes": "18:30" }
+  ],
+  "brand": [{ "@type": "Brand", "name": "Brother" }, { "@type": "Brand", "name": "Babylock" }],
+  "sameAs": ["https://www.facebook.com/E-maginacoudre-1594245230788176/"]
+}

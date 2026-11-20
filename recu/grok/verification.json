@@ -1,0 +1,192 @@
+{
+  "date": "2026-11-20T15:09:06.473Z",
+  "plan": "/home/claude/emaginacoudre-maquette/plan-images.json",
+  "attendus": 10,
+  "recus": 12,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [
+    "duo-michele.jpg",
+    "duo-pascal.jpg"
+  ],
+  "manquants": [],
+  "a_regenerer": [],
+  "images": [
+    {
+      "nom": "grok/accueil-ouverture",
+      "attendu": "accueil-ouverture.jpg",
+      "fichier": "accueil-ouverture.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/atelier-ouverture",
+      "attendu": "atelier-ouverture.jpg",
+      "fichier": "atelier-ouverture.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/prise-en-main-ouverture",
+      "attendu": "prise-en-main-ouverture.jpg",
+      "fichier": "prise-en-main-ouverture.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/prise-en-main-ouverture",
+      "mobile": true,
+      "attendu": "prise-en-main-ouverture-mobile.jpg",
+      "fichier": "prise-en-main-ouverture-mobile.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/la-maison-ouverture",
+      "attendu": "la-maison-ouverture.jpg",
+      "fichier": "la-maison-ouverture.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/la-maison-ouverture",
+      "mobile": true,
+      "attendu": "la-maison-ouverture-mobile.jpg",
+      "fichier": "la-maison-ouverture-mobile.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/contact-ouverture",
+      "attendu": "contact-ouverture.jpg",
+      "fichier": "contact-ouverture.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/404",
+      "attendu": "404.jpg",
+      "fichier": "404.jpg",
+      "priorite": "indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/cours-couture",
+      "attendu": "cours-couture.jpg",
+      "fichier": "cours-couture.jpg",
+      "priorite": "conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/texture-lin",
+      "attendu": "texture-lin.jpg",
+      "fichier": "texture-lin.jpg",
+      "priorite": "facultative",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    }
+  ]
+}

@@ -1,0 +1,764 @@
+{
+  "dossier": "/home/claude/emaginacoudre-maquette/recu/grok",
+  "date": "2026-11-20T15:15:20.509Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "404.jpg",
+      "nom": "404",
+      "drapeau": null,
+      "largeur": 1752,
+      "hauteur": 1176,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 405329,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        43
+      ],
+      "cadrage_css": "56% 43%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 42.3,
+        "bruit": 0.88,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "039183011c02f918",
+      "drapeaux": []
+    },
+    {
+      "fichier": "accueil-ouverture.jpg",
+      "nom": "accueil-ouverture",
+      "drapeau": null,
+      "largeur": 1400,
+      "hauteur": 2086,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 357877,
+      "transparence": false,
+      "sujet": {
+        "x": 4.5,
+        "y": 31.3,
+        "l": 90.9,
+        "h": 68.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        70,
+        78
+      ],
+      "cadrage_css": "70% 78%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 24.6,
+        "bruit": 0.5,
+        "compression": 0.97,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0003c62c0710e021",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "atelier-ouverture.jpg",
+      "nom": "atelier-ouverture",
+      "drapeau": null,
+      "largeur": 1400,
+      "hauteur": 2086,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 578682,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        52
+      ],
+      "cadrage_css": "44% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 44.6,
+        "bruit": 0.72,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "4f1b356948081c9f",
+      "drapeaux": []
+    },
+    {
+      "fichier": "contact-ouverture.jpg",
+      "nom": "contact-ouverture",
+      "drapeau": null,
+      "largeur": 1400,
+      "hauteur": 2086,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 484113,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 95.5,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        51
+      ],
+      "cadrage_css": "56% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 22.8,
+        "bruit": 0.54,
+        "compression": 1.04,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "404440c1c4ca689c",
+      "drapeaux": []
+    },
+    {
+      "fichier": "cours-couture.jpg",
+      "nom": "cours-couture",
+      "drapeau": null,
+      "largeur": 1752,
+      "hauteur": 1176,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 471392,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        49
+      ],
+      "cadrage_css": "62% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 40.3,
+        "bruit": 0.89,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c0a323c1c0a06044",
+      "drapeaux": []
+    },
+    {
+      "fichier": "duo-michele.jpg",
+      "nom": "duo-michele",
+      "drapeau": null,
+      "largeur": 1400,
+      "hauteur": 2086,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 462025,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        58
+      ],
+      "cadrage_css": "42% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 26.7,
+        "bruit": 0.76,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "581c583b0300f0ff",
+      "drapeaux": []
+    },
+    {
+      "fichier": "duo-pascal.jpg",
+      "nom": "duo-pascal",
+      "drapeau": null,
+      "largeur": 1400,
+      "hauteur": 2086,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 576685,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        25,
+        34
+      ],
+      "cadrage_css": "25% 34%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 42.2,
+        "bruit": 0.64,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "264f1079fb3203cb",
+      "drapeaux": []
+    },
+    {
+      "fichier": "la-maison-ouverture-mobile.jpg",
+      "nom": "la-maison-ouverture-mobile",
+      "drapeau": null,
+      "largeur": 1400,
+      "hauteur": 2086,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 808955,
+      "transparence": false,
+      "sujet": {
+        "x": 40.9,
+        "y": 40.6,
+        "l": 50,
+        "h": 43.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        66,
+        57
+      ],
+      "cadrage_css": "66% 57%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 45.9,
+        "bruit": 1.18,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "479e3867e3812139",
+      "drapeaux": [
+        "calme gauche/haut"
+      ]
+    },
+    {
+      "fichier": "la-maison-ouverture.jpg",
+      "nom": "la-maison-ouverture",
+      "drapeau": null,
+      "largeur": 1752,
+      "hauteur": 1176,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 732107,
+      "transparence": false,
+      "sujet": {
+        "x": 59.4,
+        "y": 13.6,
+        "l": 37.5,
+        "h": 77.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        77,
+        45
+      ],
+      "cadrage_css": "77% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "bas",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        }
+      ],
+      "qualite": {
+        "nettete": 50.4,
+        "bruit": 1.82,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "09932369f1c3d0b4",
+      "drapeaux": [
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "prise-en-main-ouverture-mobile.jpg",
+      "nom": "prise-en-main-ouverture-mobile",
+      "drapeau": null,
+      "largeur": 1400,
+      "hauteur": 2086,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 471497,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        48
+      ],
+      "cadrage_css": "55% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 35.1,
+        "bruit": 0.73,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "99991910183c3979",
+      "drapeaux": []
+    },
+    {
+      "fichier": "prise-en-main-ouverture.jpg",
+      "nom": "prise-en-main-ouverture",
+      "drapeau": null,
+      "largeur": 1752,
+      "hauteur": 1176,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 301062,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 0,
+        "l": 90.6,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        71,
+        49
+      ],
+      "cadrage_css": "71% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "gauche",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 26.4,
+        "bruit": 0.49,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "2030383060642c06",
+      "drapeaux": []
+    },
+    {
+      "fichier": "texture-lin.jpg",
+      "nom": "texture-lin",
+      "drapeau": null,
+      "largeur": 1752,
+      "hauteur": 1176,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 344687,
+      "transparence": false,
+      "sujet": {
+        "x": 21.9,
+        "y": 54.5,
+        "l": 78.1,
+        "h": 40.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        74,
+        74
+      ],
+      "cadrage_css": "74% 74%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.68
+        }
+      ],
+      "qualite": {
+        "nettete": 41.6,
+        "bruit": 0.68,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "208080a0a4141933",
+      "drapeaux": [
+        "calme haut"
+      ]
+    }
+  ]
+}

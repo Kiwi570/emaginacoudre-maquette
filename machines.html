@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Les machines : Brother et Babylock, prix et essais en boutique · E-maginacoudre</title>
+<meta name="description" content="Machines à coudre, coudre-brodeuses, surjeteuses, recouvreuses et combinées Brother et Babylock, avec leurs prix et la prise en main comprise, à Vannes.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://emaginacoudre-maquette.vercel.app/machines">
+<style>:root{--fond:#FBF8F3;--texte:#172033;--voile-fond:#172033;--ouverture-fond:#172033;--menu-fond:#172033}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/instrument-serif-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/figtree-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#FBF8F3">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="E-maginacoudre">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Les machines : Brother et Babylock, prix et essais en boutique · E-maginacoudre">
+<meta property="og:description" content="Machines à coudre, coudre-brodeuses, surjeteuses, recouvreuses et combinées Brother et Babylock, avec leurs prix et la prise en main comprise, à Vannes.">
+<meta property="og:url" content="https://emaginacoudre-maquette.vercel.app/machines">
+<meta property="og:image" content="https://emaginacoudre-maquette.vercel.app/assets/partage/machines-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Les machines Brother et Babylock d&#39;E-maginacoudre, prise en main comprise">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"E-maginacoudre","description":"Vente et réparation de machines à coudre, brodeuses, surjeteuses et recouvreuses Brother et Babylock.","url":"https://www.emaginacoudre.fr","telephone":"+33 2 97 61 20 12","email":"emaginacoudre@orange.fr","foundingDate":"2012","address":{"@type":"PostalAddress","streetAddress":"4 rue Alain-René Lesage","postalCode":"56000","addressLocality":"Vannes","addressCountry":"FR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Wednesday","Thursday","Friday","Saturday"],"opens":"09:30","closes":"12:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Wednesday","Thursday","Friday","Saturday"],"opens":"14:00","closes":"18:30"}],"brand":[{"@type":"Brand","name":"Brother"},{"@type":"Brand","name":"Babylock"}],"sameAs":["https://www.facebook.com/E-maginacoudre-1594245230788176/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img class="voile-logo" src="/assets/images/logo-carre.webp" alt="" width="240" height="240"><span data-voile-libelle>Machines</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-carre.webp" alt="" width="240" height="240" data-ouverture-objet>
+  <p class="ouverture-nom">E-maginacoudre</p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Machines à coudre · Vannes</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" aria-label="E-maginacoudre, accueil" href="/" data-libelle="Accueil">
+      <img class="logo-entete" src="/assets/images/logo-entete.webp" alt="E-maginacoudre" width="633" height="84">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/machines" data-libelle="Machines" aria-current="page">Machines</a></li><li><a href="/atelier" data-libelle="Atelier">Atelier</a></li><li><a href="/prise-en-main" data-libelle="Prise en main">Prise en main</a></li><li><a href="/la-maison" data-libelle="La maison">La maison</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact?sujet=essai#demande" data-libelle="Contact">Venir essayer</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/machines" class="menu-lien" data-libelle="Machines" aria-current="page">Machines</a></li><li style="--i:2"><a href="/atelier" class="menu-lien" data-libelle="Atelier">Atelier</a></li><li style="--i:3"><a href="/prise-en-main" class="menu-lien" data-libelle="Prise en main">Prise en main</a></li><li style="--i:4"><a href="/la-maison" class="menu-lien" data-libelle="La maison">La maison</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33297612012">Appeler 02 97 61 20 12</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-machines" id="debut">
+  <div class="conteneur">
+    <p class="surtitre" data-anime="gsap" data-intro>Brother et Babylock · revendeur agréé</p>
+    <h1 class="ouv-machines-titre" data-anime="gsap" data-intro>22 machines, <em>à essayer avant de choisir</em>.</h1>
+    <div class="ouv-machines-bas" data-anime="gsap" data-intro>
+      <p class="ouv-machines-action"><a href="/contact?sujet=essai#demande" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander un essai</a></p>
+      <p class="info-cle" data-info-cle><span class="pastille-prix">Prise en main comprise dans chaque prix affiché</span></p>
+      <p class="ouv-machines-texte masque-ecran-tres-bas">Les prix du catalogue, la prise en main avec Michèle, et l&#39;atelier de Pascal pour la suite.</p>
+    </div>
+    <nav class="filtres" aria-label="Type de machine" data-filtres data-anime="gsap" data-intro>
+      <a class="filtre" href="#catalogue" data-filtre-type="" aria-current="true">Toutes <span>22</span></a>
+      <a class="filtre" href="?type=coudre#catalogue" data-filtre-type="coudre">Machines à coudre <span>5</span></a><a class="filtre" href="?type=brodeuse#catalogue" data-filtre-type="brodeuse">Coudre-brodeuses <span>4</span></a><a class="filtre" href="?type=surjeteuse#catalogue" data-filtre-type="surjeteuse">Surjeteuses <span>7</span></a><a class="filtre" href="?type=recouvreuse#catalogue" data-filtre-type="recouvreuse">Recouvreuses <span>3</span></a><a class="filtre" href="?type=combinee#catalogue" data-filtre-type="combinee">Combinées <span>3</span></a>
+    </nav>
+  </div>
+  <div class="ruban-machines" data-iris-centre data-effet="ruban-machines" data-ruban data-visuel aria-hidden="true">
+    <div class="ruban-machines-piste" data-intro>
+      <div class="ruban-machine"><img src="/assets/images/machines/brother-cs70s-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-a16-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-a65-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-f400-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-f410-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-f480-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-v5-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-v7-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-xv-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-2104d-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-3034dwt-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-4234d-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-cs70s-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-a16-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-a65-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-f400-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-f410-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-f480-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-v5-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-v7-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-xv-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-2104d-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-3034dwt-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div><div class="ruban-machine"><img src="/assets/images/machines/brother-4234d-480.webp" alt="" loading="eager" decoding="async" width="480" height="360"></div>
+    </div>
+  </div>
+</section>
+<section class="catalogue" id="catalogue">
+  <div class="conteneur">
+    <div class="catalogue-tete">
+      <h2 data-anime="lignes">Le catalogue</h2>
+      <div class="filtres filtres--marque" role="group" aria-label="Marque">
+        <button type="button" class="filtre" data-filtre-marque="" aria-pressed="true">Toutes</button>
+        <button type="button" class="filtre" data-filtre-marque="brother" aria-pressed="false">Brother <span>12</span></button>
+        <button type="button" class="filtre" data-filtre-marque="babylock" aria-pressed="false">Babylock <span>10</span></button>
+      </div>
+      <p class="catalogue-compte" role="status" data-compte data-modele="{n} machines affichées" data-modele1="1 machine affichée">22 machines affichées</p>
+    </div>
+    <ul class="catalogue-grille" data-catalogue data-anime="cascade">
+      <li data-type="coudre" data-marque="brother"><article class="machine" data-type="coudre" data-marque="brother" id="m-brother-cs70s">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/brother-cs70s-960.webp" srcset="/assets/images/machines/brother-cs70s-480.webp 480w, /assets/images/machines/brother-cs70s-640.webp 640w, /assets/images/machines/brother-cs70s-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Brother CS70s, machine à coudre" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Brother · Machine à coudre</p>
+      <h3 class="machine-nom">CS70s</h3>
+      <p class="prix" data-prix><strong>209 €</strong> <span>prix catalogue, prise en main comprise</span></p>
+      <a href="/contact?sujet=essai&amp;machine=brother-cs70s#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother CS70s</span></a>
+    </div>
+  </article></li><li data-type="coudre" data-marque="brother"><article class="machine" data-type="coudre" data-marque="brother" id="m-brother-a16">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/brother-a16-960.webp" srcset="/assets/images/machines/brother-a16-480.webp 480w, /assets/images/machines/brother-a16-640.webp 640w, /assets/images/machines/brother-a16-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Brother A16, machine à coudre" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Brother · Machine à coudre</p>
+      <h3 class="machine-nom">A16</h3>
+      <p class="prix" data-prix><strong>489 €</strong> <span>prix catalogue, prise en main comprise</span></p>
+      <a href="/contact?sujet=essai&amp;machine=brother-a16#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother A16</span></a>
+    </div>
+  </article></li><li data-type="coudre" data-marque="brother"><article class="machine" data-type="coudre" data-marque="brother" id="m-brother-a65">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/brother-a65-960.webp" srcset="/assets/images/machines/brother-a65-480.webp 480w, /assets/images/machines/brother-a65-640.webp 640w, /assets/images/machines/brother-a65-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Brother A65, machine à coudre" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Brother · Machine à coudre</p>
+      <h3 class="machine-nom">A65</h3>
+      <p class="prix" data-prix><strong>649 €</strong> <span>prix catalogue, prise en main comprise</span></p>
+      <a href="/contact?sujet=essai&amp;machine=brother-a65#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother A65</span></a>
+    </div>
+  </article></li><li data-type="coudre" data-marque="brother"><article class="machine" data-type="coudre" data-marque="brother" id="m-brother-f400">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/brother-f400-960.webp" srcset="/assets/images/machines/brother-f400-480.webp 480w, /assets/images/machines/brother-f400-640.webp 640w, /assets/images/machines/brother-f400-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Brother F400, machine à coudre" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Brother · Machine à coudre</p>
+      <h3 class="machine-nom">F400</h3>
+      <p class="prix" data-prix><strong>859 €</strong> <span>prix catalogue, prise en main comprise</span></p>
+      <a href="/contact?sujet=essai&amp;machine=brother-f400#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother F400</span></a>
+    </div>
+  </article></li><li data-type="coudre" data-marque="brother"><article class="machine" data-type="coudre" data-marque="brother" id="m-brother-f410">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/brother-f410-960.webp" srcset="/assets/images/machines/brother-f410-480.webp 480w, /assets/images/machines/brother-f410-640.webp 640w, /assets/images/machines/brother-f410-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Brother F410, machine à coudre" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Brother · Machine à coudre</p>
+      <h3 class="machine-nom">F410</h3>
+      <p class="prix" data-prix><strong>999 €</strong> <span>prix catalogue, prise en main comprise</span></p>
+      <a href="/contact?sujet=essai&amp;machine=brother-f410#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother F410</span></a>
+    </div>
+  </article></li><li data-type="brodeuse" data-marque="brother"><article class="machine" data-type="brodeuse" data-marque="brother" id="m-brother-f480">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/brother-f480-960.webp" srcset="/assets/images/machines/brother-f480-480.webp 480w, /assets/images/machines/brother-f480-640.webp 640w, /assets/images/machines/brother-f480-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Brother Innov-is F480, coudre-brodeuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Brother · Coudre-brodeuse</p>
+      <h3 class="machine-nom">Innov-is F480</h3>
+      <p class="prix prix--boutique" data-prix><span>Prix et démonstration en boutique</span></p>
+      <a href="/contact?sujet=essai&amp;machine=brother-f480#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother Innov-is F480</span></a>
+    </div>
+  </article></li><li data-type="brodeuse" data-marque="brother"><article class="machine" data-type="brodeuse" data-marque="brother" id="m-brother-v5">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/brother-v5-960.webp" srcset="/assets/images/machines/brother-v5-480.webp 480w, /assets/images/machines/brother-v5-640.webp 640w, /assets/images/machines/brother-v5-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Brother V5, coudre-brodeuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Brother · Coudre-brodeuse</p>
+      <h3 class="machine-nom">V5</h3>
+      <p class="prix prix--boutique" data-prix><span>Prix et démonstration en boutique</span></p>
+      <a href="/contact?sujet=essai&amp;machine=brother-v5#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother V5</span></a>
+    </div>
+  </article></li><li data-type="brodeuse" data-marque="brother"><article class="machine" data-type="brodeuse" data-marque="brother" id="m-brother-v7">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/brother-v7-960.webp" srcset="/assets/images/machines/brother-v7-480.webp 480w, /assets/images/machines/brother-v7-640.webp 640w, /assets/images/machines/brother-v7-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Brother V7, coudre-brodeuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Brother · Coudre-brodeuse</p>
+      <h3 class="machine-nom">V7</h3>
+      <p class="prix prix--boutique" data-prix><span>Prix et démonstration en boutique</span></p>
+      <a href="/contact?sujet=essai&amp;machine=brother-v7#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother V7</span></a>
+    </div>
+  </article></li><li data-type="brodeuse" data-marque="brother"><article class="machine" data-type="brodeuse" data-marque="brother" id="m-brother-xv">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/brother-xv-960.webp" srcset="/assets/images/machines/brother-xv-480.webp 480w, /assets/images/machines/brother-xv-640.webp 640w, /assets/images/machines/brother-xv-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Brother XV, coudre-brodeuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Brother · Coudre-brodeuse</p>
+      <h3 class="machine-nom">XV</h3>
+      <p class="prix prix--boutique" data-prix><span>Prix et démonstration en boutique</span></p>
+      <a href="/contact?sujet=essai&amp;machine=brother-xv#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother XV</span></a>
+    </div>
+  </article></li><li data-type="surjeteuse" data-marque="brother"><article class="machine" data-type="surjeteuse" data-marque="brother" id="m-brother-2104d">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/brother-2104d-960.webp" srcset="/assets/images/machines/brother-2104d-480.webp 480w, /assets/images/machines/brother-2104d-640.webp 640w, /assets/images/machines/brother-2104d-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Brother 2104D, surjeteuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Brother · Surjeteuse</p>
+      <h3 class="machine-nom">2104D</h3>
+      <p class="prix" data-prix><strong>369 €</strong> <span>prix catalogue, prise en main comprise</span></p>
+      <a href="/contact?sujet=essai&amp;machine=brother-2104d#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother 2104D</span></a>
+    </div>
+  </article></li><li data-type="surjeteuse" data-marque="brother"><article class="machine" data-type="surjeteuse" data-marque="brother" id="m-brother-3034dwt">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/brother-3034dwt-960.webp" srcset="/assets/images/machines/brother-3034dwt-480.webp 480w, /assets/images/machines/brother-3034dwt-640.webp 640w, /assets/images/machines/brother-3034dwt-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Brother 3034DWT, surjeteuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Brother · Surjeteuse</p>
+      <h3 class="machine-nom">3034DWT</h3>
+      <p class="prix" data-prix><strong>569 €</strong> <span>prix catalogue, prise en main comprise</span></p>
+      <a href="/contact?sujet=essai&amp;machine=brother-3034dwt#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother 3034DWT</span></a>
+    </div>
+  </article></li><li data-type="surjeteuse" data-marque="brother"><article class="machine" data-type="surjeteuse" data-marque="brother" id="m-brother-4234d">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/brother-4234d-960.webp" srcset="/assets/images/machines/brother-4234d-480.webp 480w, /assets/images/machines/brother-4234d-640.webp 640w, /assets/images/machines/brother-4234d-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Brother 4234D, surjeteuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Brother · Surjeteuse</p>
+      <h3 class="machine-nom">4234D</h3>
+      <p class="prix" data-prix><strong>729 €</strong> <span>prix catalogue, prise en main comprise</span></p>
+      <a href="/contact?sujet=essai&amp;machine=brother-4234d#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother 4234D</span></a>
+    </div>
+  </article></li><li data-type="surjeteuse" data-marque="babylock"><article class="machine" data-type="surjeteuse" data-marque="babylock" id="m-babylock-enspire">
+    <div class="machine-media machine-media--dessin"><svg class="machine-silhouette" viewBox="0 0 320 180" aria-hidden="true" data-visuel><path d="M70 150 h180 v-18 h-30 v-62 c0 -14 -10 -24 -24 -24 h-70 c-14 0 -24 10 -24 24 v62 h-32z" class="sil-corps"/><path d="M110 70 h60 M110 86 h60" class="sil-trait"/><circle cx="214" cy="82" r="14" class="sil-trait"/></svg></div>
+    <div class="machine-corps">
+      <p class="machine-marque">Babylock · Surjeteuse</p>
+      <h3 class="machine-nom">Enspire</h3>
+      <p class="prix" data-prix><strong>899 €</strong> <span>en boutique, prise en main comprise</span><span class="prix-avant">prix catalogue 999 €</span></p>
+      <a href="/contact?sujet=essai&amp;machine=babylock-enspire#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Enspire</span></a>
+    </div>
+  </article></li><li data-type="surjeteuse" data-marque="babylock"><article class="machine" data-type="surjeteuse" data-marque="babylock" id="m-babylock-victory">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/babylock-victory-960.webp" srcset="/assets/images/machines/babylock-victory-480.webp 480w, /assets/images/machines/babylock-victory-640.webp 640w, /assets/images/machines/babylock-victory-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Babylock Victory, surjeteuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Babylock · Surjeteuse</p>
+      <h3 class="machine-nom">Victory</h3>
+      <p class="prix" data-prix><strong>1 348 €</strong> <span>en boutique, prise en main comprise</span><span class="prix-avant">prix catalogue 1 498 €</span></p>
+      <a href="/contact?sujet=essai&amp;machine=babylock-victory#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Victory</span></a>
+    </div>
+  </article></li><li data-type="surjeteuse" data-marque="babylock"><article class="machine" data-type="surjeteuse" data-marque="babylock" id="m-babylock-enlighten">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/babylock-enlighten-960.webp" srcset="/assets/images/machines/babylock-enlighten-480.webp 480w, /assets/images/machines/babylock-enlighten-640.webp 640w, /assets/images/machines/babylock-enlighten-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Babylock Enlighten, surjeteuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Babylock · Surjeteuse</p>
+      <h3 class="machine-nom">Enlighten</h3>
+      <p class="prix" data-prix><strong>1 618 €</strong> <span>en boutique, prise en main comprise</span><span class="prix-avant">prix catalogue 1 798 €</span></p>
+      <a href="/contact?sujet=essai&amp;machine=babylock-enlighten#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Enlighten</span></a>
+    </div>
+  </article></li><li data-type="surjeteuse" data-marque="babylock"><article class="machine" data-type="surjeteuse" data-marque="babylock" id="m-babylock-acclaim">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/babylock-acclaim-960.webp" srcset="/assets/images/machines/babylock-acclaim-480.webp 480w, /assets/images/machines/babylock-acclaim-640.webp 640w, /assets/images/machines/babylock-acclaim-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Babylock Acclaim, surjeteuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Babylock · Surjeteuse</p>
+      <h3 class="machine-nom">Acclaim</h3>
+      <p class="prix" data-prix><strong>1 978 €</strong> <span>en boutique, prise en main comprise</span><span class="prix-avant">prix catalogue 2 198 €</span></p>
+      <a href="/contact?sujet=essai&amp;machine=babylock-acclaim#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Acclaim</span></a>
+    </div>
+  </article></li><li data-type="recouvreuse" data-marque="babylock"><article class="machine" data-type="recouvreuse" data-marque="babylock" id="m-babylock-cover-stitch">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/babylock-cover-stitch-960.webp" srcset="/assets/images/machines/babylock-cover-stitch-480.webp 480w, /assets/images/machines/babylock-cover-stitch-640.webp 640w, /assets/images/machines/babylock-cover-stitch-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Babylock Cover Stitch, recouvreuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Babylock · Recouvreuse</p>
+      <h3 class="machine-nom">Cover Stitch</h3>
+      <p class="prix" data-prix><strong>1 079 €</strong> <span>en boutique, prise en main comprise</span><span class="prix-avant">prix catalogue 1 199 €</span></p>
+      <a href="/contact?sujet=essai&amp;machine=babylock-cover-stitch#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Cover Stitch</span></a>
+    </div>
+  </article></li><li data-type="recouvreuse" data-marque="babylock"><article class="machine" data-type="recouvreuse" data-marque="babylock" id="m-babylock-euphoria">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/babylock-euphoria-960.webp" srcset="/assets/images/machines/babylock-euphoria-480.webp 480w, /assets/images/machines/babylock-euphoria-640.webp 640w, /assets/images/machines/babylock-euphoria-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Babylock Euphoria, recouvreuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Babylock · Recouvreuse</p>
+      <h3 class="machine-nom">Euphoria</h3>
+      <p class="prix prix--boutique" data-prix><span>Prix et démonstration en boutique</span></p>
+      <a href="/contact?sujet=essai&amp;machine=babylock-euphoria#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Euphoria</span></a>
+    </div>
+  </article></li><li data-type="recouvreuse" data-marque="babylock"><article class="machine" data-type="recouvreuse" data-marque="babylock" id="m-babylock-primo">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/babylock-primo-960.webp" srcset="/assets/images/machines/babylock-primo-480.webp 480w, /assets/images/machines/babylock-primo-640.webp 640w, /assets/images/machines/babylock-primo-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Babylock Primo, recouvreuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Babylock · Recouvreuse</p>
+      <h3 class="machine-nom">Primo</h3>
+      <p class="prix" data-prix><strong>2 518 €</strong> <span>en boutique, prise en main comprise</span><span class="prix-avant">prix catalogue 2 798 €</span></p>
+      <a href="/contact?sujet=essai&amp;machine=babylock-primo#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Primo</span></a>
+    </div>
+  </article></li><li data-type="combinee" data-marque="babylock"><article class="machine" data-type="combinee" data-marque="babylock" id="m-babylock-aspire">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/babylock-aspire-960.webp" srcset="/assets/images/machines/babylock-aspire-480.webp 480w, /assets/images/machines/babylock-aspire-640.webp 640w, /assets/images/machines/babylock-aspire-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Babylock Aspire, combinée surjeteuse-recouvreuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Babylock · Combinée surjeteuse-recouvreuse</p>
+      <h3 class="machine-nom">Aspire</h3>
+      <p class="prix" data-prix><strong>2 248 €</strong> <span>en boutique, prise en main comprise</span><span class="prix-avant">prix catalogue 2 498 €</span></p>
+      <a href="/contact?sujet=essai&amp;machine=babylock-aspire#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Aspire</span></a>
+    </div>
+  </article></li><li data-type="combinee" data-marque="babylock"><article class="machine" data-type="combinee" data-marque="babylock" id="m-babylock-ovation">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/babylock-ovation-960.webp" srcset="/assets/images/machines/babylock-ovation-480.webp 480w, /assets/images/machines/babylock-ovation-640.webp 640w, /assets/images/machines/babylock-ovation-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Babylock Ovation, combinée surjeteuse-recouvreuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Babylock · Combinée surjeteuse-recouvreuse</p>
+      <h3 class="machine-nom">Ovation</h3>
+      <p class="prix" data-prix><strong>2 878 €</strong> <span>en boutique, prise en main comprise</span><span class="prix-avant">prix catalogue 3 198 €</span></p>
+      <a href="/contact?sujet=essai&amp;machine=babylock-ovation#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Ovation</span></a>
+    </div>
+  </article></li><li data-type="combinee" data-marque="babylock"><article class="machine" data-type="combinee" data-marque="babylock" id="m-babylock-gloria">
+    <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/machines/babylock-gloria-960.webp" srcset="/assets/images/machines/babylock-gloria-480.webp 480w, /assets/images/machines/babylock-gloria-640.webp 640w, /assets/images/machines/babylock-gloria-960.webp 960w" sizes="(max-width: 760px) 50vw, 25vw" alt="Babylock Gloria, combinée surjeteuse-recouvreuse" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="machine-corps">
+      <p class="machine-marque">Babylock · Combinée surjeteuse-recouvreuse</p>
+      <h3 class="machine-nom">Gloria</h3>
+      <p class="prix" data-prix><strong>3 598 €</strong> <span>en boutique, prise en main comprise</span><span class="prix-avant">prix catalogue 3 998 €</span></p>
+      <a href="/contact?sujet=essai&amp;machine=babylock-gloria#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Gloria</span></a>
+    </div>
+  </article></li>
+    </ul>
+    <p class="catalogue-vide" data-catalogue-vide hidden>Aucune machine ne correspond à ce choix.</p>
+  </div>
+</section>
+<section class="lire-prix fond-sable" id="prix">
+  <div class="conteneur">
+    <h2 data-anime="lignes">Comment lire <em>les prix</em></h2>
+    <ul class="lire-prix-grille" data-anime="cascade">
+      <li class="etiquette">
+        <svg class="etiquette-dessin" viewBox="0 0 120 60" aria-hidden="true" data-visuel><path d="M6 10 h84 l24 20 l-24 20 h-84 z"/><circle cx="92" cy="30" r="5"/></svg>
+        <h3>Brother</h3>
+        <p>Le prix affiché est le prix catalogue, prise en main comprise. Vous emportez le carton sans prise en main : 10 % de moins.</p>
+      </li><li class="etiquette">
+        <svg class="etiquette-dessin" viewBox="0 0 120 60" aria-hidden="true" data-visuel><path d="M6 10 h84 l24 20 l-24 20 h-84 z"/><circle cx="92" cy="30" r="5"/></svg>
+        <h3>Babylock</h3>
+        <p>Le prix catalogue est rappelé ; en boutique, la machine est vendue 10 % moins cher, prise en main comprise.</p>
+      </li><li class="etiquette">
+        <svg class="etiquette-dessin" viewBox="0 0 120 60" aria-hidden="true" data-visuel><path d="M6 10 h84 l24 20 l-24 20 h-84 z"/><circle cx="92" cy="30" r="5"/></svg>
+        <h3>Sans prix affiché</h3>
+        <p>Les coudre-brodeuses et la recouvreuse Euphoria : le prix vous est donné en boutique, avec la démonstration.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="conseil" id="conseil">
+  <div class="conteneur conseil-grille">
+    <figure class="media conseil-media" data-grok data-anime="rideau" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/grok/duo-michele-784.webp" srcset="/assets/images/grok/duo-michele-480.webp 480w, /assets/images/grok/duo-michele-640.webp 640w, /assets/images/grok/duo-michele-784.webp 784w" sizes="(max-width: 760px) 100vw, 34vw" alt="Coupons de coton et de lin pliés, bobines assorties" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
+      <h2 data-anime="lignes">Pas sûr de <em>votre choix</em> ?</h2>
+      <p data-anime>Dites à Michèle ce que vous voulez coudre et quel est votre budget : elle vous conseille et vous fait essayer les machines en boutique.</p>
+      <p class="ouv-actions" data-anime>
+        <a href="/contact?sujet=essai#demande" class="bouton" data-libelle="Contact">Préparer ma visite</a>
+        <a href="/prise-en-main" class="lien-fleche" data-libelle="Prise en main">La prise en main</a>
+      </p>
+    </div>
+    <div class="industrie-encart" data-anime>
+      <h2 class="h3">Machines <em>industrielles</em></h2>
+      <p>Pascal distribue aussi des machines industrielles Brother, Dürkopp-Adler, Global, Pfaff et Juki, et en assure le suivi, l&#39;entretien, les réglages et la réparation. Le lundi et le mardi, il se déplace sur site.</p>
+      <a href="/contact?sujet=atelier#demande" class="lien-fleche" data-libelle="Contact">En parler à Pascal</a>
+    </div>
+  </div>
+</section>
+<section class="fin fond-nuit" id="fin">
+  <div class="conteneur fin-cadre">
+    <svg class="fin-couture" viewBox="0 0 1000 400" preserveAspectRatio="none" aria-hidden="true" data-superpose data-visuel data-fx="trace" data-effet="couture-appel"><rect x="8" y="8" width="984" height="384" rx="28" data-fx-trait/></svg>
+    <h2 data-anime="lignes">Venez l'essayer <em>avant de choisir</em>.</h2>
+    <p data-anime>Essais et démonstrations en boutique, du mercredi au samedi.</p>
+    <p class="ouv-actions fin-actions" data-anime>
+      <a href="/contact?sujet=essai#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Préparer ma visite</a>
+      <a class="bouton bouton--contour" href="tel:+33297612012">Appeler 02 97 61 20 12</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-nom"><img class="pied-logo" src="/assets/images/logo-carre.webp" alt="" width="240" height="240" loading="lazy">E-maginacoudre</p>
+      <p>4 rue Alain-René Lesage, 56000 Vannes<br><a href="tel:+33297612012">02 97 61 20 12</a><br><a href="mailto:emaginacoudre@orange.fr">emaginacoudre@orange.fr</a></p>
+      <p><a href="https://www.google.com/maps/search/?api=1&amp;query=4+rue+Alain-Ren%C3%A9+Lesage+56000+Vannes" target="_blank" rel="noopener">Itinéraire<span class="visuellement-cache"> (nouvel onglet)</span></a> · <a href="https://www.facebook.com/E-maginacoudre-1594245230788176/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a> · <a href="https://www.google.com/search?q=E-maginacoudre+Vannes+avis" target="_blank" rel="noopener">Laisser un avis Google<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/machines" data-libelle="Machines" aria-current="page">Machines</a></li><li><a href="/atelier" data-libelle="Atelier">Atelier</a></li><li><a href="/prise-en-main" data-libelle="Prise en main">Prise en main</a></li><li><a href="/la-maison" data-libelle="La maison">La maison</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">La boutique</p>
+      <p>Du mercredi au samedi, 9 h 30-12 h 30 et 14 h-18 h 30.</p>
+      <p class="pied-note">Hors congés. Lundi et mardi, la boutique est fermée : Pascal se consacre à l&#39;atelier.</p>
+      <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : les formulaires sont simulés, rien n&#39;est envoyé.</p><p>© E-maginacoudre</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33297612012">Appeler</a>
+  <a class="bouton" href="/contact?sujet=essai#demande" data-libelle="Contact">Venir essayer</a>
+</div>
+</body>
+</html>

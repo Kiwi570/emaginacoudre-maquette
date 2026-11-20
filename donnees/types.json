@@ -1,0 +1,32 @@
+{
+ "coudre": {
+  "nom": "Machines à coudre",
+  "court": "Machine à coudre",
+  "point": "Point droit et zigzag",
+  "usage": "Assembler, ourler, repriser : les coutures de tous les jours, du coton léger au jean."
+ },
+ "brodeuse": {
+  "nom": "Coudre-brodeuses",
+  "court": "Coudre-brodeuse",
+  "point": "Motifs brodés",
+  "usage": "Elle coud, puis elle brode : motifs, monogrammes et prénoms, directement sur le tissu."
+ },
+ "surjeteuse": {
+  "nom": "Surjeteuses",
+  "court": "Surjeteuse",
+  "point": "Le surjet",
+  "usage": "Elle assemble, coupe et surfile le bord en un seul passage : des finitions nettes, même sur le jersey."
+ },
+ "recouvreuse": {
+  "nom": "Recouvreuses",
+  "court": "Recouvreuse",
+  "point": "Le recouvrement",
+  "usage": "Des ourlets souples et nets sur les tissus extensibles, comme sur un tee-shirt du commerce."
+ },
+ "combinee": {
+  "nom": "Combinées",
+  "court": "Combinée surjeteuse-recouvreuse",
+  "point": "Surjet et recouvrement",
+  "usage": "Le surjet et le recouvrement dans une seule machine, pour qui coud beaucoup de maille."
+ }
+}

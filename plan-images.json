@@ -1,0 +1,504 @@
+[
+ {
+  "source": "recu/logo-entete.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "E-maginacoudre"
+ },
+ {
+  "source": "recu/aide-prise-main-emaginacoudre.jpg",
+  "nom": "michele",
+  "role": "portrait",
+  "ratio": "4:5",
+  "beaute": 3,
+  "cadrage": [
+   52,
+   42
+  ],
+  "alt": "Michèle, qui conseille et forme à la boutique"
+ },
+ {
+  "source": "recu/service-apres-vente-c.jpg",
+  "nom": "pascal",
+  "role": "portrait",
+  "ratio": "4:5",
+  "beaute": 3,
+  "alt": "Pascal au travail sur une machine, à l'atelier"
+ },
+ {
+  "source": "recu/operation-maintenance-coeur-ouvert.jpg",
+  "nom": "atelier-coeur",
+  "role": "galerie",
+  "ratio": "4:5",
+  "beaute": 3,
+  "alt": "Une machine à coudre entièrement ouverte pendant une révision"
+ },
+ {
+  "source": "recu/machine-coudre-ouverte-effectuer.jpg",
+  "nom": "atelier-ouverte",
+  "role": "galerie",
+  "ratio": "4:3",
+  "beaute": 3,
+  "alt": "Mécanisme d'une machine à coudre ouverte sur l'établi"
+ },
+ {
+  "source": "recu/depannage-machine-coudre-test.jpg",
+  "nom": "atelier-test",
+  "role": "galerie",
+  "ratio": "4:3",
+  "beaute": 3,
+  "alt": "Test électronique d'une machine en panne"
+ },
+ {
+  "source": "recu/emaginacoudre-vente-reparations-machines-11.jpg",
+  "nom": "boutique-interieur",
+  "role": "galerie",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "L'intérieur de la boutique : étagères de tissus, de créations et de mercerie"
+ },
+ {
+  "source": "recu/emaginacoudre-vente-reparations-machines-12.jpg",
+  "nom": "boutique-tissus",
+  "role": "galerie",
+  "ratio": "4:5",
+  "beaute": 4,
+  "alt": "Tissus fleuris en rouleaux, rouges, bleus et blancs"
+ },
+ {
+  "source": "recu/emaginacoudre-vente-reparations-machines-6.jpg",
+  "nom": "boutique-machine",
+  "role": "galerie",
+  "ratio": "4:5",
+  "beaute": 4,
+  "cadrage": [
+   45,
+   55
+  ],
+  "alt": "Une machine Brother allumée sur une table de la boutique"
+ },
+ {
+  "source": "recu/vitrine-emaginacoudre-vente-machine.jpg",
+  "nom": "boutique-vitrine",
+  "role": "galerie",
+  "ratio": "16:9",
+  "beaute": 3,
+  "alt": "La vitrine de la boutique E-maginacoudre, rue Alain-René Lesage à Vannes"
+ },
+ {
+  "source": "recu/emaginacoudre-vente-reparations-machines-4.jpg",
+  "nom": "creation-poupee",
+  "role": "galerie",
+  "ratio": "2:3",
+  "beaute": 4,
+  "alt": "Poupée en tissu posée sur les étagères de la boutique"
+ },
+ {
+  "source": "recu/emaginacoudre-vente-reparations-machines-5.jpg",
+  "nom": "creation-theiere",
+  "role": "galerie",
+  "ratio": "3:2",
+  "beaute": 4,
+  "alt": "Théière en tissu à pois rouges, cousue main"
+ },
+ {
+  "source": "recu/emaginacoudre-vente-reparations-machines-7.jpg",
+  "nom": "creation-sacs",
+  "role": "galerie",
+  "ratio": "3:2",
+  "beaute": 4,
+  "alt": "Sac cousu dans un tissu à fleurs, devant des coupons colorés"
+ },
+ {
+  "source": "recu/emaginacoudre-vente-reparations-machines-10.jpg",
+  "nom": "creation-poupee-pois",
+  "role": "galerie",
+  "ratio": "3:4",
+  "beaute": 4,
+  "alt": "Poupée à pois sur un fauteuil en osier, avec des coupons de tissu"
+ },
+ {
+  "source": "recu/brother-cs70s.jpg",
+  "nom": "machines/brother-cs70s",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Brother CS70s",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/brother-a16.jpg",
+  "nom": "machines/brother-a16",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Brother A16",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/brother-a65.png",
+  "nom": "machines/brother-a65",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Brother A65",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/brother-f400.jpg",
+  "nom": "machines/brother-f400",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Brother F400",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/brother-f410.jpg",
+  "nom": "machines/brother-f410",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Brother F410",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/innov-is-f480.jpg",
+  "nom": "machines/brother-f480",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Brother Innov-is F480",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/machines-coudre-brodeuses-emaginacoudre-2.jpg",
+  "nom": "machines/brother-v5",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Brother V5",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/machines-coudre-brodeuses-emaginacoudre-3.jpg",
+  "nom": "machines/brother-v7",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Brother V7",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/machines-coudre-brodeuses-emaginacoudre.jpg",
+  "nom": "machines/brother-xv",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Brother XV",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/surjeteuse-2104d-prix-catalogue.jpg",
+  "nom": "machines/brother-2104d",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Brother 2104D",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/3034dwt.jpg",
+  "nom": "machines/brother-3034dwt",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Brother 3034DWT",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/surjeteuse-2104d-prix-catalogue-2.jpg",
+  "nom": "machines/brother-4234d",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Brother 4234D",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/surjeteuse-enspire-prix-catalogue.jpg",
+  "nom": "machines/babylock-victory",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Babylock Victory",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/surjeteuse-enspire-prix-catalogue-2.jpg",
+  "nom": "machines/babylock-enlighten",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Babylock Enlighten",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/surjeteuse-enlighten-prix-catalogue.jpg",
+  "nom": "machines/babylock-acclaim",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Babylock Acclaim",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/recouvreuse-babylock-cover-stitch.jpg",
+  "nom": "machines/babylock-cover-stitch",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Babylock Cover Stitch",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/recouvruese-babylock-euphoria.jpg",
+  "nom": "machines/babylock-euphoria",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Babylock Euphoria",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/recouvreuse-babylock-primo.jpg",
+  "nom": "machines/babylock-primo",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Babylock Primo",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/aspire.png",
+  "nom": "machines/babylock-aspire",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Babylock Aspire",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/ovation.jpg",
+  "nom": "machines/babylock-ovation",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Babylock Ovation",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/gloria.jpg",
+  "nom": "machines/babylock-gloria",
+  "role": "produit",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Babylock Gloria",
+  "largeurs": [
+   480,
+   640,
+   960
+  ]
+ },
+ {
+  "source": "recu/grok/accueil-ouverture.jpg",
+  "nom": "grok/accueil-ouverture",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "mobile": "4:5",
+  "page": "Accueil",
+  "emplacement": "Ouverture : grande photo à droite du titre (ordinateur), sous le titre (téléphone)",
+  "priorite": "indispensable",
+  "alt": "Aiguille d'une machine à coudre piquant une couture framboise dans du lin",
+  "consigne_scene": "Extreme macro photograph of the needle and presser foot of a plain white unbranded domestic sewing machine, mid-stitch, sewing a straight seam of raspberry red thread across natural cream linen, the finished stitches running diagonally from the lower left corner up to the needle, polished steel catching the light, the machine body only a soft white blur at the top, no hands, no people, no text, no logo, no buttons or screen visible",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/atelier-ouverture.jpg",
+  "nom": "grok/atelier-ouverture",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "mobile": "4:5",
+  "page": "Atelier",
+  "emplacement": "Ouverture : photo pleine hauteur à gauche, texte sur fond bleu nuit à droite",
+  "priorite": "indispensable",
+  "alt": "Établi de réparation : tournevis de précision, boîtier de canette, canettes et petites pièces rangées",
+  "consigne_scene": "Top-down view of a tidy repair workbench covered with a deep night-blue cutting mat, precision tool kit with slim precision tools, fine tweezers, a small oil bottle, a soft cleaning brush, a metal bobbin case, three empty metal bobbins, a few tiny screws and two small brass gears laid out in neat parallel rows, one spool of raspberry red thread, careful and precise, no machine, no hands, no people, no text",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/prise-en-main-ouverture.jpg",
+  "source_mobile": "recu/grok/prise-en-main-ouverture-mobile.jpg",
+  "nom": "grok/prise-en-main-ouverture",
+  "role": "ouverture",
+  "ratio": "21:9",
+  "mobile": "4:5",
+  "page": "Prise en main",
+  "emplacement": "Ouverture : grand bandeau photo sous le titre",
+  "priorite": "indispensable",
+  "zone_texte": "haut",
+  "alt": "Table de cours : bobine framboise, aiguille enfilée, mètre-ruban et essai de points sur coton",
+  "consigne_scene": "Wide low-angle view across a pale oak table prepared for a sewing lesson: a spool of raspberry red thread, a threaded hand needle resting on a pincushion, a seam ripper, a loosely coiled cream tape measure, and a square of cream cotton showing a few rows of practice stitches, objects gathered in the lower half and spread along the width, upper part soft and empty, no hands, no people, no machine, no text",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/la-maison-ouverture.jpg",
+  "source_mobile": "recu/grok/la-maison-ouverture-mobile.jpg",
+  "nom": "grok/la-maison-ouverture",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "page": "La maison",
+  "emplacement": "Ouverture plein cadre, grand chiffre posé à gauche",
+  "priorite": "indispensable",
+  "zone_texte": "gauche",
+  "alt": "Outils de couture anciens et récents posés sur du lin : bobines en bois, craie de tailleur, ciseaux, épingles",
+  "consigne_scene": "Wide top-down view of old and new sewing tools on smooth natural linen: wooden spools of thread in cream, navy and raspberry, a piece of tailor's chalk, a pair of steel tailor's shears, a cream tape measure, a small pincushion with pins, all gathered in the right third of the frame, the left two thirds smooth empty linen with a gentle fold, no hands, no people, no machine, no text",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/contact-ouverture.jpg",
+  "nom": "grok/contact-ouverture",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "mobile": "4:5",
+  "page": "Contact",
+  "emplacement": "Ouverture : bandeau photo vertical à droite de la carte de visite",
+  "priorite": "indispensable",
+  "alt": "Présentoir mural de bobines de fil, du crème au bleu nuit et au framboise",
+  "consigne_scene": "A wooden wall rack of plain unbranded thread spools in neat rows, mostly cream, linen, navy and raspberry tones with a few softer colours, seen slightly from the side, warm afternoon light from the left, shallow depth of field, no labels, no lettering, no price tags, no hands, no people",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/404.jpg",
+  "nom": "grok/404",
+  "role": "404",
+  "ratio": "16:9",
+  "mobile": "4:5",
+  "page": "404",
+  "emplacement": "En-tête de la page introuvable",
+  "priorite": "indispensable",
+  "zone_texte": "gauche",
+  "alt": "Couture interrompue à mi-chemin, un fil qui pend et l'aiguille posée à côté",
+  "gabarit": "404",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/cours-couture.jpg",
+  "nom": "grok/cours-couture",
+  "role": "carte-service",
+  "ratio": "3:2",
+  "page": "Prise en main",
+  "emplacement": "Section Cours de couture",
+  "priorite": "conseillée",
+  "alt": "Table d'atelier de couture : patrons en papier, épingles, craie et pièces de coton coupées",
+  "consigne_scene": "Bright sewing classroom table seen from above: paper sewing patterns, pins, tailor's chalk, cut pieces of cream and navy cotton fabric, a cream tape measure, a pair of shears, arranged with generous empty space, no people, no hands, no machine, no text",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/duo-pascal.jpg",
+  "nom": "grok/duo-pascal",
+  "role": "portrait",
+  "ratio": "4:5",
+  "beaute": 4,
+  "alt": "Réglage d'un boîtier de canette avec un tournevis de précision"
+ },
+ {
+  "source": "recu/grok/duo-michele.jpg",
+  "nom": "grok/duo-michele",
+  "role": "portrait",
+  "ratio": "4:5",
+  "beaute": 4,
+  "alt": "Coupons de coton et de lin pliés, bobines assorties"
+ }
+]

@@ -1,0 +1,426 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Venir essayer",
+    "appeler": "Appeler",
+    "sommaire": "Le site",
+    "confort": "La boutique",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de démonstration : les formulaires sont simulés, rien n'est envoyé.",
+    "legal": "Mentions légales · Politique de confidentialité : à compléter",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Machines à coudre · Vannes",
+    "horairesCourts": "Du mercredi au samedi, 9 h 30-12 h 30 et 14 h-18 h 30",
+    "horairesNote": "Hors congés. Lundi et mardi, la boutique est fermée : Pascal se consacre à l'atelier.",
+    "itineraire": "Itinéraire",
+    "facebook": "Facebook",
+    "avis": "Laisser un avis Google",
+    "prixComprise": "prise en main comprise",
+    "prixBoutique": "Prix et démonstration en boutique",
+    "prixVendue": "en boutique",
+    "prixAuLieu": "au lieu de",
+    "prixCatalogue": "prix catalogue",
+    "essayer": "Demander un essai",
+    "nouvelOnglet": "(nouvel onglet)",
+    "jours": "Dimanche,Lundi,Mardi,Mercredi,Jeudi,Vendredi,Samedi"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "E-maginacoudre, machines à coudre à Vannes : vente, prise en main et réparation",
+      "description": "Michèle et Pascal, spécialistes des machines à coudre, brodeuses, surjeteuses et recouvreuses Brother et Babylock à Vannes : conseil, essais, prise en main et atelier de réparation toutes marques.",
+      "nav": "Accueil",
+      "partageAlt": "E-maginacoudre : coudre, broder, surjeter, et réparer. Machines à coudre à Vannes.",
+      "accroche": "Coudre, broder, surjeter. Et réparer."
+    },
+    "machines": {
+      "titre": "Les machines : Brother et Babylock, prix et essais en boutique · E-maginacoudre",
+      "description": "Machines à coudre, coudre-brodeuses, surjeteuses, recouvreuses et combinées Brother et Babylock, avec leurs prix et la prise en main comprise, à Vannes.",
+      "nav": "Machines",
+      "partageAlt": "Les machines Brother et Babylock d'E-maginacoudre, prise en main comprise",
+      "accroche": "22 machines Brother et Babylock, prise en main comprise"
+    },
+    "atelier": {
+      "titre": "Atelier de réparation de machines à coudre à Vannes : tarifs · E-maginacoudre",
+      "description": "Diagnostic gratuit en boutique, devis à 30 € déduit, entretien 75 €, révision 119 €, réparation 75 € de l'heure. Machines familiales et industrielles, toutes marques.",
+      "nav": "Atelier",
+      "partageAlt": "L'atelier de réparation d'E-maginacoudre : diagnostic gratuit, sous vos yeux",
+      "accroche": "Diagnostic gratuit, sous vos yeux"
+    },
+    "prise-en-main": {
+      "titre": "Prise en main et conseils pour votre machine à coudre · E-maginacoudre",
+      "description": "Conseil avant l'achat, formation sur votre nouvelle machine et aide à chaque retour en boutique : la prise en main avec Michèle est comprise.",
+      "nav": "Prise en main",
+      "partageAlt": "La prise en main avec Michèle, comprise dans le prix des machines",
+      "accroche": "Votre machine, et quelqu'un pour vous l'apprendre"
+    },
+    "la-maison": {
+      "titre": "La maison : Michèle et Pascal, 29 ans de machines à coudre · E-maginacoudre",
+      "description": "Depuis 1997 à Nogent-le-Rotrou, à Vannes depuis 2012 : l'histoire d'E-maginacoudre, ses marques et ses actualités.",
+      "nav": "La maison",
+      "partageAlt": "Michèle et Pascal, 29 ans de machines à coudre",
+      "accroche": "29 ans de machines à coudre"
+    },
+    "contact": {
+      "titre": "Contact et horaires de la boutique à Vannes · E-maginacoudre",
+      "description": "4 rue Alain-René Lesage à Vannes, 02 97 61 20 12. Ouvert du mercredi au samedi. Demande d'essai ou de passage à l'atelier.",
+      "nav": "Contact",
+      "partageAlt": "E-maginacoudre, 4 rue Alain-René Lesage à Vannes",
+      "accroche": "Passez à la boutique, 4 rue Alain-René Lesage à Vannes"
+    },
+    "404": {
+      "titre": "Page introuvable · E-maginacoudre",
+      "description": "Cette page a sauté un point.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Point sauté"
+    }
+  },
+  "statut": {
+    "ouvert": "Ouvert, jusqu'à {h}",
+    "pause": "Pause déjeuner, réouverture à {h}",
+    "aujourdhui": "Ouvre aujourd'hui à {h}",
+    "demain": "Ouvre demain à {h}",
+    "plusTard": "Ouvre {j} à {h}"
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Machines à coudre · Vannes, depuis 2012",
+      "titre1": "Coudre, broder, surjeter.",
+      "titre2": "Et réparer.",
+      "texte": "Michèle vous aide à choisir votre machine et vous apprend à vous en servir. Pascal entretient et répare toutes les marques, depuis 1997.",
+      "action": "Voir les machines",
+      "action2": "Faire réparer ma machine",
+      "adresse": "4 rue Alain-René Lesage, Vannes",
+      "alt": "Aiguille d'une machine à coudre piquant une couture framboise dans du lin"
+    },
+    "points": {
+      "titre": "Quelle machine pour <em>quoi</em> ?",
+      "texte": "Chaque machine a sa couture. Michèle vous aide à trouver la vôtre, avec essais et démonstrations en boutique avant d'acheter.",
+      "des": "dès",
+      "voir": "Voir les {n} modèles",
+      "combinee": "Et pour le surjet et le recouvrement dans une seule machine : les <a href=\"/machines?type=combinee#catalogue\">trois combinées Babylock</a>."
+    },
+    "vitrine": {
+      "titre": "En vitrine, <em>prise en main comprise</em>",
+      "texte": "Une sélection du catalogue Brother et Babylock. Michèle vous montre la machine et ses réglages avant de vous la confier.",
+      "tout": "Voir les 22 machines"
+    },
+    "duo": {
+      "titre": "Michèle conseille, <em>Pascal répare</em>",
+      "michele": "Michèle conseille et forme",
+      "micheleTexte": "Passionnée de broderie et de couture depuis toujours, elle vous conseille selon vos projets et votre budget, vous forme sur votre nouvelle machine et vous aide à chaque retour en boutique.",
+      "micheleLien": "La prise en main",
+      "pascal": "Pascal entretient et répare",
+      "pascalTexte": "Technicien en électronique et en micromécanique, vingt ans de recherche en microélectronique, puis les machines à coudre depuis 1997. Formé par Brother, Babylock, Pfaff, Janome et Bernina.",
+      "pascalLien": "L'atelier",
+      "micheleAlt": "Michèle, qui conseille et forme à la boutique",
+      "pascalAlt": "Pascal à l'établi de l'atelier"
+    },
+    "atelier": {
+      "surtitre": "SAV – Atelier",
+      "titre": "Diagnostic gratuit, <em>sous vos yeux</em>",
+      "texte": "Machines à coudre, brodeuses et surjeteuses, familiales ou industrielles. Vous apportez votre machine, Pascal regarde avec vous ce qui ne va pas.",
+      "plus": "Tout sur l'atelier",
+      "passer": "Préparer mon passage",
+      "alt": "Réglage d'un boîtier de canette avec un tournevis de précision",
+      "altEtabli": "Établi de réparation : tournevis de précision, boîtier de canette, canettes et petites pièces rangées"
+    },
+    "reperes": {
+      "label": "machines dépannées par Pascal : la 10 000ᵉ est passée sur son établi en 2025.",
+      "r1": "reprise d'un atelier de machines à coudre à Nogent-le-Rotrou",
+      "r2": "ouverture de la boutique de Vannes",
+      "r3": "marques japonaises dont la boutique est revendeur agréé : Brother et Babylock",
+      "titreMot": "machines <em>remises en route</em>",
+      "nombre": "10 000"
+    },
+    "boutique": {
+      "mot1": "La",
+      "mot2": "boutique",
+      "titre": "La boutique, <em>4 rue Alain-René Lesage</em>",
+      "texte": "Un lieu convivial, ludique et créatif, où l'on vient essayer, apprendre et faire réparer.",
+      "horaires": "Horaires",
+      "legende": "La vitrine de la boutique, à Vannes",
+      "alt": "L'intérieur de la boutique : étagères de tissus, de créations et de mercerie"
+    },
+    "fin": {
+      "titre": "Venez l'essayer <em>avant de choisir</em>.",
+      "texte": "Essais et démonstrations en boutique, du mercredi au samedi.",
+      "action": "Préparer ma visite"
+    }
+  },
+  "machines": {
+    "ouverture": {
+      "surtitre": "Brother et Babylock · revendeur agréé",
+      "titre": "{n} machines, <em>à essayer avant de choisir</em>.",
+      "texte": "Les prix du catalogue, la prise en main avec Michèle, et l'atelier de Pascal pour la suite.",
+      "info": "Prise en main comprise dans chaque prix affiché",
+      "region": "Quelques machines du catalogue"
+    },
+    "filtres": {
+      "titre": "Le catalogue",
+      "type": "Type de machine",
+      "marque": "Marque",
+      "toutes": "Toutes",
+      "resultat": "{n} machines affichées",
+      "resultat1": "1 machine affichée",
+      "aucune": "Aucune machine ne correspond à ce choix."
+    },
+    "prix": {
+      "titre": "Comment lire <em>les prix</em>",
+      "brother": "Brother",
+      "brotherTexte": "Le prix affiché est le prix catalogue, prise en main comprise. Vous emportez le carton sans prise en main : 10 % de moins.",
+      "babylock": "Babylock",
+      "babylockTexte": "Le prix catalogue est rappelé ; en boutique, la machine est vendue 10 % moins cher, prise en main comprise.",
+      "boutique": "Sans prix affiché",
+      "boutiqueTexte": "Les coudre-brodeuses et la recouvreuse Euphoria : le prix vous est donné en boutique, avec la démonstration."
+    },
+    "conseil": {
+      "titre": "Pas sûr de <em>votre choix</em> ?",
+      "texte": "Dites à Michèle ce que vous voulez coudre et quel est votre budget : elle vous conseille et vous fait essayer les machines en boutique.",
+      "action": "Préparer ma visite",
+      "lien": "La prise en main",
+      "alt": "Coupons de coton et de lin pliés, bobines assorties"
+    },
+    "industrie": {
+      "titre": "Machines <em>industrielles</em>",
+      "texte": "Pascal distribue aussi des machines industrielles Brother, Dürkopp-Adler, Global, Pfaff et Juki, et en assure le suivi, l'entretien, les réglages et la réparation. Le lundi et le mardi, il se déplace sur site.",
+      "action": "En parler à Pascal"
+    }
+  },
+  "atelier": {
+    "ouverture": {
+      "surtitre": "SAV – Atelier · le domaine de Pascal",
+      "titre": "Diagnostic gratuit, <em>sous vos yeux</em>.",
+      "texte": "Machines à coudre, brodeuses et surjeteuses, familiales ou industrielles, de toutes marques. Vous apportez votre machine en boutique, Pascal cherche la panne devant vous.",
+      "prix": "0 €",
+      "prixLabel": "le diagnostic, en boutique",
+      "action": "Préparer mon passage",
+      "action2": "Voir les tarifs"
+    },
+    "deroule": {
+      "titre": "Trois étapes, <em>pas de surprise</em>",
+      "e1": "Le diagnostic",
+      "e1t": "En boutique, sous vos yeux, et gratuit : Pascal trouve ce qui cloche avant de toucher à quoi que ce soit.",
+      "e2": "Le devis, si vous le voulez",
+      "e2t": "30 €, déduits du montant de la réparation si vous acceptez le devis.",
+      "e3": "L'entretien, la révision ou la réparation",
+      "e3t": "En atelier, aux tarifs affichés ci-dessous."
+    },
+    "tarifs": {
+      "titre": "Les tarifs <em>de l'atelier</em>",
+      "texte": "Choisissez une prestation : elle s'ajoute à votre demande de passage.",
+      "choisir": "Choisir",
+      "choisi": "Choisi",
+      "recap": "Votre passage",
+      "recapVide": "Aucune prestation choisie : le diagnostic en boutique reste gratuit.",
+      "action": "Préparer mon passage",
+      "diagnostic": "Diagnostic",
+      "diagnosticPrix": "Gratuit",
+      "diagnosticTexte": "En boutique, sous vos yeux.",
+      "devis": "Devis",
+      "devisPrix": "30 €",
+      "devisTexte": "Déduit du montant de la réparation si vous l'acceptez.",
+      "entretien": "Entretien",
+      "entretienPrix": "75 €",
+      "entretienTexte": "Nettoyage des parties accessibles, lubrification des mécanismes les plus sollicités, essai de couture.",
+      "revision": "Révision",
+      "revisionPrix": "119 €",
+      "revisionTexte": "Forfait machines électroniques : la machine est entièrement ouverte, nettoyée, lubrifiée, puis re-réglée aux réglages d'usine.",
+      "reparation": "Réparation",
+      "reparationPrix": "75 € / heure",
+      "reparationTexte": "Main-d'œuvre en atelier : intervention mécanique ou électronique, parfois avec remplacement de pièces."
+    },
+    "revision": {
+      "titre": "Une révision, <em>à cœur ouvert</em>",
+      "texte": "Pour les machines électroniques, la révision est un forfait de 119 €. Pascal ne se contente pas des parties visibles :",
+      "l1": "la machine est entièrement ouverte ;",
+      "l2": "elle est nettoyée et lubrifiée selon les préconisations du fabricant ;",
+      "l3": "elle est re-réglée aux réglages d'usine ;",
+      "alt": "Machine ouverte pendant une révision à l'atelier",
+      "alt1": "Une machine à coudre entièrement ouverte pendant une révision",
+      "alt2": "Mécanisme d'une machine à coudre ouverte sur l'établi",
+      "legende1": "Révision à cœur ouvert",
+      "legende2": "Nettoyage et réglages"
+    },
+    "industrie": {
+      "titre": "Familiales <em>et industrielles</em>",
+      "texte": "Pascal suit aussi les machines industrielles Brother, Dürkopp-Adler, Global, Pfaff et Juki : entretien, réglages, réparation. Le lundi et le mardi, la boutique est fermée : ce sont ses journées d'atelier et de déplacements sur site.",
+      "compteur": "machines dépannées : la 10 000ᵉ en 2025",
+      "alt": "Test électronique d'une machine en panne, à l'atelier"
+    },
+    "fin": {
+      "titre": "Une machine qui <em>coince</em> ?",
+      "texte": "Apportez-la du mercredi au samedi : le diagnostic se fait devant vous.",
+      "action": "Préparer mon passage"
+    }
+  },
+  "priseEnMain": {
+    "ouverture": {
+      "surtitre": "Prise en main · le domaine de Michèle",
+      "titre": "Votre machine, <em>et quelqu'un pour vous l'apprendre</em>.",
+      "texte": "La prise en main est comprise dans le prix des machines : Michèle vous forme sur celle que vous avez choisie, puis vous aide chaque fois que vous revenez avec une question.",
+      "info": "Comprise dans le prix de chaque machine",
+      "action": "Préparer ma visite",
+      "action2": "Voir les machines",
+      "alt": "Table de cours : bobine framboise, aiguille enfilée, mètre-ruban et essai de points sur coton"
+    },
+    "temps": {
+      "titre": "Avant, pendant, <em>après</em>",
+      "t1": "Avant l'achat",
+      "t1t": "Michèle vous conseille selon vos attentes, vos projets et votre budget, et vous fait essayer les machines.",
+      "t2": "À l'achat",
+      "t2t": "Elle vous forme sur la machine choisie : machine à coudre, surjeteuse ou brodeuse.",
+      "t3": "Après",
+      "t3t": "Revenez avec vos questions, autant de fois que nécessaire : elle vous aide sur le point précis qui vous bloque.",
+      "citation": "Je les assiste lorsqu'elles reviennent au magasin avec des questions.",
+      "auteur": "Michèle"
+    },
+    "cours": {
+      "titre": "Des cours <em>de couture</em>",
+      "texte": "Pour aller plus loin, des cours de couture sont mis en place et assurés par Camille.",
+      "lien": "Le site de Camille : camcoutureclub.com",
+      "alt": "Table d'atelier de couture : patrons en papier, épingles, craie et pièces de coton coupées"
+    },
+    "questions": {
+      "titre": "Vos <em>questions</em>",
+      "q1": "La prise en main est-elle comprise ?",
+      "r1": "Oui : les prix affichés comprennent la prise en main avec Michèle. Pour une machine Brother emportée en carton, sans prise en main, comptez 10 % de moins.",
+      "q2": "Puis-je revenir si j'ai oublié un réglage ?",
+      "r2": "Oui, autant de fois que nécessaire : Michèle vous aide sur le point précis qui vous bloque.",
+      "q3": "Et si ma machine coince après une mauvaise manipulation ?",
+      "r3": "Michèle vous aide à corriger le problème. Si la machine a besoin de l'atelier, Pascal fait le diagnostic en boutique, gratuitement.",
+      "q4": "Michèle conseille-t-elle aussi sur les tissus et les fils ?",
+      "r4": "Oui : elle vous conseille les tissus et les fils adaptés à vos projets créatifs."
+    },
+    "fin": {
+      "titre": "On commence <em>par un essai</em> ?",
+      "texte": "Du mercredi au samedi, Michèle vous montre les machines qui correspondent à vos projets.",
+      "action": "Préparer ma visite"
+    }
+  },
+  "maison": {
+    "ouverture": {
+      "surtitre": "Michèle et Pascal Zimmer",
+      "nombre": "29",
+      "titre": "ans de machines <em>à coudre</em>.",
+      "texte": "Michèle conseille et forme, Pascal entretient et répare : un couple de spécialistes, revendeur agréé Brother et Babylock, à Vannes depuis 2012.",
+      "action": "Venir à la boutique",
+      "info": "Depuis 1997, à Vannes depuis 2012",
+      "alt": "Outils de couture sur du lin : bobines, craie de tailleur, ciseaux et épingles"
+    },
+    "histoire": {
+      "titre": "De la microélectronique <em>à la boutique</em>",
+      "avant": "Avant",
+      "avantT": "Pascal passe une vingtaine d'années dans la recherche et la microélectronique, notamment au CNET à Meylan.",
+      "a1997": "Il reprend une entreprise de machines à coudre à Nogent-le-Rotrou, en Eure-et-Loir.",
+      "a2012": "Michèle et Pascal créent E-maginacoudre et ouvrent la boutique de Vannes.",
+      "a2025": "Pascal dépanne sa 10 000ᵉ machine."
+    },
+    "equipe": {
+      "titre": "Deux métiers, <em>une boutique</em>",
+      "michele": "Michèle",
+      "micheleRole": "Conseil et prise en main",
+      "micheleTexte": "Passionnée de broderie et de couture depuis toujours, elle forme les clientes et les clients sur leur nouvelle machine et les conseille sur les tissus et les fils adaptés à leurs projets.",
+      "pascal": "Pascal",
+      "pascalRole": "SAV et atelier",
+      "pascalTexte": "Technicien supérieur en électronique et en micromécanique, il entretient et répare machines à coudre, brodeuses et surjeteuses de toutes marques, et vous conseille sur les machines et les accessoires."
+    },
+    "marques": {
+      "titre": "Les marques <em>de la maison</em>",
+      "agree": "Revendeur et agent agréé",
+      "agreeT": "Brother et Babylock, deux marques japonaises.",
+      "forme": "Formés par",
+      "formeT": "les services techniques de Brother, Babylock, Pfaff, Janome et Bernina.",
+      "industrie": "Machines industrielles",
+      "industrieT": "Brother, Dürkopp-Adler, Global, Pfaff et Juki : distribution, suivi, réglages et réparation.",
+      "ruban": "Brother · Babylock · Pfaff · Janome · Bernina · Juki · Dürkopp-Adler · Global ·"
+    },
+    "actus": {
+      "titre": "Les <em>actualités</em>",
+      "n1": "Nouveaux horaires",
+      "n1t": "La boutique est désormais fermée le lundi et le mardi, deux jours consacrés au SAV : réparations et déplacements sur site pour les machines industrielles.",
+      "n2": "La 10 000ᵉ machine",
+      "n2t": "2025 a vu le dépannage de la 10 000ᵉ machine par Pascal.",
+      "n3": "Cours de couture",
+      "n3t": "Des cours de couture sont mis en place et assurés par Camille (camcoutureclub.com).",
+      "n4": "À savoir : Babylock",
+      "n4t": "La marque japonaise des surjeteuses et des recouvreuses, en quelques dates."
+    },
+    "babylock": {
+      "d1950": "Création de Babylock, au Japon.",
+      "d1963": "Koichi Sakuma crée la première machine portative.",
+      "d1968": "Babylock commercialise cette machine.",
+      "d1993": "Invention de l'enfilage automatique à jet d'air, « JetAir ».",
+      "d2001": "Sortie de la BLCS, première recouvreuse Babylock.",
+      "d2004": "Sortie de l'Imagine Wave.",
+      "d2024": "Sortie de la Primo, recouvreuse à pied oscillant qui coud deux fils décoratifs sur le dessus du recouvrement."
+    },
+    "fin": {
+      "titre": "Passez <em>nous voir</em>.",
+      "texte": "4 rue Alain-René Lesage à Vannes, du mercredi au samedi.",
+      "action": "Préparer ma visite"
+    },
+    "vitrine": {
+      "lien": "Les horaires de la boutique"
+    },
+    "mosaique": {
+      "titre": "Dans <em>la boutique</em>",
+      "texte": "Un lieu convivial, ludique et créatif : quelques images de la boutique et des créations qu'on y croise."
+    }
+  },
+  "contact": {
+    "ouverture": {
+      "surtitre": "Contact",
+      "titre": "Passez <em>à la boutique</em>.",
+      "adresseLabel": "Adresse",
+      "telLabel": "Téléphone",
+      "emailLabel": "E-mail",
+      "action": "Préparer ma visite",
+      "alt": "Présentoir mural de bobines de fil, du crème au bleu nuit et au framboise"
+    },
+    "demande": {
+      "titre": "Préparer <em>votre visite</em>",
+      "texte": "Dites-nous ce qui vous amène : Michèle ou Pascal vous rappelle pour fixer le moment qui vous convient.",
+      "simule": "Formulaire de démonstration : rien n'est envoyé.",
+      "sujet": "Vous venez pour",
+      "sujetEssai": "Essayer une machine",
+      "sujetAtelier": "Faire réparer ou entretenir ma machine",
+      "sujetPriseEnMain": "Une question sur ma machine",
+      "sujetAutre": "Autre chose",
+      "machine": "Machine",
+      "machineAucune": "Je ne sais pas encore",
+      "prestation": "Prestation",
+      "prestationDiagnostic": "Diagnostic (gratuit)",
+      "prestationEntretien": "Entretien (75 €)",
+      "prestationRevision": "Révision (119 €)",
+      "prestationReparation": "Réparation (75 € / heure)",
+      "nom": "Nom",
+      "tel": "Téléphone",
+      "email": "E-mail",
+      "message": "Votre message",
+      "envoyer": "Envoyer la demande",
+      "donnees": "Vos coordonnées servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.",
+      "recap": "Votre demande",
+      "recapEssai": "Essai en boutique",
+      "recapAtelier": "Passage à l'atelier",
+      "recapPriseEnMain": "Question à Michèle",
+      "recapAutre": "Autre demande"
+    },
+    "horaires": {
+      "titre": "Les <em>horaires</em>",
+      "aujourdhui": "aujourd'hui"
+    }
+  },
+  "introuvable": {
+    "titre": "Point <em>sauté</em>.",
+    "texte": "Cette page a perdu le fil. Reprenons depuis l'accueil, ou allez droit aux machines.",
+    "retour": "Revenir à l'accueil",
+    "alt": "Couture interrompue à mi-chemin, un fil qui pend et l'aiguille posée à côté"
+  }
+}
