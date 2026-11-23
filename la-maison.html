@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/instrument-serif-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/figtree-variable.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#FBF8F3">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -127,10 +127,22 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <div class="frise">
       <svg class="frise-fil" viewBox="0 0 40 1000" preserveAspectRatio="none" aria-hidden="true" data-visuel data-fx="trace" data-effet="frise-cousue"><path d="M20 0 C 4 200, 36 300, 20 500 S 4 800, 20 1000" data-fx-trait/></svg>
       <ol class="frise-liste" data-anime="cascade">
-        <li><strong>Avant</strong><p>Pascal passe une vingtaine d&#39;années dans la recherche et la microélectronique, notamment au CNET à Meylan.</p></li>
-        <li><strong>1997</strong><p>Il reprend une entreprise de machines à coudre à Nogent-le-Rotrou, en Eure-et-Loir.</p></li>
-        <li><strong>2012</strong><p>Michèle et Pascal créent E-maginacoudre et ouvrent la boutique de Vannes.</p></li>
-        <li><strong>2025</strong><p>Pascal dépanne sa 10 000ᵉ machine.</p></li>
+        <li><strong>Avant</strong><p>Pascal passe une vingtaine d&#39;années dans la recherche et la microélectronique, notamment au CNET à Meylan.</p><svg class="frise-picto" viewBox="0 0 120 90" aria-hidden="true" data-visuel><rect x="20" y="20" width="80" height="50" rx="6"/><path d="M36 20 v-10 M52 20 v-10 M68 20 v-10 M84 20 v-10 M36 70 v10 M52 70 v10 M68 70 v10 M84 70 v10 M20 36 h-10 M20 54 h-10 M100 36 h10 M100 54 h10"/><rect x="40" y="34" width="40" height="22" rx="3"/></svg></li>
+        <li><strong>1997</strong><p>Il reprend une entreprise de machines à coudre à Nogent-le-Rotrou, en Eure-et-Loir.</p><figure class="media frise-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/atelier-test-960.webp" srcset="/assets/images/atelier-test-480.webp 480w, /assets/images/atelier-test-640.webp 640w, /assets/images/atelier-test-960.webp 960w" sizes="200px" alt="Test électronique d&#39;une machine en panne, à l&#39;atelier" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure></li>
+        <li><strong>2012</strong><p>Michèle et Pascal créent E-maginacoudre et ouvrent la boutique de Vannes.</p><figure class="media frise-media" style="--cadrage:45% 50%">
+  <picture>
+    <img src="/assets/images/boutique-vitrine-960.webp" srcset="/assets/images/boutique-vitrine-480.webp 480w, /assets/images/boutique-vitrine-640.webp 640w, /assets/images/boutique-vitrine-960.webp 960w" sizes="200px" alt="La vitrine de la boutique, à Vannes" width="960" height="540" loading="lazy" decoding="async">
+  </picture>
+</figure></li>
+        <li><strong>2025</strong><p>Pascal dépanne sa 10 000ᵉ machine.</p><figure class="media frise-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/atelier-coeur-640.webp" srcset="/assets/images/atelier-coeur-480.webp 480w, /assets/images/atelier-coeur-640.webp 640w" sizes="200px" alt="Une machine à coudre entièrement ouverte pendant une révision" width="640" height="801" loading="lazy" decoding="async">
+  </picture>
+</figure></li>
       </ol>
     </div>
   </div>
@@ -140,18 +152,18 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <h2 data-anime="lignes">Deux métiers, <em>une boutique</em></h2>
     <div class="equipe-grille" data-anime="cascade">
       <article class="personne">
-        <figure class="media personne-media" style="--cadrage:50% 35%">
+        <figure class="media personne-media" style="--cadrage:50% 28%">
   <picture>
-    <img src="/assets/images/michele-784.webp" srcset="/assets/images/michele-480.webp 480w, /assets/images/michele-640.webp 640w, /assets/images/michele-784.webp 784w" sizes="(max-width: 760px) 100vw, 40vw" alt="Michèle, qui conseille et forme à la boutique" width="784" height="980" loading="lazy" decoding="async">
+    <img src="/assets/images/michele-784.webp" srcset="/assets/images/michele-480.webp 480w, /assets/images/michele-640.webp 640w, /assets/images/michele-784.webp 784w" sizes="(max-width: 760px) 70vw, 24vw" alt="Michèle, qui conseille et forme à la boutique" width="784" height="980" loading="lazy" decoding="async">
   </picture>
 </figure>
         <p class="surtitre">Conseil et prise en main</p>
         <h3>Michèle</h3>
         <p>Passionnée de broderie et de couture depuis toujours, elle forme les clientes et les clients sur leur nouvelle machine et les conseille sur les tissus et les fils adaptés à leurs projets.</p>
       </article><article class="personne">
-        <figure class="media personne-media" style="--cadrage:50% 35%">
+        <figure class="media personne-media" style="--cadrage:50% 45%">
   <picture>
-    <img src="/assets/images/pascal-784.webp" srcset="/assets/images/pascal-480.webp 480w, /assets/images/pascal-640.webp 640w, /assets/images/pascal-784.webp 784w" sizes="(max-width: 760px) 100vw, 40vw" alt="Pascal à l&#39;établi de l&#39;atelier" width="784" height="981" loading="lazy" decoding="async">
+    <img src="/assets/images/pascal-784.webp" srcset="/assets/images/pascal-480.webp 480w, /assets/images/pascal-640.webp 640w, /assets/images/pascal-784.webp 784w" sizes="(max-width: 760px) 70vw, 24vw" alt="Pascal à l&#39;établi de l&#39;atelier" width="784" height="981" loading="lazy" decoding="async">
   </picture>
 </figure>
         <p class="surtitre">SAV et atelier</p>
@@ -238,8 +250,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="fin fond-nuit" id="fin">
+  <div class="fin-coupons" aria-hidden="true" data-visuel data-effet="coupons"><span class="coupon coupon--pois coupon--1"></span><span class="coupon coupon--vichy coupon--2"></span><span class="coupon coupon--rayures coupon--3"></span><span class="coupon coupon--fleurs coupon--4"></span><span class="coupon coupon--pois-jaune coupon--5"></span><span class="coupon coupon--chevrons coupon--6"></span></div>
   <div class="conteneur fin-cadre">
-    <svg class="fin-couture" viewBox="0 0 1000 400" preserveAspectRatio="none" aria-hidden="true" data-superpose data-visuel data-fx="trace" data-effet="couture-appel"><rect x="8" y="8" width="984" height="384" rx="28" data-fx-trait/></svg>
+    <div class="fin-bord" aria-hidden="true" data-superpose data-effet="couture-appel"></div>
     <h2 data-anime="lignes">Passez <em>nous voir</em>.</h2>
     <p data-anime>4 rue Alain-René Lesage à Vannes, du mercredi au samedi.</p>
     <p class="ouv-actions fin-actions" data-anime>

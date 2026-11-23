@@ -21,7 +21,7 @@ export default (c) => html`
       <p class="ouv-pem-texte">${c.t('priseEnMain.ouverture.texte')}</p>
     </div>
   </div>
-  ${c.media({ nom: 'grok/prise-en-main-ouverture', alt: c.s('priseEnMain.ouverture.alt'), cadrage: '50% 78%', priorite: true, classe: 'ouv-pem-media', sizes: '100vw', attrs: 'data-iris-centre data-effet="bandeau-devoile"' })}
+  ${c.media({ nom: 'grok/prise-en-main-ouverture', alt: c.s('priseEnMain.ouverture.alt'), cadrage: '50% 92%', priorite: true, classe: 'ouv-pem-media', sizes: '100vw', attrs: 'data-iris-centre data-effet="bandeau-devoile"' })}
 </section>
 
 <section class="temps" id="avant-pendant-apres">

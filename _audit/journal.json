@@ -94,6 +94,52 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Construction menée pendant les attentes (socle, données, pages) avec des visuels provisoires."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1.1",
+      "perimetre": [
+        "accueil",
+        "machines",
+        "atelier",
+        "prise-en-main",
+        "la-maison",
+        "contact",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse de toutes les pages et améliorations",
+          "budget": 40,
+          "debut": "2026-11-23T15:01:00+01:00",
+          "fin": "2026-11-23T15:11:00+01:00"
+        },
+        {
+          "etape": "audit complet et corrections",
+          "budget": 50,
+          "debut": "2026-11-23T15:11:00+01:00",
+          "fin": "2026-11-23T15:52:00+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-23T15:52:00+01:00",
+          "fin": "2026-11-23T15:56:00+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [],
+      "audit": {
+        "niveau": "complet",
+        "echecsPremierPassage": 3,
+        "relances": 2,
+        "corrections": [
+          "volets Michèle et Pascal : texte coupé pendant l'animation (passage à un mouvement vertical, sans découpe)",
+          "atelier : pictogrammes tracés sortis d'une cascade (positions décalées après le choix d'un tarif), récapitulatif de hauteur fixe"
+        ]
+      },
+      "notes": "Passe finale demandée par l'utilisateur."
     }
   ]
 }

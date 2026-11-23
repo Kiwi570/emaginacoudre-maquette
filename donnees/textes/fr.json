@@ -28,7 +28,8 @@
     "prixCatalogue": "prix catalogue",
     "essayer": "Demander un essai",
     "nouvelOnglet": "(nouvel onglet)",
-    "jours": "Dimanche,Lundi,Mardi,Mercredi,Jeudi,Vendredi,Samedi"
+    "jours": "Dimanche,Lundi,Mardi,Mercredi,Jeudi,Vendredi,Samedi",
+    "essayerCourt": "Essayer"
   },
   "pages": {
     "accueil": {
@@ -101,10 +102,13 @@
     },
     "points": {
       "titre": "Quelle machine pour <em>quoi</em> ?",
-      "texte": "Chaque machine a sa couture. Michèle vous aide à trouver la vôtre, avec essais et démonstrations en boutique avant d'acheter.",
+      "texte": "Chaque machine a sa couture : choisissez-en une et regardez-la se piquer. Michèle vous aide à trouver la vôtre, avec essais et démonstrations en boutique avant d'acheter.",
       "des": "dès",
       "voir": "Voir les {n} modèles",
-      "combinee": "Et pour le surjet et le recouvrement dans une seule machine : les <a href=\"/machines?type=combinee#catalogue\">trois combinées Babylock</a>."
+      "combinee": "Et pour le surjet et le recouvrement dans une seule machine : les <a href=\"/machines?type=combinee#catalogue\">trois combinées Babylock</a>.",
+      "essayer": "Voir le point",
+      "bancAria": "Bande de tissu où se coud le point de la machine choisie",
+      "bancDefaut": "Point droit et zigzag · Machine à coudre"
     },
     "vitrine": {
       "titre": "En vitrine, <em>prise en main comprise</em>",
@@ -152,6 +156,13 @@
       "titre": "Venez l'essayer <em>avant de choisir</em>.",
       "texte": "Essais et démonstrations en boutique, du mercredi au samedi.",
       "action": "Préparer ma visite"
+    },
+    "entrez": {
+      "mot1": "Poussez",
+      "mot2": "la porte.",
+      "titre": "Une boutique <em>à toucher du doigt</em>",
+      "texte": "Des machines à essayer, des tissus et des créations sur les étagères : la boutique de Vannes se veut conviviale, ludique et créative.",
+      "alt": "L'intérieur de la boutique : étagères de tissus, de créations et de mercerie"
     }
   },
   "machines": {

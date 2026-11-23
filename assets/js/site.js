@@ -3,7 +3,7 @@
    Effets du plan : couture de l'intro, duo-volets, dix-mille (bobine), ruban-machines, capot, bandeau-devoile,
    vingt-neuf, carte-visite ; plus le statut d'ouverture en direct, les filtres du catalogue, le choix des tarifs
    et la demande préremplie. */
-import { demarrer, versObjet, quand } from './socle/index.js?v=1';
+import { demarrer, versObjet, quand } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -64,7 +64,7 @@ function statuts() {
 function catalogue() {
   const grille = $('[data-catalogue]');
   if (!grille) return;
-  const items = $$(':scope > li', grille), compte = $('[data-compte]'), vide = $('[data-catalogue-vide]');
+  const items = $$('li[data-type]', grille), groupes = $$('[data-groupe]', grille), compte = $('[data-compte]'), vide = $('[data-catalogue-vide]');
   const params = new URLSearchParams(location.search);
   let type = params.get('type') || '', marque = params.get('marque') || '';
   const appliquer = (anime) => {
@@ -74,6 +74,11 @@ function catalogue() {
         const ok = (!type || li.dataset.type === type) && (!marque || li.dataset.marque === marque);
         li.classList.toggle('est-cache', !ok);
         if (ok) n++;
+      });
+      groupes.forEach((g) => {
+        const k = $$('li[data-type]', g).filter((li) => !li.classList.contains('est-cache')).length;
+        g.hidden = k === 0;
+        const gc = $('[data-groupe-compte]', g); if (gc) gc.textContent = k;
       });
       if (compte) compte.textContent = n === 1 ? compte.dataset.modele1 : compte.dataset.modele.replace('{n}', n);
       if (vide) vide.hidden = n > 0;
@@ -133,6 +138,7 @@ function tarifs() {
         base.searchParams.delete('prestation');
       }
       lien.href = base.pathname + base.search + base.hash;
+      requestAnimationFrame(() => window.ScrollTrigger && window.ScrollTrigger.refresh());
     });
   });
 }
@@ -158,6 +164,69 @@ function demande() {
   maj();
 }
 
+
+/* ---------- Banc d'essai : la couture de la machine choisie se pique sur une bande de tissu ---------- */
+const NS = 'http://www.w3.org/2000/svg';
+const zigzag = (x0, x1, y0, y1, pas) => { let d = `M${x0} ${y0}`, haut = false; for (let x = x0 + pas; x <= x1; x += pas) { d += ` L${x} ${haut ? y0 : y1}`; haut = !haut; } return d; };
+const DESSINS = {
+  coudre: (W) => ({ ligne: 62, bas: 142, traits: [[`M24 62 H${W - 24}`, 'fil pointille'], [zigzag(24, W - 24, 94, 118, 16), 'fil']] }),
+  surjeteuse: (W) => ({ ligne: 70, bas: 112, traits: [[`M24 70 H${W - 24}`, 'fil pointille fil--fin'], [zigzag(24, W - 24, 70, 134, 12), 'fil'], [zigzag(30, W - 24, 134, 96, 12), 'fil fil--fin']] }),
+  recouvreuse: (W) => ({ ligne: 60, bas: 142, traits: [[`M24 60 H${W - 24}`, 'fil pointille'], [`M24 102 H${W - 24}`, 'fil pointille'], [zigzag(24, W - 24, 66, 96, 10), 'fil fil--fin fil--dessous']] }),
+  brodeuse: (W) => {
+    let d = 'M24 96', fleurs = [];
+    for (let x = 24; x < W - 24; x += 180) {
+      const x2 = Math.min(x + 180, W - 24);
+      d += ` C ${x + 50} 36, ${x + 110} 150, ${x2} 92`;
+      const cx = x + 66, cy = 56;
+      if (cx < W - 40) fleurs.push([`M${cx} ${cy} m-8 0 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0 M${cx - 13} ${cy - 10} a7 7 0 1 0 0.1 0 M${cx + 13} ${cy - 10} a7 7 0 1 0 0.1 0 M${cx - 12} ${cy + 12} a7 7 0 1 0 0.1 0 M${cx + 12} ${cy + 12} a7 7 0 1 0 0.1 0`, 'fil fil--fin fil--fleur']);
+    }
+    return { ligne: 92, bas: 142, traits: [[d, 'fil'], ...fleurs] };
+  },
+};
+function banc() {
+  const zone = $('[data-banc]');
+  if (!zone || !gsap) return;
+  const svg = $('[data-banc-svg]', zone), groupe = $('[data-banc-points]', svg), revele = $('[data-banc-revele]', svg);
+  const fond = $('[data-banc-fond]', svg), aiguille = $('[data-banc-aiguille]', svg), legende = $('[data-banc-legende]', zone);
+  let W = 0, type = 'coudre', dessin = null, cousu = false, anim = null;
+  const placerAiguille = (x) => {
+    const bob = Math.abs(Math.sin(x / 7)) * 10;
+    aiguille.setAttribute('transform', `translate(${x.toFixed(1)} ${(dessin.ligne - 4 - bob).toFixed(1)})`);
+  };
+  const construire = () => {
+    W = Math.max(280, Math.round(svg.clientWidth || 1200));
+    svg.setAttribute('viewBox', `0 0 ${W} 160`);
+    dessin = DESSINS[type](W);
+    fond.setAttribute('width', W); fond.setAttribute('height', dessin.bas - 18);
+    groupe.replaceChildren(...dessin.traits.map(([d, cl]) => { const p = document.createElementNS(NS, 'path'); p.setAttribute('d', d); p.setAttribute('class', cl); return p; }));
+    revele.setAttribute('width', cousu ? W : 0);
+    placerAiguille(cousu ? W - 24 : 24);
+  };
+  const coudre = (t) => {
+    if (anim) anim.kill();
+    type = t; construire();
+    const etat = { x: 24 };
+    revele.setAttribute('width', 0);
+    anim = gsap.to(etat, { x: W - 24, duration: Math.min(2.6, 0.9 + W / 900), ease: 'none', onUpdate: () => { revele.setAttribute('width', etat.x); placerAiguille(etat.x); }, onComplete: () => { cousu = true; revele.setAttribute('width', W); } });
+    cousu = true;
+  };
+  const cartes = $$('.point-carte');
+  const choisir = (carte, depuisSouris) => {
+    const t = carte.dataset.point;
+    if (depuisSouris && t === type && anim && anim.isActive()) return;
+    cartes.forEach((c2) => { const b = $('[data-point-essai]', c2); b.setAttribute('aria-pressed', String(c2 === carte)); c2.classList.toggle('est-choisie', c2 === carte); });
+    if (legende) legende.textContent = carte.dataset.pointNom;
+    coudre(t);
+  };
+  cartes.forEach((carte) => {
+    $('[data-point-essai]', carte).addEventListener('click', () => choisir(carte));
+    if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) carte.addEventListener('mouseenter', () => { if (carte.dataset.point !== type) choisir(carte, true); });
+  });
+  construire();
+  new ResizeObserver(() => { const w = Math.round(svg.clientWidth); if (w && Math.abs(w - W) > 4) construire(); }).observe(svg);
+  window.ScrollTrigger && window.ScrollTrigger.create({ trigger: zone, start: 'top 82%', once: true, onEnter: () => { if (cartes[0]) choisir(cartes[0]); } });
+}
+
 /* ---------- Effets liés au défilement ---------- */
 function effets() {
   const ST = window.ScrollTrigger;
@@ -166,11 +235,17 @@ function effets() {
   const volets = $('[data-effet="duo-volets"]');
   if (volets && window.matchMedia('(min-width: 761px)').matches) {
     const [g, d] = $$('.duo-volet', volets);
-    gsap.fromTo(g, { xPercent: -6 }, { xPercent: 0, ease: 'none', scrollTrigger: { trigger: volets, start: 'top bottom', end: 'top 35%', scrub: 0.6 } });
-    gsap.fromTo(d, { xPercent: 6 }, { xPercent: 0, ease: 'none', scrollTrigger: { trigger: volets, start: 'top bottom', end: 'top 35%', scrub: 0.6 } });
+    gsap.fromTo(g, { y: 30 }, { y: 0, ease: 'none', scrollTrigger: { trigger: volets, start: 'top bottom', end: 'top 55%', scrub: 0.6 } });
+    gsap.fromTo(d, { y: 70 }, { y: 0, ease: 'none', scrollTrigger: { trigger: volets, start: 'top bottom', end: 'top 45%', scrub: 0.6 } });
   } else if (volets) {
     $$('.duo-volet', volets).forEach((v, i) => gsap.fromTo(v, { y: 40 }, { y: 0, ease: 'none', scrollTrigger: { trigger: v, start: 'top bottom', end: 'top 50%', scrub: 0.6 } }));
   }
+  /* Appel final : le cadre se pique au défilement, les coupons de tissu flottent à des vitesses différentes. */
+  $$('.fin').forEach((fin) => {
+    const bord = $('.fin-bord', fin);
+    if (bord) gsap.fromTo(bord, { clipPath: 'inset(0% 100% 100% 0% round 28px)' }, { clipPath: 'inset(0% 0% 0% 0% round 28px)', ease: 'none', scrollTrigger: { trigger: fin, start: 'top 85%', end: 'top 20%', scrub: 0.6 } });
+    $$('.coupon', fin).forEach((cp, i) => gsap.fromTo(cp, { y: 60 + i * 18, rotation: (i % 2 ? -1 : 1) * (8 + i * 3) }, { y: -40 - i * 10, rotation: (i % 2 ? 1 : -1) * (4 + i * 2), ease: 'none', scrollTrigger: { trigger: fin, start: 'top bottom', end: 'bottom top', scrub: 0.8 } }));
+  });
   /* Bobine qui tourne pendant que le fil se déroule. */
   const tour = $('.bobine-tour[data-effet="dix-mille"]');
   if (tour) gsap.fromTo(tour, { rotation: 0 }, { rotation: -540, ease: 'none', svgOrigin: '100 100', scrollTrigger: { trigger: '.reperes', start: 'top bottom', end: 'bottom top', scrub: 0.8 } });
@@ -225,6 +300,7 @@ demarrer({
     tarifs();
     demande();
     quand('pret', effets);
+    quand('pret', banc);
   },
   jouer() {
     if (!gsap) return null;

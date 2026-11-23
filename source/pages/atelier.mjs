@@ -1,14 +1,14 @@
 /* Atelier : ouverture scindée, photo pleine hauteur à gauche qui s'ouvre comme un capot, prix en très grand sur bleu nuit.
    Puis le déroulé, les tarifs à choisir (récapitulatif prérempli vers le contact), la révision, l'industriel. */
-import { html } from '../../outils/gabarit.mjs';
+import { html, brut } from '../../outils/gabarit.mjs';
 import { appelFinal } from '../gabarits/composants.mjs';
 
 export const page = { cle: 'atelier', fichier: 'atelier', imagePartage: 'grok/atelier-ouverture-1280.webp' };
 
 const TARIFS = [
-  { k: 'entretien', id: 'entretien' },
-  { k: 'revision', id: 'revision' },
-  { k: 'reparation', id: 'reparation' },
+  { k: 'entretien', id: 'entretien', picto: '<path d="M14 40 h22 l6 -14 h-34 z"/><path d="M20 26 v-8 h10 v8"/><path d="M42 26 c6 -2 10 -6 12 -12"/><path d="M54 30 c0 4 -3 6 -3 9 a3 3 0 0 0 6 0 c0 -3 -3 -5 -3 -9"/>' },
+  { k: 'revision', id: 'revision', picto: '<circle cx="24" cy="28" r="12"/><circle cx="24" cy="28" r="4"/><path d="M24 12 v-4 M24 48 v-4 M8 28 h4 M36 28 h4 M13 17 l3 3 M32 36 l3 3 M13 39 l3 -3 M32 20 l3 -3"/><path d="M40 44 l14 14"/><circle cx="46" cy="24" r="0.1"/>' },
+  { k: 'reparation', id: 'reparation', picto: '<path d="M12 50 l22 -22"/><path d="M34 28 a10 10 0 1 0 8 -16 l-6 6 -6 -2 -2 -6 6 -6 a10 10 0 0 0 -16 8"/><path d="M10 48 l4 4"/>' },
 ];
 
 export default (c) => html`
@@ -47,8 +47,9 @@ export default (c) => html`
         ${['diagnostic', 'devis'].map((k) => html`<li><span class="tarif-nom">${c.t('atelier.tarifs.' + k)}</span><span class="tarif-prix" data-prix>${c.t('atelier.tarifs.' + k + 'Prix')}</span><span class="tarif-texte">${c.t('atelier.tarifs.' + k + 'Texte')}</span></li>`)}
       </ul>
     </div>
-    <div class="tarifs-cartes" data-anime="cascade" data-choix-prestation>
+    <div class="tarifs-cartes" data-choix-prestation>
       ${TARIFS.map((t) => html`<article class="tarif-carte" data-prestation="${t.id}">
+        ${brut(`<svg class="tarif-picto" viewBox="0 0 64 64" aria-hidden="true" data-visuel data-fx="trace" data-effet="pictos-atelier">${t.picto.replace(/<(path|circle)/g, '<$1 data-fx-trait')}</svg>`)}
         <h3>${c.t('atelier.tarifs.' + t.k)}</h3>
         <p class="tarif-carte-prix" data-prix>${c.t('atelier.tarifs.' + t.k + 'Prix')}</p>
         <p>${c.t('atelier.tarifs.' + t.k + 'Texte')}</p>

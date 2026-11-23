@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/instrument-serif-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/figtree-variable.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#FBF8F3">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -120,7 +120,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="ouv-pem-texte">La prise en main est comprise dans le prix des machines : Michèle vous forme sur celle que vous avez choisie, puis vous aide chaque fois que vous revenez avec une question.</p>
     </div>
   </div>
-  <figure class="media ouv-pem-media" data-grok data-iris-centre data-effet="bandeau-devoile" style="--cadrage:50% 78%">
+  <figure class="media ouv-pem-media" data-grok data-iris-centre data-effet="bandeau-devoile" style="--cadrage:50% 92%">
   <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/prise-en-main-ouverture-mobile-640.webp 640w, /assets/images/grok/prise-en-main-ouverture-mobile-1080.webp 1080w" sizes="100vw">
     <img src="/assets/images/grok/prise-en-main-ouverture-1280.webp" srcset="/assets/images/grok/prise-en-main-ouverture-640.webp 640w, /assets/images/grok/prise-en-main-ouverture-1280.webp 1280w, /assets/images/grok/prise-en-main-ouverture-1920.webp 1920w" sizes="100vw" alt="Table de cours : bobine framboise, aiguille enfilée, mètre-ruban et essai de points sur coton" width="1280" height="549" fetchpriority="high" loading="eager" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
@@ -169,8 +169,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="fin fond-nuit" id="fin">
+  <div class="fin-coupons" aria-hidden="true" data-visuel data-effet="coupons"><span class="coupon coupon--pois coupon--1"></span><span class="coupon coupon--vichy coupon--2"></span><span class="coupon coupon--rayures coupon--3"></span><span class="coupon coupon--fleurs coupon--4"></span><span class="coupon coupon--pois-jaune coupon--5"></span><span class="coupon coupon--chevrons coupon--6"></span></div>
   <div class="conteneur fin-cadre">
-    <svg class="fin-couture" viewBox="0 0 1000 400" preserveAspectRatio="none" aria-hidden="true" data-superpose data-visuel data-fx="trace" data-effet="couture-appel"><rect x="8" y="8" width="984" height="384" rx="28" data-fx-trait/></svg>
+    <div class="fin-bord" aria-hidden="true" data-superpose data-effet="couture-appel"></div>
     <h2 data-anime="lignes">On commence <em>par un essai</em> ?</h2>
     <p data-anime>Du mercredi au samedi, Michèle vous montre les machines qui correspondent à vos projets.</p>
     <p class="ouv-actions fin-actions" data-anime>

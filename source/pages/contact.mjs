@@ -11,6 +11,7 @@ export default (c) => {
 <section class="ouv-contact" id="debut">
   <div class="conteneur ouv-contact-grille">
     <div class="carte-visite" data-anime="gsap" data-intro data-effet="carte-visite">
+      <img class="carte-tampon" src="/assets/images/logo-carre.webp" alt="" width="240" height="240" aria-hidden="true">
       <p class="surtitre">${c.t('contact.ouverture.surtitre')}</p>
       <h1>${c.tb('contact.ouverture.titre')}</h1>
       <p class="info-cle" data-info-cle>${statut(c)}</p>

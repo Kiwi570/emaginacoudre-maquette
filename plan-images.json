@@ -500,5 +500,19 @@
   "ratio": "4:5",
   "beaute": 4,
   "alt": "Coupons de coton et de lin pliés, bobines assorties"
+ },
+ {
+  "source": "recu/emaginacoudre-vente-reparations-machines-11.jpg",
+  "nom": "boutique-plein",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "beaute": 4,
+  "largeurs": [
+   960,
+   1600,
+   1920
+  ],
+  "alt": "L'intérieur de la boutique : étagères de tissus, de créations et de mercerie"
  }
 ]

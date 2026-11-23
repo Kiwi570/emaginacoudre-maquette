@@ -18,7 +18,7 @@ const euros = (n) => new Intl.NumberFormat('fr-FR').format(n).replace(/[  ]/g
 
 /* Couture propre à chaque type de machine, tracée au défilement (data-fx="trace"). */
 const zig = (x0, x1, y0, y1, pas) => { let d = `M${x0} ${y0}`; let haut = false; for (let x = x0 + pas; x <= x1; x += pas) { d += ` L${x} ${haut ? y0 : y1}`; haut = !haut; } return d; };
-export function coutures(type) {
+export function coutures(type, { effet = 'quatre-coutures', classe = '' } = {}) {
   let traits = '', tissu = '<rect x="0" y="8" width="320" height="74" rx="10" class="tissu"/>';
   if (type === 'coudre') {
     traits = `<path d="M18 32 H302" data-fx-trait class="fil"/><path d="${zig(18, 302, 52, 70, 12)}" data-fx-trait class="fil"/>`;
@@ -27,12 +27,15 @@ export function coutures(type) {
     traits = `<path d="M18 34 H302" data-fx-trait class="fil fil--fin"/><path d="${zig(18, 302, 34, 74, 10)}" data-fx-trait class="fil"/><path d="${zig(23, 302, 74, 46, 10)}" data-fx-trait class="fil fil--fin"/>`;
   } else if (type === 'recouvreuse') {
     traits = `<path d="M18 34 H302" data-fx-trait class="fil"/><path d="M18 58 H302" data-fx-trait class="fil"/><path d="${zig(18, 302, 38, 54, 9)}" data-fx-trait class="fil fil--fin fil--dessous"/>`;
+  } else if (type === 'combinee') {
+    tissu = '<rect x="0" y="8" width="320" height="52" rx="10" class="tissu"/>';
+    traits = `<path d="M18 24 H302" data-fx-trait class="fil"/><path d="M18 38 H302" data-fx-trait class="fil"/><path d="${zig(18, 302, 50, 78, 10)}" data-fx-trait class="fil"/>`;
   } else if (type === 'brodeuse') {
     traits = `<path d="M20 62 C 60 18, 104 22, 128 46 C 150 68, 186 70, 208 46 C 228 24, 262 22, 300 40" data-fx-trait class="fil"/>`
       + `<path d="M84 34 c -10 -18 6 -26 14 -12 c 8 -14 24 -6 14 12 c 16 2 14 20 -2 18 c 2 16 -16 18 -16 2 c -14 8 -24 -8 -10 -20 z" data-fx-trait class="fil fil--fin"/>`
       + `<path d="M232 56 c 12 -4 22 4 20 16 c -12 2 -20 -6 -20 -16 z M176 30 c -2 -12 10 -18 18 -10 c -6 10 -14 12 -18 10 z" data-fx-trait class="fil fil--fin"/>`;
   }
-  return brut(`<svg class="couture couture--${type}" viewBox="0 0 320 90" aria-hidden="true" data-visuel data-fx="trace" data-effet="quatre-coutures">${tissu}${traits}</svg>`);
+  return brut(`<svg class="couture couture--${type} ${classe}" viewBox="0 0 320 90" aria-hidden="true" data-visuel data-fx="trace" data-effet="${effet}">${tissu}${traits}</svg>`);
 }
 
 /* Silhouette dessinée d'une machine, si sa photo n'est pas (encore) disponible. */
@@ -55,14 +58,14 @@ export function carteMachine(c, m, { titre = 'h3' } = {}) {
   const visuel = imageExiste(nomImg)
     ? c.media({ nom: nomImg, alt: `${m.marque} ${m.nom}, ${T.court.toLowerCase()}`, classe: 'machine-media', sizes: '(max-width: 760px) 50vw, 25vw', attrs: 'data-contain' })
     : html`<div class="machine-media machine-media--dessin">${silhouette(m.type)}</div>`;
-  const h = titre === 'h2' ? html`<h2 class="machine-nom">${m.nom}</h2>` : html`<h3 class="machine-nom">${m.nom}</h3>`;
+  const h = titre === 'h2' ? html`<h2 class="machine-nom">${m.nom}</h2>` : titre === 'h4' ? html`<h4 class="machine-nom">${m.nom}</h4>` : html`<h3 class="machine-nom">${m.nom}</h3>`;
   return html`<article class="machine" data-type="${m.type}" data-marque="${m.marque.toLowerCase()}" id="m-${m.id}">
     ${visuel}
     <div class="machine-corps">
       <p class="machine-marque">${m.marque} · ${T.court}</p>
       ${h}
       ${prix(c, m)}
-      ${c.lien('contact', { ancre: 'demande', params: `sujet=essai&machine=${m.id}`, classe: 'machine-essai', texte: html`${c.t('commun.essayer')}<span class="visuellement-cache"> : ${m.marque} ${m.nom}</span>` })}
+      ${c.lien('contact', { ancre: 'demande', params: `sujet=essai&machine=${m.id}`, classe: 'machine-essai', texte: html`<span class="essai-long">${c.t('commun.essayer')}</span><span class="essai-court">${c.t('commun.essayerCourt')}</span><span class="visuellement-cache"> : ${m.marque} ${m.nom}</span>` })}
     </div>
   </article>`;
 }
@@ -75,11 +78,14 @@ export function horairesSemaine(c) {
   <p class="horaires-note">${c.t('commun.horairesNote')}</p>`;
 }
 
-/* Appel final, bande bleu nuit avec un cadre cousu qui se trace. */
+/* Appel final, bande bleu nuit : un cadre cousu qui se pique au défilement, et des coupons de tissu
+   (pois, vichy, rayures, fleurettes, aux couleurs du logo) qui flottent autour du titre. */
+const COUPONS = ['pois', 'vichy', 'rayures', 'fleurs', 'pois-jaune', 'chevrons'];
 export function appelFinal(c, { titre, texte, action, params = 'sujet=essai' }) {
   return html`<section class="fin fond-nuit" id="fin">
+  <div class="fin-coupons" aria-hidden="true" data-visuel data-effet="coupons">${COUPONS.map((k, i) => brut(`<span class="coupon coupon--${k} coupon--${i + 1}"></span>`))}</div>
   <div class="conteneur fin-cadre">
-    <svg class="fin-couture" viewBox="0 0 1000 400" preserveAspectRatio="none" aria-hidden="true" data-superpose data-visuel data-fx="trace" data-effet="couture-appel"><rect x="8" y="8" width="984" height="384" rx="28" data-fx-trait/></svg>
+    <div class="fin-bord" aria-hidden="true" data-superpose data-effet="couture-appel"></div>
     <h2 data-anime="lignes">${c.tb(titre)}</h2>
     <p data-anime>${c.t(texte)}</p>
     <p class="ouv-actions fin-actions" data-anime>

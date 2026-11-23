@@ -35,10 +35,10 @@ export default (c) => html`
     <div class="frise">
       <svg class="frise-fil" viewBox="0 0 40 1000" preserveAspectRatio="none" aria-hidden="true" data-visuel data-fx="trace" data-effet="frise-cousue"><path d="M20 0 C 4 200, 36 300, 20 500 S 4 800, 20 1000" data-fx-trait/></svg>
       <ol class="frise-liste" data-anime="cascade">
-        <li><strong>${c.t('maison.histoire.avant')}</strong><p>${c.t('maison.histoire.avantT')}</p></li>
-        <li><strong>1997</strong><p>${c.t('maison.histoire.a1997')}</p></li>
-        <li><strong>2012</strong><p>${c.t('maison.histoire.a2012')}</p></li>
-        <li><strong>2025</strong><p>${c.t('maison.histoire.a2025')}</p></li>
+        <li><strong>${c.t('maison.histoire.avant')}</strong><p>${c.t('maison.histoire.avantT')}</p><svg class="frise-picto" viewBox="0 0 120 90" aria-hidden="true" data-visuel><rect x="20" y="20" width="80" height="50" rx="6"/><path d="M36 20 v-10 M52 20 v-10 M68 20 v-10 M84 20 v-10 M36 70 v10 M52 70 v10 M68 70 v10 M84 70 v10 M20 36 h-10 M20 54 h-10 M100 36 h10 M100 54 h10"/><rect x="40" y="34" width="40" height="22" rx="3"/></svg></li>
+        <li><strong>1997</strong><p>${c.t('maison.histoire.a1997')}</p>${c.media({ nom: 'atelier-test', alt: c.s('atelier.industrie.alt'), cadrage: '50% 50%', classe: 'frise-media', sizes: '200px' })}</li>
+        <li><strong>2012</strong><p>${c.t('maison.histoire.a2012')}</p>${c.media({ nom: 'boutique-vitrine', alt: c.s('accueil.boutique.legende'), cadrage: '45% 50%', classe: 'frise-media', sizes: '200px' })}</li>
+        <li><strong>2025</strong><p>${c.t('maison.histoire.a2025')}</p>${c.media({ nom: 'atelier-coeur', alt: c.s('atelier.revision.alt1'), cadrage: '50% 50%', classe: 'frise-media', sizes: '200px' })}</li>
       </ol>
     </div>
   </div>
@@ -49,7 +49,7 @@ export default (c) => html`
     <h2 data-anime="lignes">${c.tb('maison.equipe.titre')}</h2>
     <div class="equipe-grille" data-anime="cascade">
       ${['michele', 'pascal'].map((k) => html`<article class="personne">
-        ${c.media({ nom: c.donnees.images_choix[k], alt: c.s(`accueil.duo.${k}Alt`), cadrage: '50% 35%', classe: 'personne-media', sizes: '(max-width: 760px) 100vw, 40vw' })}
+        ${c.media({ nom: c.donnees.images_choix[k], alt: c.s(`accueil.duo.${k}Alt`), cadrage: k === 'michele' ? '50% 28%' : '50% 45%', classe: 'personne-media', sizes: '(max-width: 760px) 70vw, 24vw' })}
         <p class="surtitre">${c.t(`maison.equipe.${k}Role`)}</p>
         <h3>${c.t(`maison.equipe.${k}`)}</h3>
         <p>${c.t(`maison.equipe.${k}Texte`)}</p>

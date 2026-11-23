@@ -1,6 +1,30 @@
 {
   "siteActuel": "emaginacoudre.fr",
-  "pagesTypes": ["/", "/machines", "/atelier"],
-  "effets": ["couture-titre", "quatre-coutures", "duo-volets", "dix-mille", "couture-appel", "ruban-machines", "capot", "deroule-fil", "bandeau-devoile", "aiguille-fil", "vingt-neuf", "frise-cousue", "carte-visite", "enveloppe-cousue"],
-  "grille": { "dispenses": {} }
+  "pagesTypes": [
+    "/",
+    "/machines",
+    "/atelier"
+  ],
+  "effets": [
+    "couture-titre",
+    "banc-essai",
+    "duo-volets",
+    "dix-mille",
+    "couture-appel",
+    "coupons",
+    "ruban-machines",
+    "groupe-couture",
+    "capot",
+    "deroule-fil",
+    "pictos-atelier",
+    "bandeau-devoile",
+    "aiguille-fil",
+    "vingt-neuf",
+    "frise-cousue",
+    "carte-visite",
+    "enveloppe-cousue"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
 }

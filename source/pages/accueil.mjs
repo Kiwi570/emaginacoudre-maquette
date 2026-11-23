@@ -1,7 +1,7 @@
 /* Accueil d'E-maginacoudre : la couture comme idée (aiguille qui pique, coutures qui se dessinent),
    des machines avec leurs vrais prix, Michèle et Pascal, l'atelier, la boutique. */
 import { html, brut } from '../../outils/gabarit.mjs';
-import { coutures, carteMachine, statut, horairesSemaine, appelFinal, prixDe } from '../gabarits/composants.mjs';
+import { carteMachine, statut, horairesSemaine, appelFinal, prixDe } from '../gabarits/composants.mjs';
 
 export const page = { cle: 'accueil', fichier: 'index', imagePartage: 'grok/accueil-ouverture-1280.webp' };
 
@@ -40,14 +40,28 @@ export default (c) => {
       <h2 data-anime="lignes">${c.tb('accueil.points.titre')}</h2>
       <p data-anime>${c.t('accueil.points.texte')}</p>
     </div>
+    <div class="banc" data-banc>
+      <svg class="banc-tissu" data-banc-svg role="img" aria-label="${c.s('accueil.points.bancAria')}" data-visuel>
+        <defs>
+          <pattern id="trame" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#EDE3D3"/><path d="M0 3h6M3 0v6" stroke="#E2D5C1" stroke-width="1"/></pattern>
+          <clipPath id="banc-clip"><rect data-banc-revele x="0" y="0" width="0" height="200"/></clipPath>
+        </defs>
+        <rect data-banc-fond x="0" y="18" width="1200" height="124" rx="14" fill="url(#trame)"/>
+        <g clip-path="url(#banc-clip)" data-banc-points></g>
+        <g class="banc-aiguille" data-banc-aiguille data-effet="banc-essai"><path d="M0 -60 V 6" class="banc-tige"/><ellipse cx="0" cy="-48" rx="2.2" ry="6" class="banc-chas"/><path d="M-22 10 h44" class="banc-pied"/></g>
+      </svg>
+      <p class="banc-legende" data-banc-legende aria-live="polite">${c.t('accueil.points.bancDefaut')}</p>
+    </div>
     <ul class="points-grille" data-anime="cascade">
-      ${ORDRE.map((t) => html`<li class="point-carte">
-        ${coutures(t)}
+      ${ORDRE.map((t) => html`<li class="point-carte" data-point="${t}" data-point-nom="${T[t].point} · ${T[t].court}">
         <p class="point-nom">${T[t].point}</p>
         <h3>${T[t].nom}</h3>
         <p>${T[t].usage}</p>
         <p class="point-prix" data-prix>${des(t) ? html`${c.t('accueil.points.des')} <strong>${euros(des(t))}</strong>` : c.t('commun.prixBoutique')}</p>
-        ${c.lien('machines', { ancre: 'catalogue', params: `type=${t}`, classe: 'lien-fleche', texte: c.t('accueil.points.voir', { n: nb(t) }) })}
+        <p class="point-actions">
+          <button type="button" class="point-essai" data-point-essai aria-pressed="false">${c.t('accueil.points.essayer')}<span class="visuellement-cache"> : ${T[t].point}</span></button>
+          ${c.lien('machines', { ancre: 'catalogue', params: `type=${t}`, classe: 'lien-fleche', texte: c.t('accueil.points.voir', { n: nb(t) }) })}
+        </p>
       </li>`)}
     </ul>
     <p class="points-note" data-anime>${c.tb('accueil.points.combinee')}</p>
@@ -125,9 +139,20 @@ export default (c) => {
   </div>
 </section>
 
+<section class="entrez" id="entrez" data-fx="plein-ecran" data-fx-depart="inset(22% 26% 22% 26% round 28px)">
+  <div data-collant>
+    ${c.media({ nom: 'boutique-plein', alt: c.s('accueil.entrez.alt'), cadrage: '50% 50%', classe: 'entrez-media', sizes: '100vw' })}
+    <div class="entrez-mots" aria-hidden="true"><span data-fx-ecarte="g">${c.t('accueil.entrez.mot1')}</span><span data-fx-ecarte="d">${c.t('accueil.entrez.mot2')}</span></div>
+    <div class="entrez-legende conteneur" data-fx-apres>
+      <h2>${c.tb('accueil.entrez.titre')}</h2>
+      <p>${c.t('accueil.entrez.texte')}</p>
+    </div>
+  </div>
+</section>
+
 <section class="boutique fond-sable" id="boutique">
   <div class="conteneur boutique-grille">
-    ${c.media({ nom: c.donnees.images_choix.boutique, alt: c.s('accueil.boutique.alt'), cadrage: '50% 50%', classe: 'boutique-media', sizes: '(max-width: 760px) 100vw, 50vw', attrs: 'data-anime="rideau"' })}
+    ${c.media({ nom: c.donnees.images_choix.vitrine, alt: c.s('accueil.boutique.legende'), cadrage: '50% 45%', classe: 'boutique-media', sizes: '(max-width: 760px) 100vw, 50vw', attrs: 'data-anime="rideau"' })}
     <div>
       <h2 data-anime="lignes">${c.tb('accueil.boutique.titre')}</h2>
       <p data-anime>${c.t('accueil.boutique.texte')}</p>

@@ -7,8 +7,8 @@ Adresse prévue : https://emaginacoudre-maquette.vercel.app
 
 | Page | Ouverture | Contenu |
 |---|---|---|
-| Accueil `/` | Écran partagé, titre et gros plan sur l'aiguille | Quelle machine pour quoi (quatre coutures), vitrine de six machines, Michèle et Pascal, l'atelier et ses tarifs, 10 000 machines, la boutique et ses horaires, appel final |
-| Machines `/machines` | Grand titre, filtres, bandeau de machines | 22 machines Brother et Babylock avec leurs prix, filtres par type et par marque (gardés dans l'adresse), comment lire les prix, conseil, machines industrielles |
+| Accueil `/` | Écran partagé, titre et gros plan sur l'aiguille | Banc d'essai « Quelle machine pour quoi » (la couture choisie se pique), vitrine de six machines, Michèle et Pascal, l'atelier et ses tarifs, 10 000 machines, « Poussez la porte » (la boutique en plein écran), la vitrine et les horaires, appel final |
+| Machines `/machines` | Grand titre, filtres, bandeau de machines | 22 machines Brother et Babylock rangées par type avec leurs prix, filtres par type et par marque (gardés dans l'adresse), comment lire les prix, conseil, machines industrielles |
 | Atelier `/atelier` | Photo pleine hauteur, « 0 € » en très grand | Déroulé, tarifs à choisir (récapitulatif et lien prérempli), révision, familiales et industrielles |
 | Prise en main `/prise-en-main` | Grand titre puis bandeau photo | Avant, pendant, après ; citation de Michèle ; cours de couture avec Camille ; questions |
 | La maison `/la-maison` | Plein cadre, « 29 » géant | Frise 1997 → 2025, Michèle et Pascal, marques, actualités et dates Babylock, la boutique en images, la vitrine |

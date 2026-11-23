@@ -127,6 +127,53 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
 .couture .fil--fin { stroke: var(--nuit); stroke-width: 1.6; opacity: .7; }
 .couture .fil--dessous { stroke-dasharray: none; opacity: .45; }
 
+/* Banc d'essai : la couture choisie se pique sur une bande de tissu. */
+.banc { margin-bottom: clamp(20px, 3vw, 36px); padding: clamp(10px, 1.6vw, 18px) clamp(10px, 1.6vw, 18px) 12px; border-radius: calc(var(--rayon) + 6px); background: var(--fond); }
+.banc-tissu { display: block; width: 100%; height: 160px; overflow: visible; }
+.banc .fil { fill: none; stroke: var(--accent); stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+.banc .pointille { stroke-dasharray: 12 7; }
+.banc .fil--fin { stroke: var(--nuit); stroke-width: 1.8; opacity: .75; }
+.banc .fil--dessous { opacity: .4; }
+.banc .fil--fleur { stroke: var(--accent); opacity: 1; }
+.banc-tige { stroke: #8a93a6; stroke-width: 3; stroke-linecap: round; }
+.banc-chas { fill: var(--fond); stroke: #8a93a6; stroke-width: 1.5; }
+.banc-pied { stroke: var(--nuit); stroke-width: 6; stroke-linecap: round; }
+.banc-legende { margin: 6px 4px 0; font-weight: 700; color: var(--accent); min-height: 1.6em; }
+html:not(.js) .banc, html.secours .banc { display: none; }
+.point-carte { border: 2px solid transparent; transition: border-color .3s, box-shadow .3s; }
+.point-carte.est-choisie { border-color: var(--accent); box-shadow: 0 18px 36px -28px color-mix(in srgb, var(--accent) 80%, transparent); }
+.point-actions { margin: 0 !important; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
+.point-essai { min-height: 44px; padding: 0 14px; border-radius: 999px; border: 1.5px solid var(--accent); background: transparent; color: var(--accent); font: 600 .95rem var(--police-texte); cursor: pointer; }
+.point-essai[aria-pressed="true"] { background: var(--accent); color: #fff; }
+html:not(.js) .point-essai, html.secours .point-essai { display: none; }
+
+/* « Poussez la porte » : la photo de la boutique s'ouvre jusqu'au plein écran. */
+.entrez { background: var(--nuit); color: #fff; }
+.entrez [data-collant] { display: grid; place-items: center; }
+.entrez-media { position: absolute !important; inset: 0; }
+.entrez-media::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, #17203300 30%, #172033d9 100%), #17203340; pointer-events: none; }
+.entrez-mots { position: absolute; inset: 0; z-index: 2; display: flex; justify-content: center; align-items: center; gap: .3em; pointer-events: none; font-family: var(--police-titres); font-size: clamp(3.4rem, min(11vw, 18vh), 10rem); line-height: 1.2; color: #fff; text-shadow: 0 4px 30px #0009; white-space: nowrap; }
+.entrez-mots span:last-child { font-style: italic; color: var(--accent-clair); }
+.entrez-legende { position: absolute; left: 0; right: 0; bottom: clamp(28px, 7vh, 72px); z-index: 3; text-align: center; color: #fff; }
+.entrez-legende h2 { font-size: clamp(2.2rem, min(4.6vw, 7vh), 4.2rem); text-shadow: 0 4px 30px #0008; }
+.entrez-legende h2 em { color: var(--accent-clair); }
+.entrez-legende p { max-width: 36em; margin-inline: auto; text-shadow: 0 2px 16px #000a; }
+:is(html.secours, html:not(.js)) .entrez-media { position: relative !important; }
+:is(html.secours, html:not(.js)) .entrez-mots { display: none; }
+:is(html.secours, html:not(.js)) .entrez-legende { position: relative; bottom: auto; padding-block: 40px; }
+
+/* Catalogue groupé par type. */
+.groupe { margin-bottom: clamp(36px, 5vw, 64px); }
+.groupe[hidden] { display: none; }
+.groupe-tete { display: grid; grid-template-columns: minmax(0, 220px) minmax(0, 1fr); gap: 12px 28px; align-items: center; margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid var(--ligne); }
+.groupe-couture { margin: 0; }
+.groupe-nom { margin: 0 0 .2em; display: flex; align-items: baseline; gap: .4em; }
+.groupe-compte { font-family: var(--police-texte); font-size: .95rem; font-weight: 700; color: var(--accent); }
+.groupe-usage { margin: 0; max-width: 46em; font-size: 1.02rem; }
+.machine-media img { transition: transform .5s var(--courbe); }
+.machine:hover .machine-media img { transform: scale(1.05); }
+h4.machine-nom { font-weight: 400; }
+
 /* Machines : cartes (accueil et catalogue). */
 .vitrine { padding-block: clamp(64px, 10vw, 128px); }
 .vitrine-grille { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(14px, 2vw, 28px); }
@@ -147,15 +194,19 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
 .prix--boutique span { color: var(--nuit); font-weight: 600; }
 .machine-essai { margin-top: auto; display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; color: var(--accent); text-decoration: none; gap: .4em; }
 .machine-essai::after { content: '→'; }
+.essai-court { display: none; }
+@media (max-width: 560px) { .essai-long { display: none; } .essai-court { display: inline; } }
 
 /* Michèle et Pascal : deux volets. */
-.duo { padding-top: clamp(64px, 10vw, 120px); overflow: clip; }
+.duo { padding-top: clamp(64px, 10vw, 120px); }
 .duo-titre { margin-bottom: clamp(24px, 4vw, 48px); }
 .duo-volets { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
-.duo-volet { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(16px, 2.4vw, 32px); align-items: center; padding: clamp(28px, 4vw, 56px) var(--gouttiere); }
+.duo-volet { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(18px, 2.8vw, 40px); align-items: end; padding: clamp(36px, 5vw, 72px) var(--gouttiere); }
+.duo-volet--pascal { padding-top: clamp(60px, 9vw, 130px); }
+.duo-texte h3 { font-size: clamp(2rem, 1.5rem + 1.4vw, 2.9rem); margin-bottom: .3em; }
 .duo-volet--michele { background: var(--fond); }
 .duo-volet--pascal { background: var(--sable); }
-.duo-media { aspect-ratio: 4 / 5; }
+.duo-media { aspect-ratio: 4 / 5; border-radius: 999px 999px var(--rayon) var(--rayon); max-width: 320px; }
 .duo-texte p { font-size: 1.02rem; }
 
 /* Atelier sur bleu nuit. */
@@ -190,7 +241,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
 /* Boutique et horaires. */
 .boutique { padding-block: clamp(64px, 10vw, 128px); }
 .boutique-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
-.boutique-media { aspect-ratio: 4 / 3; }
+.boutique-media { aspect-ratio: 16 / 10; }
 .horaires { list-style: none; margin: 0 0 10px; padding: 0; }
 .horaires li { display: grid; grid-template-columns: 7.5em minmax(0, 1fr); gap: 12px; padding: 8px 10px; border-radius: 10px; font-size: 1rem; }
 .horaires-jour { font-weight: 700; }
@@ -202,9 +253,24 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
 /* Appel final : cadre cousu. */
 .fin { padding-block: clamp(56px, 9vw, 112px); }
 .fin-cadre { position: relative; text-align: center; padding: clamp(48px, 7vw, 96px) clamp(20px, 5vw, 72px); }
-.fin-couture { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
-.fin-couture rect { fill: none; stroke: var(--accent-clair); stroke-width: 2; vector-effect: non-scaling-stroke; }
-.fin h2 { margin-inline: auto; max-width: 15em; font-size: clamp(2.6rem, min(6vw, 9vh), 5.4rem); }
+.fin { overflow: clip; }
+.fin-bord { position: absolute; inset: 0; border: 2.5px dashed var(--accent-clair); border-radius: 28px; pointer-events: none; }
+.fin-coupons { position: absolute; inset: 0; pointer-events: none; }
+.coupon { position: absolute; width: clamp(54px, 6vw, 92px); aspect-ratio: 1; border-radius: 4px; box-shadow: 0 18px 30px -18px #000a;
+  --cran: 9px;
+  -webkit-mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / var(--cran) 51% repeat-x, conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / var(--cran) 51% repeat-x;
+          mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / var(--cran) 51% repeat-x, conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / var(--cran) 51% repeat-x; }
+.coupon--pois { background: radial-gradient(circle, #fff 22%, transparent 24%) 0 0 / 14px 14px, var(--accent); }
+.coupon--vichy { background: repeating-linear-gradient(0deg, #f4a3c055 0 8px, transparent 8px 16px), repeating-linear-gradient(90deg, #f4a3c088 0 8px, #fff 8px 16px); }
+.coupon--rayures { background: repeating-linear-gradient(0deg, #fff 0 7px, #3f8fd0 7px 14px); }
+.coupon--fleurs { background: radial-gradient(circle at 30% 30%, #f6c443 10%, transparent 11%) 0 0 / 22px 22px, radial-gradient(circle at 70% 70%, #fff 12%, transparent 13%) 0 0 / 22px 22px, #c23b6a; }
+.coupon--pois-jaune { background: radial-gradient(circle, #172033 20%, transparent 22%) 0 0 / 12px 12px, #f6c443; }
+.coupon--chevrons { background: repeating-linear-gradient(45deg, var(--sable) 0 8px, #e6d6c2 8px 16px); }
+.coupon--1 { left: 6%; top: 14%; } .coupon--2 { right: 8%; top: 10%; } .coupon--3 { left: 12%; bottom: 12%; }
+.coupon--4 { right: 5%; bottom: 18%; } .coupon--5 { left: 46%; top: 3%; width: clamp(40px, 4vw, 60px); } .coupon--6 { right: 22%; bottom: 4%; width: clamp(44px, 4.4vw, 66px); }
+@media (max-width: 760px) { .coupon--5, .coupon--6, .coupon--3 { display: none; } .coupon { width: 48px; } .coupon--1 { left: 2%; top: 4%; } .coupon--2 { right: 3%; top: 3%; } .coupon--4 { right: 3%; bottom: 3%; } }
+.fin h2 { margin-inline: auto; max-width: 13em; font-size: clamp(2.8rem, min(6.6vw, 10vh), 6.2rem); }
+.fin-cadre > :not(.fin-bord) { position: relative; z-index: 1; }
 .fin p { max-width: 36em; margin-inline: auto; }
 .fin-actions { justify-content: center; margin-top: 28px; }
 
@@ -240,9 +306,10 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
 .catalogue-tete h2 { margin: 0; }
 .catalogue-compte { margin: 0 0 0 auto; font-weight: 600; color: var(--texte-doux); font-variant-numeric: tabular-nums; }
 .catalogue-grille { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(12px, 1.6vw, 24px); }
-.catalogue-grille > li.est-cache { display: none; }
+.catalogue-groupes li.est-cache { display: none; }
 .catalogue-grille > li { transition: opacity .35s var(--courbe); }
-.catalogue-grille.filtrage > li { opacity: 0; }
+.catalogue-groupes.filtrage li[data-type] { opacity: 0; }
+.catalogue-groupes li[data-type] { transition: opacity .35s var(--courbe); }
 .catalogue-vide { padding: 32px 0; font-weight: 600; }
 .lire-prix { padding-block: clamp(56px, 8vw, 104px); }
 .lire-prix-grille { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(14px, 2vw, 24px); }
@@ -281,6 +348,8 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
 .tarifs-cartes { grid-row: span 2; display: grid; gap: 16px; }
 .tarif-carte { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 20px; padding: 22px 24px; border-radius: var(--rayon); background: var(--fond); border: 2px solid transparent; transition: border-color .3s; }
 .tarif-carte h3 { margin: 0; }
+.tarif-picto { grid-column: 1 / -1; width: 48px; height: 48px; margin-bottom: 4px; overflow: visible; }
+.tarif-picto path, .tarif-picto circle { fill: none; stroke: var(--accent); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
 .tarif-carte-prix { margin: 0; font-family: var(--police-titres); font-size: 2rem; color: var(--accent); white-space: nowrap; text-align: right; }
 .tarif-carte p:not(.tarif-carte-prix) { grid-column: 1 / -1; margin: 4px 0 8px; font-size: 1rem; }
 .tarif-carte .bouton { grid-column: 1 / -1; justify-self: start; min-height: 44px; }
@@ -289,7 +358,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
 .recap { padding: 22px 24px; border-radius: var(--rayon); background: var(--nuit); color: var(--nuit-texte); }
 .recap .bouton { background: var(--accent-clair); color: var(--nuit); }
 .recap-titre { margin: 0 0 .3em; font-weight: 700; }
-.recap-texte { min-height: 3.2em; }
+.recap-texte { min-height: 4.9em; }
 @media (min-width: 761px) { .recap:not(.recap--contact) { position: sticky; top: calc(var(--entete-h) + 24px); } }
 .revision { padding-block: clamp(64px, 10vw, 120px); }
 .revision-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
@@ -312,7 +381,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
 .ouv-pem-bas { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 16px clamp(24px, 5vw, 72px); align-items: start; }
 .ouv-pem-bas .info-cle { margin-bottom: 14px; }
 @media (min-width: 761px) { .ouv-pem-texte { order: -1; margin: 0; } }
-.ouv-pem-media { margin-top: clamp(20px, 4vh, 44px); width: 100%; aspect-ratio: 21 / 9; max-height: 64svh; border-radius: 0; }
+.ouv-pem-media { margin-top: clamp(20px, 4vh, 44px); width: 100%; aspect-ratio: 3 / 1; max-height: 52svh; border-radius: 0; }
 .temps { padding-block: clamp(64px, 10vw, 120px); }
 .temps-grille { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: clamp(28px, 5vw, 80px); align-items: center; }
 .temps-liste { list-style: none; margin: 0; padding: 0; counter-reset: t; }
@@ -321,7 +390,8 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
 .temps-liste h3 { margin: 0 0 .25em; }
 .temps-liste p { margin: 0; }
 .citation { margin: 0; }
-.citation-media { aspect-ratio: 4 / 5; }
+.citation-media { aspect-ratio: 4 / 5; max-width: 400px; border-radius: 999px 999px var(--rayon) var(--rayon); }
+.citation { justify-self: center; max-width: 440px; }
 .citation blockquote { margin: -48px 16px 0; position: relative; z-index: 2; padding: 22px 24px; border-radius: var(--rayon); background: var(--nuit); color: var(--nuit-texte); }
 .citation blockquote p { margin: 0; font-family: var(--police-titres); font-style: italic; font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); line-height: 1.2; }
 .citation figcaption { margin: 10px 16px 0; font-weight: 700; }
@@ -356,16 +426,19 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
 .ouv-maison-intro { margin-top: 16px; }
 .ouv-maison .ouv-actions .info-cle { font-weight: 600; }
 .histoire { padding-block: clamp(64px, 10vw, 120px); }
-.frise { position: relative; display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 24px; margin-top: 24px; }
-.frise-fil { width: 40px; height: 100%; overflow: visible; }
+.frise { position: relative; margin-top: 24px; padding-left: 64px; }
+.frise-fil { position: absolute; left: 0; top: 0; bottom: 0; width: 40px; height: 100%; overflow: visible; }
+.frise-media { width: clamp(120px, 14vw, 200px); aspect-ratio: 4 / 3; }
+.frise-picto { width: clamp(90px, 9vw, 130px); height: auto; }
+.frise-picto rect, .frise-picto path { fill: none; stroke: var(--accent); stroke-width: 2.2; stroke-linecap: round; }
 .frise-fil path { fill: none; stroke: var(--accent); stroke-width: 3; stroke-linecap: round; vector-effect: non-scaling-stroke; }
 .frise-liste { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
-.frise-liste li { display: grid; grid-template-columns: minmax(0, 9rem) minmax(0, 1fr); gap: 8px 32px; align-items: baseline; padding: 18px 0; border-bottom: 1px solid var(--ligne); }
+.frise-liste li { display: grid; grid-template-columns: minmax(0, 9rem) minmax(0, 1fr) auto; gap: 8px 32px; align-items: center; padding: 18px 0; border-bottom: 1px solid var(--ligne); }
 .frise-liste strong { font-family: var(--police-titres); font-weight: 400; font-size: clamp(2.2rem, 4vw, 3.6rem); line-height: 1; color: var(--accent); }
 .frise-liste p { margin: 0; font-size: 1.08rem; max-width: 36em; }
 .equipe { padding-block: clamp(64px, 10vw, 120px); }
 .equipe-grille { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(20px, 4vw, 56px); }
-.personne-media { aspect-ratio: 16 / 10; max-height: 340px; margin-bottom: 18px; }
+.personne-media { aspect-ratio: 4 / 5; max-width: 300px; margin-bottom: 18px; border-radius: 999px 999px var(--rayon) var(--rayon); }
 .personne .surtitre { margin-bottom: .3em; }
 .marques { padding-block: clamp(48px, 8vw, 104px); overflow: hidden; }
 .marques-ruban { margin-bottom: clamp(28px, 4vw, 48px); }
@@ -407,9 +480,10 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
 }
 
 /* CONTACT · carte de visite. */
+.carte-tampon { position: absolute; right: clamp(16px, 3vw, 40px); top: clamp(16px, 3vw, 40px); width: clamp(64px, 7vw, 96px); height: auto; border-radius: 14px; transform: rotate(8deg); box-shadow: 0 12px 24px -16px #0007; }
 .ouv-contact { padding: calc(var(--entete-h) + clamp(20px, 4vh, 48px)) 0 clamp(40px, 6vw, 80px); }
 .ouv-contact-grille { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); gap: clamp(20px, 4vw, 56px); align-items: stretch; }
-.carte-visite { padding: clamp(24px, 4vw, 56px); border-radius: var(--rayon); background: var(--sable); box-shadow: 0 30px 60px -44px color-mix(in srgb, var(--nuit) 70%, transparent); transform-origin: 50% 100%; }
+.carte-visite { position: relative; padding: clamp(24px, 4vw, 56px); border-radius: var(--rayon); background: var(--sable); box-shadow: 0 30px 60px -44px color-mix(in srgb, var(--nuit) 70%, transparent); transform-origin: 50% 100%; }
 .carte-visite h1 { font-size: clamp(3rem, min(6vw, 9.6vh), 6.2rem); margin-bottom: .3em; }
 .carte-visite .info-cle { margin-bottom: 16px; }
 .carte-visite-action { margin-bottom: 24px; }
@@ -447,8 +521,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
 @media (max-width: 1100px) {
   .points-grille { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .catalogue-grille { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .duo-volet { grid-template-columns: minmax(0, 1fr); }
-  .duo-media { aspect-ratio: 3 / 2; }
+  .duo-volet { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); }
   .conseil-grille { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); }
   .industrie-encart { grid-column: 1 / -1; }
   .questions-grille { grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); }
@@ -495,6 +568,17 @@ html.js:not(.secours):not([data-arrivee="retour"]) [data-intro] { opacity: 0; }
   .carte-visite-infos { grid-template-columns: minmax(0, 1fr); }
   .champ-ligne { grid-template-columns: minmax(0, 1fr); }
   .ouv-404 { flex-direction: column; align-items: stretch; min-height: 0; }
+  .groupe-tete { grid-template-columns: minmax(0, 1fr); }
+  .groupe-couture { max-width: 220px; }
+  .frise { padding-left: 34px; }
+  .frise-liste li { grid-template-columns: minmax(0, 1fr); }
+  .frise-media { width: 60%; }
+  .duo-volet { grid-template-columns: minmax(0, 1fr); align-items: start; }
+  .duo-volet--pascal { padding-top: clamp(36px, 5vw, 72px); }
+  .duo-media { max-width: 240px; aspect-ratio: 4 / 5; }
+  .banc-tissu { height: 140px; }
+  .entrez-mots { flex-direction: column; gap: 0; }
+  .carte-tampon { width: 58px; right: 14px; top: 14px; }
   .ouv-404-media { position: relative; inset: auto; order: 2; height: 40svh; }
   .ouv-404-media::after { display: none; }
   .ouv-404-texte { order: 1; padding-bottom: 24px; }

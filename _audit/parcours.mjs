@@ -9,8 +9,8 @@ export default async function ({ contexte, attendrePret, attendre, BASE, R, T })
     await page.click('[data-filtre-type="surjeteuse"]');
     await attendre(500);
     let r = await page.evaluate(() => ({
-      visibles: [...document.querySelectorAll('[data-catalogue] > li')].filter((li) => !li.classList.contains('est-cache')).length,
-      types: [...new Set([...document.querySelectorAll('[data-catalogue] > li:not(.est-cache)')].map((li) => li.dataset.type))],
+      visibles: [...document.querySelectorAll('[data-catalogue] li[data-type]')].filter((li) => !li.classList.contains('est-cache')).length,
+      types: [...new Set([...document.querySelectorAll('[data-catalogue] li[data-type]:not(.est-cache)')].map((li) => li.dataset.type))],
       compte: document.querySelector('[data-compte]').textContent, url: location.search,
     }));
     if (r.visibles !== 7 || r.types.join() !== 'surjeteuse') R.echec('filtres', `filtre Surjeteuses : ${r.visibles} cartes (${r.types.join()}) au lieu de 7`, { page: '/machines' });
@@ -18,13 +18,13 @@ export default async function ({ contexte, attendrePret, attendre, BASE, R, T })
     if (!r.url.includes('type=surjeteuse')) R.echec('filtres', 'le filtre n’est pas gardé dans l’adresse', { page: '/machines' });
     await page.click('[data-filtre-marque="babylock"]');
     await attendre(500);
-    r = await page.evaluate(() => [...document.querySelectorAll('[data-catalogue] > li')].filter((li) => !li.classList.contains('est-cache')).length);
+    r = await page.evaluate(() => [...document.querySelectorAll('[data-catalogue] li[data-type]')].filter((li) => !li.classList.contains('est-cache')).length);
     if (r !== 4) R.echec('filtres', `Surjeteuses Babylock : ${r} cartes au lieu de 4`, { page: '/machines' });
 
     /* Lien profond : filtre lu depuis l'adresse. */
     await page.goto(BASE + '/machines?type=recouvreuse#catalogue', { waitUntil: 'load' });
     await attendrePret(page);
-    r = await page.evaluate(() => [...document.querySelectorAll('[data-catalogue] > li')].filter((li) => !li.classList.contains('est-cache')).length);
+    r = await page.evaluate(() => [...document.querySelectorAll('[data-catalogue] li[data-type]')].filter((li) => !li.classList.contains('est-cache')).length);
     if (r !== 3) R.echec('filtres', `?type=recouvreuse : ${r} cartes au lieu de 3`, { page: '/machines' });
 
     /* Atelier : choisir la révision met à jour le récapitulatif et le lien. */

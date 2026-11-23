@@ -2,7 +2,7 @@
   "nom": "E-maginacoudre",
   "adresse": "https://emaginacoudre-maquette.vercel.app",
   "siteActuel": "emaginacoudre.fr",
-  "version": 1,
+  "version": 2,
   "langues": ["fr"],
   "navigation": ["accueil", "machines", "atelier", "prise-en-main", "la-maison", "contact"],
   "actionEntete": { "page": "contact", "ancre": "demande", "params": "sujet=essai" },

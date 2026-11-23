@@ -1,0 +1,17 @@
+{
+ "id": "20261123-144034-complet-cible-partiel",
+ "date": "2026-11-23T14:45:54.812Z",
+ "niveau": "complet",
+ "pages": "/,/atelier",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "parcours"
+ ],
+ "version": "2",
+ "echecs": 3,
+ "aRegarder": 5,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

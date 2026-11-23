@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/instrument-serif-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/figtree-variable.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#FBF8F3">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -129,37 +129,57 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur">
     <div class="tete-section">
       <h2 data-anime="lignes">Quelle machine pour <em>quoi</em> ?</h2>
-      <p data-anime>Chaque machine a sa couture. Michèle vous aide à trouver la vôtre, avec essais et démonstrations en boutique avant d&#39;acheter.</p>
+      <p data-anime>Chaque machine a sa couture : choisissez-en une et regardez-la se piquer. Michèle vous aide à trouver la vôtre, avec essais et démonstrations en boutique avant d&#39;acheter.</p>
+    </div>
+    <div class="banc" data-banc>
+      <svg class="banc-tissu" data-banc-svg role="img" aria-label="Bande de tissu où se coud le point de la machine choisie" data-visuel>
+        <defs>
+          <pattern id="trame" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#EDE3D3"/><path d="M0 3h6M3 0v6" stroke="#E2D5C1" stroke-width="1"/></pattern>
+          <clipPath id="banc-clip"><rect data-banc-revele x="0" y="0" width="0" height="200"/></clipPath>
+        </defs>
+        <rect data-banc-fond x="0" y="18" width="1200" height="124" rx="14" fill="url(#trame)"/>
+        <g clip-path="url(#banc-clip)" data-banc-points></g>
+        <g class="banc-aiguille" data-banc-aiguille data-effet="banc-essai"><path d="M0 -60 V 6" class="banc-tige"/><ellipse cx="0" cy="-48" rx="2.2" ry="6" class="banc-chas"/><path d="M-22 10 h44" class="banc-pied"/></g>
+      </svg>
+      <p class="banc-legende" data-banc-legende aria-live="polite">Point droit et zigzag · Machine à coudre</p>
     </div>
     <ul class="points-grille" data-anime="cascade">
-      <li class="point-carte">
-        <svg class="couture couture--coudre" viewBox="0 0 320 90" aria-hidden="true" data-visuel data-fx="trace" data-effet="quatre-coutures"><rect x="0" y="8" width="320" height="74" rx="10" class="tissu"/><path d="M18 32 H302" data-fx-trait class="fil"/><path d="M18 52 L30 70 L42 52 L54 70 L66 52 L78 70 L90 52 L102 70 L114 52 L126 70 L138 52 L150 70 L162 52 L174 70 L186 52 L198 70 L210 52 L222 70 L234 52 L246 70 L258 52 L270 70 L282 52 L294 70" data-fx-trait class="fil"/></svg>
+      <li class="point-carte" data-point="coudre" data-point-nom="Point droit et zigzag · Machine à coudre">
         <p class="point-nom">Point droit et zigzag</p>
         <h3>Machines à coudre</h3>
         <p>Assembler, ourler, repriser : les coutures de tous les jours, du coton léger au jean.</p>
         <p class="point-prix" data-prix>dès <strong>209 €</strong></p>
-        <a href="/machines?type=coudre#catalogue" class="lien-fleche" data-libelle="Machines">Voir les 5 modèles</a>
-      </li><li class="point-carte">
-        <svg class="couture couture--surjeteuse" viewBox="0 0 320 90" aria-hidden="true" data-visuel data-fx="trace" data-effet="quatre-coutures"><rect x="0" y="8" width="320" height="52" rx="10" class="tissu"/><path d="M18 34 H302" data-fx-trait class="fil fil--fin"/><path d="M18 34 L28 74 L38 34 L48 74 L58 34 L68 74 L78 34 L88 74 L98 34 L108 74 L118 34 L128 74 L138 34 L148 74 L158 34 L168 74 L178 34 L188 74 L198 34 L208 74 L218 34 L228 74 L238 34 L248 74 L258 34 L268 74 L278 34 L288 74 L298 34" data-fx-trait class="fil"/><path d="M23 74 L33 46 L43 74 L53 46 L63 74 L73 46 L83 74 L93 46 L103 74 L113 46 L123 74 L133 46 L143 74 L153 46 L163 74 L173 46 L183 74 L193 46 L203 74 L213 46 L223 74 L233 46 L243 74 L253 46 L263 74 L273 46 L283 74 L293 46" data-fx-trait class="fil fil--fin"/></svg>
+        <p class="point-actions">
+          <button type="button" class="point-essai" data-point-essai aria-pressed="false">Voir le point<span class="visuellement-cache"> : Point droit et zigzag</span></button>
+          <a href="/machines?type=coudre#catalogue" class="lien-fleche" data-libelle="Machines">Voir les 5 modèles</a>
+        </p>
+      </li><li class="point-carte" data-point="surjeteuse" data-point-nom="Le surjet · Surjeteuse">
         <p class="point-nom">Le surjet</p>
         <h3>Surjeteuses</h3>
         <p>Elle assemble, coupe et surfile le bord en un seul passage : des finitions nettes, même sur le jersey.</p>
         <p class="point-prix" data-prix>dès <strong>369 €</strong></p>
-        <a href="/machines?type=surjeteuse#catalogue" class="lien-fleche" data-libelle="Machines">Voir les 7 modèles</a>
-      </li><li class="point-carte">
-        <svg class="couture couture--recouvreuse" viewBox="0 0 320 90" aria-hidden="true" data-visuel data-fx="trace" data-effet="quatre-coutures"><rect x="0" y="8" width="320" height="74" rx="10" class="tissu"/><path d="M18 34 H302" data-fx-trait class="fil"/><path d="M18 58 H302" data-fx-trait class="fil"/><path d="M18 38 L27 54 L36 38 L45 54 L54 38 L63 54 L72 38 L81 54 L90 38 L99 54 L108 38 L117 54 L126 38 L135 54 L144 38 L153 54 L162 38 L171 54 L180 38 L189 54 L198 38 L207 54 L216 38 L225 54 L234 38 L243 54 L252 38 L261 54 L270 38 L279 54 L288 38 L297 54" data-fx-trait class="fil fil--fin fil--dessous"/></svg>
+        <p class="point-actions">
+          <button type="button" class="point-essai" data-point-essai aria-pressed="false">Voir le point<span class="visuellement-cache"> : Le surjet</span></button>
+          <a href="/machines?type=surjeteuse#catalogue" class="lien-fleche" data-libelle="Machines">Voir les 7 modèles</a>
+        </p>
+      </li><li class="point-carte" data-point="recouvreuse" data-point-nom="Le recouvrement · Recouvreuse">
         <p class="point-nom">Le recouvrement</p>
         <h3>Recouvreuses</h3>
         <p>Des ourlets souples et nets sur les tissus extensibles, comme sur un tee-shirt du commerce.</p>
         <p class="point-prix" data-prix>dès <strong>1 079 €</strong></p>
-        <a href="/machines?type=recouvreuse#catalogue" class="lien-fleche" data-libelle="Machines">Voir les 3 modèles</a>
-      </li><li class="point-carte">
-        <svg class="couture couture--brodeuse" viewBox="0 0 320 90" aria-hidden="true" data-visuel data-fx="trace" data-effet="quatre-coutures"><rect x="0" y="8" width="320" height="74" rx="10" class="tissu"/><path d="M20 62 C 60 18, 104 22, 128 46 C 150 68, 186 70, 208 46 C 228 24, 262 22, 300 40" data-fx-trait class="fil"/><path d="M84 34 c -10 -18 6 -26 14 -12 c 8 -14 24 -6 14 12 c 16 2 14 20 -2 18 c 2 16 -16 18 -16 2 c -14 8 -24 -8 -10 -20 z" data-fx-trait class="fil fil--fin"/><path d="M232 56 c 12 -4 22 4 20 16 c -12 2 -20 -6 -20 -16 z M176 30 c -2 -12 10 -18 18 -10 c -6 10 -14 12 -18 10 z" data-fx-trait class="fil fil--fin"/></svg>
+        <p class="point-actions">
+          <button type="button" class="point-essai" data-point-essai aria-pressed="false">Voir le point<span class="visuellement-cache"> : Le recouvrement</span></button>
+          <a href="/machines?type=recouvreuse#catalogue" class="lien-fleche" data-libelle="Machines">Voir les 3 modèles</a>
+        </p>
+      </li><li class="point-carte" data-point="brodeuse" data-point-nom="Motifs brodés · Coudre-brodeuse">
         <p class="point-nom">Motifs brodés</p>
         <h3>Coudre-brodeuses</h3>
         <p>Elle coud, puis elle brode : motifs, monogrammes et prénoms, directement sur le tissu.</p>
         <p class="point-prix" data-prix>Prix et démonstration en boutique</p>
-        <a href="/machines?type=brodeuse#catalogue" class="lien-fleche" data-libelle="Machines">Voir les 4 modèles</a>
+        <p class="point-actions">
+          <button type="button" class="point-essai" data-point-essai aria-pressed="false">Voir le point<span class="visuellement-cache"> : Motifs brodés</span></button>
+          <a href="/machines?type=brodeuse#catalogue" class="lien-fleche" data-libelle="Machines">Voir les 4 modèles</a>
+        </p>
       </li>
     </ul>
     <p class="points-note" data-anime>Et pour le surjet et le recouvrement dans une seule machine : les <a href="/machines?type=combinee#catalogue">trois combinées Babylock</a>.</p>
@@ -185,7 +205,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="machine-marque">Brother · Machine à coudre</p>
       <h3 class="machine-nom">CS70s</h3>
       <p class="prix" data-prix><strong>209 €</strong> <span>prix catalogue, prise en main comprise</span></p>
-      <a href="/contact?sujet=essai&amp;machine=brother-cs70s#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother CS70s</span></a>
+      <a href="/contact?sujet=essai&amp;machine=brother-cs70s#demande" class="machine-essai" data-libelle="Contact"><span class="essai-long">Demander un essai</span><span class="essai-court">Essayer</span><span class="visuellement-cache"> : Brother CS70s</span></a>
     </div>
   </article></li><li data-fx="vitesse" data-fx-force="2"><article class="machine" data-type="coudre" data-marque="brother" id="m-brother-f410">
     <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
@@ -197,7 +217,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="machine-marque">Brother · Machine à coudre</p>
       <h3 class="machine-nom">F410</h3>
       <p class="prix" data-prix><strong>999 €</strong> <span>prix catalogue, prise en main comprise</span></p>
-      <a href="/contact?sujet=essai&amp;machine=brother-f410#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother F410</span></a>
+      <a href="/contact?sujet=essai&amp;machine=brother-f410#demande" class="machine-essai" data-libelle="Contact"><span class="essai-long">Demander un essai</span><span class="essai-court">Essayer</span><span class="visuellement-cache"> : Brother F410</span></a>
     </div>
   </article></li><li data-fx="vitesse" data-fx-force="2"><article class="machine" data-type="surjeteuse" data-marque="brother" id="m-brother-4234d">
     <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
@@ -209,7 +229,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="machine-marque">Brother · Surjeteuse</p>
       <h3 class="machine-nom">4234D</h3>
       <p class="prix" data-prix><strong>729 €</strong> <span>prix catalogue, prise en main comprise</span></p>
-      <a href="/contact?sujet=essai&amp;machine=brother-4234d#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Brother 4234D</span></a>
+      <a href="/contact?sujet=essai&amp;machine=brother-4234d#demande" class="machine-essai" data-libelle="Contact"><span class="essai-long">Demander un essai</span><span class="essai-court">Essayer</span><span class="visuellement-cache"> : Brother 4234D</span></a>
     </div>
   </article></li><li data-fx="vitesse" data-fx-force="2"><article class="machine" data-type="surjeteuse" data-marque="babylock" id="m-babylock-victory">
     <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
@@ -221,7 +241,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="machine-marque">Babylock · Surjeteuse</p>
       <h3 class="machine-nom">Victory</h3>
       <p class="prix" data-prix><strong>1 348 €</strong> <span>en boutique, prise en main comprise</span><span class="prix-avant">prix catalogue 1 498 €</span></p>
-      <a href="/contact?sujet=essai&amp;machine=babylock-victory#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Victory</span></a>
+      <a href="/contact?sujet=essai&amp;machine=babylock-victory#demande" class="machine-essai" data-libelle="Contact"><span class="essai-long">Demander un essai</span><span class="essai-court">Essayer</span><span class="visuellement-cache"> : Babylock Victory</span></a>
     </div>
   </article></li><li data-fx="vitesse" data-fx-force="2"><article class="machine" data-type="recouvreuse" data-marque="babylock" id="m-babylock-primo">
     <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
@@ -233,7 +253,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="machine-marque">Babylock · Recouvreuse</p>
       <h3 class="machine-nom">Primo</h3>
       <p class="prix" data-prix><strong>2 518 €</strong> <span>en boutique, prise en main comprise</span><span class="prix-avant">prix catalogue 2 798 €</span></p>
-      <a href="/contact?sujet=essai&amp;machine=babylock-primo#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Primo</span></a>
+      <a href="/contact?sujet=essai&amp;machine=babylock-primo#demande" class="machine-essai" data-libelle="Contact"><span class="essai-long">Demander un essai</span><span class="essai-court">Essayer</span><span class="visuellement-cache"> : Babylock Primo</span></a>
     </div>
   </article></li><li data-fx="vitesse" data-fx-force="2"><article class="machine" data-type="combinee" data-marque="babylock" id="m-babylock-gloria">
     <figure class="media machine-media" data-contain style="--cadrage:50% 50%">
@@ -245,7 +265,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="machine-marque">Babylock · Combinée surjeteuse-recouvreuse</p>
       <h3 class="machine-nom">Gloria</h3>
       <p class="prix" data-prix><strong>3 598 €</strong> <span>en boutique, prise en main comprise</span><span class="prix-avant">prix catalogue 3 998 €</span></p>
-      <a href="/contact?sujet=essai&amp;machine=babylock-gloria#demande" class="machine-essai" data-libelle="Contact">Demander un essai<span class="visuellement-cache"> : Babylock Gloria</span></a>
+      <a href="/contact?sujet=essai&amp;machine=babylock-gloria#demande" class="machine-essai" data-libelle="Contact"><span class="essai-long">Demander un essai</span><span class="essai-court">Essayer</span><span class="visuellement-cache"> : Babylock Gloria</span></a>
     </div>
   </article></li>
     </ul>
@@ -316,11 +336,25 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </ul>
   </div>
 </section>
+<section class="entrez" id="entrez" data-fx="plein-ecran" data-fx-depart="inset(22% 26% 22% 26% round 28px)">
+  <div data-collant>
+    <figure class="media entrez-media" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/boutique-plein-mobile-640.webp 640w, /assets/images/boutique-plein-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/boutique-plein-1600.webp" srcset="/assets/images/boutique-plein-960.webp 960w, /assets/images/boutique-plein-1600.webp 1600w, /assets/images/boutique-plein-1920.webp 1920w" sizes="100vw" alt="L&#39;intérieur de la boutique : étagères de tissus, de créations et de mercerie" width="1600" height="900" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="entrez-mots" aria-hidden="true"><span data-fx-ecarte="g">Poussez</span><span data-fx-ecarte="d">la porte.</span></div>
+    <div class="entrez-legende conteneur" data-fx-apres>
+      <h2>Une boutique <em>à toucher du doigt</em></h2>
+      <p>Des machines à essayer, des tissus et des créations sur les étagères : la boutique de Vannes se veut conviviale, ludique et créative.</p>
+    </div>
+  </div>
+</section>
 <section class="boutique fond-sable" id="boutique">
   <div class="conteneur boutique-grille">
-    <figure class="media boutique-media" data-anime="rideau" style="--cadrage:50% 50%">
+    <figure class="media boutique-media" data-anime="rideau" style="--cadrage:50% 45%">
   <picture>
-    <img src="/assets/images/boutique-interieur-960.webp" srcset="/assets/images/boutique-interieur-480.webp 480w, /assets/images/boutique-interieur-640.webp 640w, /assets/images/boutique-interieur-960.webp 960w" sizes="(max-width: 760px) 100vw, 50vw" alt="L&#39;intérieur de la boutique : étagères de tissus, de créations et de mercerie" width="960" height="720" loading="lazy" decoding="async">
+    <img src="/assets/images/boutique-vitrine-960.webp" srcset="/assets/images/boutique-vitrine-480.webp 480w, /assets/images/boutique-vitrine-640.webp 640w, /assets/images/boutique-vitrine-960.webp 960w" sizes="(max-width: 760px) 100vw, 50vw" alt="La vitrine de la boutique, à Vannes" width="960" height="540" loading="lazy" decoding="async">
   </picture>
 </figure>
     <div>
@@ -337,8 +371,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="fin fond-nuit" id="fin">
+  <div class="fin-coupons" aria-hidden="true" data-visuel data-effet="coupons"><span class="coupon coupon--pois coupon--1"></span><span class="coupon coupon--vichy coupon--2"></span><span class="coupon coupon--rayures coupon--3"></span><span class="coupon coupon--fleurs coupon--4"></span><span class="coupon coupon--pois-jaune coupon--5"></span><span class="coupon coupon--chevrons coupon--6"></span></div>
   <div class="conteneur fin-cadre">
-    <svg class="fin-couture" viewBox="0 0 1000 400" preserveAspectRatio="none" aria-hidden="true" data-superpose data-visuel data-fx="trace" data-effet="couture-appel"><rect x="8" y="8" width="984" height="384" rx="28" data-fx-trait/></svg>
+    <div class="fin-bord" aria-hidden="true" data-superpose data-effet="couture-appel"></div>
     <h2 data-anime="lignes">Venez l'essayer <em>avant de choisir</em>.</h2>
     <p data-anime>Essais et démonstrations en boutique, du mercredi au samedi.</p>
     <p class="ouv-actions fin-actions" data-anime>

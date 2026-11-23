@@ -1,5 +1,31 @@
 # Ce qui a changé
 
+## v2 · 23 novembre 2026 · passe finale
+
+**Accueil**
+- « Quelle machine pour quoi ? » devient un banc d'essai : choisir une machine (bouton « Voir le point », ou survol à la souris) fait piquer sa couture en grand sur une bande de lin, aiguille comprise (point droit et zigzag, surjet, recouvrement, motif brodé).
+- Nouveau moment « Poussez la porte » : la photo de l'intérieur de la boutique s'ouvre jusqu'au plein écran au défilement, les mots s'écartent, puis une légende arrive.
+- La section Boutique montre maintenant la vitrine (on la reconnaît en arrivant rue Alain-René Lesage).
+- Michèle et Pascal : portraits en arche, plus grands, qui montent en décalé.
+- L'image d'ouverture se rapproche lentement de l'aiguille après l'intro ; dans la vitrine, la Victory remplace l'Enspire (sans photo).
+
+**Toutes les pages**
+- Appel final refait : une couture en pointillé se pique autour du titre au défilement, avec des coupons de tissu aux bords crantés (pois, vichy, rayures, couleurs du logo) qui flottent à des vitesses différentes. Il remplace le cadre qui ne se dessinait qu'à moitié.
+
+**Machines**
+- Catalogue rangé par type, avec pour chaque groupe sa couture dessinée, son nombre de modèles et une phrase sur ce que fait la machine ; les filtres masquent les groupes vides.
+- Cartes qui s'inclinent au survol, photo qui se rapproche ; sur téléphone, le lien devient « Essayer » (plus de retour à la ligne).
+
+**Atelier** : un pictogramme tracé par tarif (entretien, révision, réparation) ; récapitulatif de hauteur fixe.
+
+**Prise en main** : bandeau d'ouverture cadré sur les objets ; portrait de Michèle en arche, plus petit.
+
+**La maison** : frise resserrée, avec une vignette par date (atelier, vitrine, révision) ; portraits en arche.
+
+**Contact** : le logo posé en tampon sur la carte de visite.
+
+**Audit complet** (13 tailles, tous les modes, toutes les pages) : 3 échecs corrigés (texte de Pascal coupé pendant l'animation des volets, positions de défilement décalées après le choix d'un tarif), 0 échec à la dernière passe.
+
 ## v1 · 20 novembre 2026 · la base
 
 **Direction « Coton & framboise »** : fond coton, sable et bleu nuit, un seul accent framboise (le fil) ; Instrument Serif pour les titres, avec un mot en italique, et Figtree pour le texte. Le logo du client (les carrés de tissu « e-magina COUDRE ») est repris dans l'en-tête, l'intro, le voile et le pied de page.

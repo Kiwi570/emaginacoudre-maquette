@@ -1,7 +1,7 @@
 /* Machines : outil d'abord. Grand titre, filtres dès le premier écran, bandeau de machines qui défile,
    puis le catalogue complet avec les vrais prix et un bouton d'essai prérempli. */
 import { html, brut } from '../../outils/gabarit.mjs';
-import { carteMachine, imageExiste, appelFinal } from '../gabarits/composants.mjs';
+import { carteMachine, imageExiste, appelFinal, coutures } from '../gabarits/composants.mjs';
 
 export const page = { cle: 'machines', fichier: 'machines', imagePartage: 'boutique-interieur-960.webp' };
 
@@ -46,9 +46,20 @@ export default (c) => {
       </div>
       <p class="catalogue-compte" role="status" data-compte data-modele="${c.s('machines.filtres.resultat')}" data-modele1="${c.s('machines.filtres.resultat1')}">${c.t('machines.filtres.resultat', { n: M.length })}</p>
     </div>
-    <ul class="catalogue-grille" data-catalogue data-anime="cascade">
-      ${M.map((m) => html`<li data-type="${m.type}" data-marque="${m.marque.toLowerCase()}">${carteMachine(c, m, { titre: 'h3' })}</li>`)}
-    </ul>
+    <div class="catalogue-groupes" data-catalogue>
+      ${TYPES.map((t) => html`<div class="groupe" data-groupe="${t}" id="type-${t}">
+        <div class="groupe-tete">
+          ${coutures(t, { effet: 'groupe-couture', classe: 'groupe-couture' })}
+          <div>
+            <h3 class="groupe-nom">${T[t].nom} <span class="groupe-compte" data-groupe-compte>${nb((m) => m.type === t)}</span></h3>
+            <p class="groupe-usage"><strong>${T[t].point}.</strong> ${T[t].usage}</p>
+          </div>
+        </div>
+        <ul class="catalogue-grille" data-anime="cascade">
+          ${M.filter((m) => m.type === t).map((m) => html`<li data-type="${m.type}" data-marque="${m.marque.toLowerCase()}" data-survol="incline" data-survol-force="5">${carteMachine(c, m, { titre: 'h4' })}</li>`)}
+        </ul>
+      </div>`)}
+    </div>
     <p class="catalogue-vide" data-catalogue-vide hidden>${c.t('machines.filtres.aucune')}</p>
   </div>
 </section>

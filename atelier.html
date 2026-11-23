@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/instrument-serif-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/figtree-variable.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#FBF8F3">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -142,18 +142,21 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <li><span class="tarif-nom">Diagnostic</span><span class="tarif-prix" data-prix>Gratuit</span><span class="tarif-texte">En boutique, sous vos yeux.</span></li><li><span class="tarif-nom">Devis</span><span class="tarif-prix" data-prix>30 €</span><span class="tarif-texte">Déduit du montant de la réparation si vous l&#39;acceptez.</span></li>
       </ul>
     </div>
-    <div class="tarifs-cartes" data-anime="cascade" data-choix-prestation>
+    <div class="tarifs-cartes" data-choix-prestation>
       <article class="tarif-carte" data-prestation="entretien">
+        <svg class="tarif-picto" viewBox="0 0 64 64" aria-hidden="true" data-visuel data-fx="trace" data-effet="pictos-atelier"><path data-fx-trait d="M14 40 h22 l6 -14 h-34 z"/><path data-fx-trait d="M20 26 v-8 h10 v8"/><path data-fx-trait d="M42 26 c6 -2 10 -6 12 -12"/><path data-fx-trait d="M54 30 c0 4 -3 6 -3 9 a3 3 0 0 0 6 0 c0 -3 -3 -5 -3 -9"/></svg>
         <h3>Entretien</h3>
         <p class="tarif-carte-prix" data-prix>75 €</p>
         <p>Nettoyage des parties accessibles, lubrification des mécanismes les plus sollicités, essai de couture.</p>
         <button type="button" class="bouton bouton--contour tarif-choisir" aria-pressed="false" data-libelle-choisi="Choisi" data-libelle-choisir="Choisir"><span data-libelle-bouton>Choisir</span><span class="visuellement-cache"> : Entretien</span></button>
       </article><article class="tarif-carte" data-prestation="revision">
+        <svg class="tarif-picto" viewBox="0 0 64 64" aria-hidden="true" data-visuel data-fx="trace" data-effet="pictos-atelier"><circle data-fx-trait cx="24" cy="28" r="12"/><circle data-fx-trait cx="24" cy="28" r="4"/><path data-fx-trait d="M24 12 v-4 M24 48 v-4 M8 28 h4 M36 28 h4 M13 17 l3 3 M32 36 l3 3 M13 39 l3 -3 M32 20 l3 -3"/><path data-fx-trait d="M40 44 l14 14"/><circle data-fx-trait cx="46" cy="24" r="0.1"/></svg>
         <h3>Révision</h3>
         <p class="tarif-carte-prix" data-prix>119 €</p>
         <p>Forfait machines électroniques : la machine est entièrement ouverte, nettoyée, lubrifiée, puis re-réglée aux réglages d&#39;usine.</p>
         <button type="button" class="bouton bouton--contour tarif-choisir" aria-pressed="false" data-libelle-choisi="Choisi" data-libelle-choisir="Choisir"><span data-libelle-bouton>Choisir</span><span class="visuellement-cache"> : Révision</span></button>
       </article><article class="tarif-carte" data-prestation="reparation">
+        <svg class="tarif-picto" viewBox="0 0 64 64" aria-hidden="true" data-visuel data-fx="trace" data-effet="pictos-atelier"><path data-fx-trait d="M12 50 l22 -22"/><path data-fx-trait d="M34 28 a10 10 0 1 0 8 -16 l-6 6 -6 -2 -2 -6 6 -6 a10 10 0 0 0 -16 8"/><path data-fx-trait d="M10 48 l4 4"/></svg>
         <h3>Réparation</h3>
         <p class="tarif-carte-prix" data-prix>75 € / heure</p>
         <p>Main-d&#39;œuvre en atelier : intervention mécanique ou électronique, parfois avec remplacement de pièces.</p>
@@ -205,8 +208,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="fin fond-nuit" id="fin">
+  <div class="fin-coupons" aria-hidden="true" data-visuel data-effet="coupons"><span class="coupon coupon--pois coupon--1"></span><span class="coupon coupon--vichy coupon--2"></span><span class="coupon coupon--rayures coupon--3"></span><span class="coupon coupon--fleurs coupon--4"></span><span class="coupon coupon--pois-jaune coupon--5"></span><span class="coupon coupon--chevrons coupon--6"></span></div>
   <div class="conteneur fin-cadre">
-    <svg class="fin-couture" viewBox="0 0 1000 400" preserveAspectRatio="none" aria-hidden="true" data-superpose data-visuel data-fx="trace" data-effet="couture-appel"><rect x="8" y="8" width="984" height="384" rx="28" data-fx-trait/></svg>
+    <div class="fin-bord" aria-hidden="true" data-superpose data-effet="couture-appel"></div>
     <h2 data-anime="lignes">Une machine qui <em>coince</em> ?</h2>
     <p data-anime>Apportez-la du mercredi au samedi : le diagnostic se fait devant vous.</p>
     <p class="ouv-actions fin-actions" data-anime>

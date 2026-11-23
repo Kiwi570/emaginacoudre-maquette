@@ -1,3213 +1,3295 @@
 {
- "logo": {
-  "nom": "logo",
-  "source": "recu/logo-entete.png",
-  "role": "logo",
-  "alt": "E-maginacoudre",
-  "grok": false,
-  "mention": null,
-  "beaute": null,
-  "empreinte": "e5b0ff60ad467015",
-  "ratio": null,
-  "largeurs": [
-   240,
-   480
-  ],
-  "mobile": null,
-  "cadrage": null,
-  "sujet": null,
-  "zones_calmes": null,
-  "zone_texte": null,
-  "recadrage": null,
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "logo-240.webp",
-   "logo-480.webp"
-  ],
-  "poids": {
-   "logo-240.webp": 6304,
-   "logo-480.webp": 15214
-  },
-  "media": "c.media({ nom: 'logo', alt: \"E-maginacoudre\", sizes: '240px' })"
- },
- "michele": {
-  "nom": "michele",
-  "source": "recu/aide-prise-main-emaginacoudre.jpg",
-  "role": "portrait",
-  "alt": "Michèle, qui conseille et forme à la boutique",
-  "grok": false,
-  "mention": null,
-  "beaute": 3,
-  "empreinte": "32ef8b79a96f0902",
-  "ratio": "4:5",
-  "largeurs": [
-   480,
-   640,
-   784
-  ],
-  "mobile": null,
-  "cadrage": "52% 38%",
-  "sujet": {
-   "x": 0,
-   "y": 3.4,
-   "l": 100,
-   "h": 96.6
-  },
-  "zones_calmes": [
-   {
-    "cote": "droite",
-    "score": 0.13,
-    "ton": "moyen"
-   },
-   {
-    "cote": "haut",
-    "score": 0.13,
-    "ton": "moyen"
-   },
-   {
-    "cote": "gauche",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "sombre"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 125,
-   "width": 1500,
-   "height": 1875,
-   "source": [
-    1500,
-    2000
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "michele-480.webp",
-   "michele-640.webp",
-   "michele-784.webp"
-  ],
-  "poids": {
-   "michele-480.webp": 31684,
-   "michele-640.webp": 47436,
-   "michele-784.webp": 61840
-  },
-  "media": "c.media({ nom: 'michele', alt: \"Michèle, qui conseille et forme à la boutique\", cadrage: '52% 38%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
- },
- "pascal": {
-  "nom": "pascal",
-  "source": "recu/service-apres-vente-c.jpg",
-  "role": "portrait",
-  "alt": "Pascal au travail sur une machine, à l'atelier",
-  "grok": false,
-  "mention": null,
-  "beaute": 3,
-  "empreinte": "4bd7e0ffc470da88",
-  "ratio": "4:5",
-  "largeurs": [
-   480,
-   640,
-   784
-  ],
-  "mobile": null,
-  "cadrage": "50% 51%",
-  "sujet": {
-   "x": 3.9,
-   "y": 6.9,
-   "l": 96.1,
-   "h": 89.7
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0.15,
-    "ton": "sombre"
-   },
-   {
-    "cote": "haut",
-    "score": 0.14,
-    "ton": "sombre"
-   },
-   {
-    "cote": "droite",
-    "score": 0.06,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0.03,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 153,
-   "top": 0,
-   "width": 574,
-   "height": 718,
-   "source": [
-    800,
-    718
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "800 px de large"
-  ],
-  "avertissements": [
-   "agrandie 1,37 fois (source de 574 px après recadrage)"
-  ],
-  "fichiers": [
-   "pascal-480.webp",
-   "pascal-640.webp",
-   "pascal-784.webp"
-  ],
-  "poids": {
-   "pascal-480.webp": 21802,
-   "pascal-640.webp": 29444,
-   "pascal-784.webp": 36632
-  },
-  "media": "c.media({ nom: 'pascal', alt: \"Pascal au travail sur une machine, à l'atelier\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
- },
- "atelier-coeur": {
-  "nom": "atelier-coeur",
-  "source": "recu/operation-maintenance-coeur-ouvert.jpg",
-  "role": "galerie",
-  "alt": "Une machine à coudre entièrement ouverte pendant une révision",
-  "grok": false,
-  "mention": null,
-  "beaute": 3,
-  "empreinte": "1c0e963927f4608e",
-  "ratio": "4:5",
-  "largeurs": [
-   480,
-   640
-  ],
-  "mobile": null,
-  "cadrage": "50% 51%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 100,
-   "h": 100
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "droite",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "haut",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "sombre"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 256,
-   "top": 0,
-   "width": 614,
-   "height": 768,
-   "source": [
-    1024,
-    768
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "largeurs retirées (source trop petite) : 960",
-   "1024 px de large"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "atelier-coeur-480.webp",
-   "atelier-coeur-640.webp"
-  ],
-  "poids": {
-   "atelier-coeur-480.webp": 32842,
-   "atelier-coeur-640.webp": 44352
-  },
-  "media": "c.media({ nom: 'atelier-coeur', alt: \"Une machine à coudre entièrement ouverte pendant une révision\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
- },
- "atelier-ouverte": {
-  "nom": "atelier-ouverte",
-  "source": "recu/machine-coudre-ouverte-effectuer.jpg",
-  "role": "galerie",
-  "alt": "Mécanisme d'une machine à coudre ouverte sur l'établi",
-  "grok": false,
-  "mention": null,
-  "beaute": 3,
-  "empreinte": "885228c649096513",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "50% 43%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 100,
-   "h": 95.5
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "droite",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "haut",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 54,
-   "top": 0,
-   "width": 853,
-   "height": 640,
-   "source": [
-    960,
-    640
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "960 px de large"
-  ],
-  "avertissements": [
-   "agrandie 1,13 fois (source de 853 px après recadrage)"
-  ],
-  "fichiers": [
-   "atelier-ouverte-480.webp",
-   "atelier-ouverte-640.webp",
-   "atelier-ouverte-960.webp"
-  ],
-  "poids": {
-   "atelier-ouverte-480.webp": 31314,
-   "atelier-ouverte-640.webp": 44190,
-   "atelier-ouverte-960.webp": 67128
-  },
-  "media": "c.media({ nom: 'atelier-ouverte', alt: \"Mécanisme d'une machine à coudre ouverte sur l'établi\", cadrage: '50% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
- },
- "atelier-test": {
-  "nom": "atelier-test",
-  "source": "recu/depannage-machine-coudre-test.jpg",
-  "role": "galerie",
-  "alt": "Test électronique d'une machine en panne",
-  "grok": false,
-  "mention": null,
-  "beaute": 3,
-  "empreinte": "f603e563e0c2f1b9",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "61% 50%",
-  "sujet": {
-   "x": 3.1,
-   "y": 0,
-   "l": 96.9,
-   "h": 100
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0,
-    "ton": "sombre"
-   },
-   {
-    "cote": "droite",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "haut",
-    "score": 0,
-    "ton": "sombre"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 67,
-   "width": 800,
-   "height": 600,
-   "source": [
-    800,
-    720
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "800 px de large"
-  ],
-  "avertissements": [
-   "agrandie 1,2 fois (source de 800 px après recadrage)"
-  ],
-  "fichiers": [
-   "atelier-test-480.webp",
-   "atelier-test-640.webp",
-   "atelier-test-960.webp"
-  ],
-  "poids": {
-   "atelier-test-480.webp": 20662,
-   "atelier-test-640.webp": 27322,
-   "atelier-test-960.webp": 42002
-  },
-  "media": "c.media({ nom: 'atelier-test', alt: \"Test électronique d'une machine en panne\", cadrage: '61% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
- },
- "boutique-interieur": {
-  "nom": "boutique-interieur",
-  "source": "recu/emaginacoudre-vente-reparations-machines-11.jpg",
-  "role": "galerie",
-  "alt": "L'intérieur de la boutique : étagères de tissus, de créations et de mercerie",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "e63eea8968f29ba1",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "44% 54%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 100,
-   "h": 100
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "droite",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "haut",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 0,
-   "width": 2000,
-   "height": 1500,
-   "source": [
-    2000,
-    1500
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "boutique-interieur-480.webp",
-   "boutique-interieur-640.webp",
-   "boutique-interieur-960.webp"
-  ],
-  "poids": {
-   "boutique-interieur-480.webp": 29638,
-   "boutique-interieur-640.webp": 46228,
-   "boutique-interieur-960.webp": 88068
-  },
-  "media": "c.media({ nom: 'boutique-interieur', alt: \"L'intérieur de la boutique : étagères de tissus, de créations et de mercerie\", cadrage: '44% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
- },
- "boutique-tissus": {
-  "nom": "boutique-tissus",
-  "source": "recu/emaginacoudre-vente-reparations-machines-12.jpg",
-  "role": "galerie",
-  "alt": "Tissus fleuris en rouleaux, rouges, bleus et blancs",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "94dadc4fbc12132b",
-  "ratio": "4:5",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "50% 51%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 100,
-   "h": 100
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "droite",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "haut",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 540,
-   "top": 0,
-   "width": 1200,
-   "height": 1500,
-   "source": [
-    2000,
-    1500
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "boutique-tissus-480.webp",
-   "boutique-tissus-640.webp",
-   "boutique-tissus-960.webp"
-  ],
-  "poids": {
-   "boutique-tissus-480.webp": 91192,
-   "boutique-tissus-640.webp": 130032,
-   "boutique-tissus-960.webp": 234282
-  },
-  "media": "c.media({ nom: 'boutique-tissus', alt: \"Tissus fleuris en rouleaux, rouges, bleus et blancs\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
- },
- "boutique-machine": {
-  "nom": "boutique-machine",
-  "source": "recu/emaginacoudre-vente-reparations-machines-6.jpg",
-  "role": "galerie",
-  "alt": "Une machine Brother allumée sur une table de la boutique",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "82c59fa0a3e39d8c",
-  "ratio": "4:5",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "50% 55%",
-  "sujet": {
-   "x": 0,
-   "y": 9.1,
-   "l": 100,
-   "h": 86.4
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.57,
-    "ton": "moyen"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.51,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0.41,
-    "ton": "moyen"
-   },
-   {
-    "cote": "droite",
-    "score": 0.39,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 368,
-   "top": 0,
-   "width": 1064,
-   "height": 1330,
-   "source": [
-    2000,
-    1330
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "compression visible"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "boutique-machine-480.webp",
-   "boutique-machine-640.webp",
-   "boutique-machine-960.webp"
-  ],
-  "poids": {
-   "boutique-machine-480.webp": 12534,
-   "boutique-machine-640.webp": 18302,
-   "boutique-machine-960.webp": 30142
-  },
-  "media": "c.media({ nom: 'boutique-machine', alt: \"Une machine Brother allumée sur une table de la boutique\", cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
- },
- "boutique-vitrine": {
-  "nom": "boutique-vitrine",
-  "source": "recu/vitrine-emaginacoudre-vente-machine.jpg",
-  "role": "galerie",
-  "alt": "La vitrine de la boutique E-maginacoudre, rue Alain-René Lesage à Vannes",
-  "grok": false,
-  "mention": null,
-  "beaute": 3,
-  "empreinte": "ca4335a9792123b5",
-  "ratio": "16:9",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "50% 53%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 100,
-   "h": 93.3
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "droite",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "haut",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 198,
-   "top": 0,
-   "width": 1564,
-   "height": 880,
-   "source": [
-    2000,
-    880
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "boutique-vitrine-480.webp",
-   "boutique-vitrine-640.webp",
-   "boutique-vitrine-960.webp"
-  ],
-  "poids": {
-   "boutique-vitrine-480.webp": 17078,
-   "boutique-vitrine-640.webp": 23094,
-   "boutique-vitrine-960.webp": 34998
-  },
-  "media": "c.media({ nom: 'boutique-vitrine', alt: \"La vitrine de la boutique E-maginacoudre, rue Alain-René Lesage à Vannes\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
- },
- "creation-poupee": {
-  "nom": "creation-poupee",
-  "source": "recu/emaginacoudre-vente-reparations-machines-4.jpg",
-  "role": "galerie",
-  "alt": "Poupée en tissu posée sur les étagères de la boutique",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "11e9ec510de064db",
-  "ratio": "2:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "41% 48%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 95.5,
-   "h": 100
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.08,
-    "ton": "moyen"
-   },
-   {
-    "cote": "droite",
-    "score": 0.04,
-    "ton": "moyen"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.02,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 0,
-   "width": 1330,
-   "height": 1995,
-   "source": [
-    1330,
-    2000
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "creation-poupee-480.webp",
-   "creation-poupee-640.webp",
-   "creation-poupee-960.webp"
-  ],
-  "poids": {
-   "creation-poupee-480.webp": 34830,
-   "creation-poupee-640.webp": 51378,
-   "creation-poupee-960.webp": 88224
-  },
-  "media": "c.media({ nom: 'creation-poupee', alt: \"Poupée en tissu posée sur les étagères de la boutique\", cadrage: '41% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
- },
- "creation-theiere": {
-  "nom": "creation-theiere",
-  "source": "recu/emaginacoudre-vente-reparations-machines-5.jpg",
-  "role": "galerie",
-  "alt": "Théière en tissu à pois rouges, cousue main",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "7914d018591389d2",
-  "ratio": "3:2",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "56% 55%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 100,
-   "h": 95.5
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.33,
-    "ton": "sombre"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.16,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 5,
-   "top": 0,
-   "width": 1995,
-   "height": 1330,
-   "source": [
-    2000,
-    1330
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "creation-theiere-480.webp",
-   "creation-theiere-640.webp",
-   "creation-theiere-960.webp"
-  ],
-  "poids": {
-   "creation-theiere-480.webp": 17906,
-   "creation-theiere-640.webp": 25174,
-   "creation-theiere-960.webp": 39798
-  },
-  "media": "c.media({ nom: 'creation-theiere', alt: \"Théière en tissu à pois rouges, cousue main\", cadrage: '56% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
- },
- "creation-sacs": {
-  "nom": "creation-sacs",
-  "source": "recu/emaginacoudre-vente-reparations-machines-7.jpg",
-  "role": "galerie",
-  "alt": "Sac cousu dans un tissu à fleurs, devant des coupons colorés",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "b21e58e8cb1ecf0d",
-  "ratio": "3:2",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "46% 47%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 100,
-   "h": 95.5
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "haut",
-    "score": 0,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 0,
-   "width": 1995,
-   "height": 1330,
-   "source": [
-    2000,
-    1330
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "creation-sacs-480.webp",
-   "creation-sacs-640.webp",
-   "creation-sacs-960.webp"
-  ],
-  "poids": {
-   "creation-sacs-480.webp": 38562,
-   "creation-sacs-640.webp": 65640,
-   "creation-sacs-960.webp": 129400
-  },
-  "media": "c.media({ nom: 'creation-sacs', alt: \"Sac cousu dans un tissu à fleurs, devant des coupons colorés\", cadrage: '46% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
- },
- "creation-poupee-pois": {
-  "nom": "creation-poupee-pois",
-  "source": "recu/emaginacoudre-vente-reparations-machines-10.jpg",
-  "role": "galerie",
-  "alt": "Poupée à pois sur un fauteuil en osier, avec des coupons de tissu",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "275a947b6f3d369f",
-  "ratio": "3:4",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "68% 34%",
-  "sujet": {
-   "x": 0,
-   "y": 6.3,
-   "l": 100,
-   "h": 84.4
-  },
-  "zones_calmes": [
-   {
-    "cote": "bas",
-    "score": 0.03,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "haut",
-    "score": 0,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 0,
-   "width": 1500,
-   "height": 2000,
-   "source": [
-    1500,
-    2000
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "creation-poupee-pois-480.webp",
-   "creation-poupee-pois-640.webp",
-   "creation-poupee-pois-960.webp"
-  ],
-  "poids": {
-   "creation-poupee-pois-480.webp": 62122,
-   "creation-poupee-pois-640.webp": 93928,
-   "creation-poupee-pois-960.webp": 178394
-  },
-  "media": "c.media({ nom: 'creation-poupee-pois', alt: \"Poupée à pois sur un fauteuil en osier, avec des coupons de tissu\", cadrage: '68% 34%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
- },
- "machines/brother-cs70s": {
-  "nom": "machines/brother-cs70s",
-  "source": "recu/brother-cs70s.jpg",
-  "role": "produit",
-  "alt": "Brother CS70s",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "180fb07de039f59a",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "50% 40%",
-  "sujet": {
-   "x": 27.6,
-   "y": 18.2,
-   "l": 59.8,
-   "h": 45.5
-  },
-  "zones_calmes": [
-   {
-    "cote": "bas",
-    "score": 0.78,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.57,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.55,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.52,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 72,
-   "top": 0,
-   "width": 1777,
-   "height": 1333,
-   "source": [
-    2000,
-    1333
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "machines/brother-cs70s-480.webp",
-   "machines/brother-cs70s-640.webp",
-   "machines/brother-cs70s-960.webp"
-  ],
-  "poids": {
-   "machines/brother-cs70s-480.webp": 7970,
-   "machines/brother-cs70s-640.webp": 12288,
-   "machines/brother-cs70s-960.webp": 22258
-  },
-  "media": "c.media({ nom: 'machines/brother-cs70s', alt: \"Brother CS70s\", cadrage: '50% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/brother-a16": {
-  "nom": "machines/brother-a16",
-  "source": "recu/brother-a16.jpg",
-  "role": "produit",
-  "alt": "Brother A16",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "ba45826c86206bfa",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "51% 41%",
-  "sujet": {
-   "x": 21.9,
-   "y": 12.2,
-   "l": 59.4,
-   "h": 61.3
-  },
-  "zones_calmes": [
-   {
-    "cote": "bas",
-    "score": 0.82,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.65,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.61,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.55,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 0,
-   "width": 2000,
-   "height": 1500,
-   "source": [
-    2000,
-    1654
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "machines/brother-a16-480.webp",
-   "machines/brother-a16-640.webp",
-   "machines/brother-a16-960.webp"
-  ],
-  "poids": {
-   "machines/brother-a16-480.webp": 7052,
-   "machines/brother-a16-640.webp": 10918,
-   "machines/brother-a16-960.webp": 19260
-  },
-  "media": "c.media({ nom: 'machines/brother-a16', alt: \"Brother A16\", cadrage: '51% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/brother-a65": {
-  "nom": "machines/brother-a65",
-  "source": "recu/brother-a65.png",
-  "role": "produit",
-  "alt": "Brother A65",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "60f1d85d4fcb2a94",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "50% 36%",
-  "sujet": {
-   "x": 23.2,
-   "y": 4.3,
-   "l": 66.1,
-   "h": 60.9
-  },
-  "zones_calmes": [
-   {
-    "cote": "bas",
-    "score": 0.79,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.55,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.52,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.43,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 0,
-   "width": 655,
-   "height": 491,
-   "source": [
-    693,
-    491
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "693 px de large"
-  ],
-  "avertissements": [
-   "agrandie 1,47 fois (source de 655 px après recadrage)"
-  ],
-  "fichiers": [
-   "machines/brother-a65-480.webp",
-   "machines/brother-a65-640.webp",
-   "machines/brother-a65-960.webp"
-  ],
-  "poids": {
-   "machines/brother-a65-480.webp": 9092,
-   "machines/brother-a65-640.webp": 14010,
-   "machines/brother-a65-960.webp": 20766
-  },
-  "media": "c.media({ nom: 'machines/brother-a65', alt: \"Brother A65\", cadrage: '50% 36%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/brother-f400": {
-  "nom": "machines/brother-f400",
-  "source": "recu/brother-f400.jpg",
-  "role": "produit",
-  "alt": "Brother F400",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "b0c478ce95a895f0",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "62% 46%",
-  "sujet": {
-   "x": 25,
-   "y": 25,
-   "l": 56.3,
-   "h": 37.5
-  },
-  "zones_calmes": [
-   {
-    "cote": "bas",
-    "score": 0.86,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.77,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.72,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.65,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 0,
-   "width": 2000,
-   "height": 1500,
-   "source": [
-    2000,
-    1500
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "machines/brother-f400-480.webp",
-   "machines/brother-f400-640.webp",
-   "machines/brother-f400-960.webp"
-  ],
-  "poids": {
-   "machines/brother-f400-480.webp": 5930,
-   "machines/brother-f400-640.webp": 8990,
-   "machines/brother-f400-960.webp": 16756
-  },
-  "media": "c.media({ nom: 'machines/brother-f400', alt: \"Brother F400\", cadrage: '62% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/brother-f410": {
-  "nom": "machines/brother-f410",
-  "source": "recu/brother-f410.jpg",
-  "role": "produit",
-  "alt": "Brother F410",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "5bbe730ea669163d",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "50% 46%",
-  "sujet": {
-   "x": 27.5,
-   "y": 21.7,
-   "l": 60.6,
-   "h": 43.5
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.75,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.73,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.69,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.58,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 51,
-   "top": 0,
-   "width": 1859,
-   "height": 1394,
-   "source": [
-    2000,
-    1394
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "machines/brother-f410-480.webp",
-   "machines/brother-f410-640.webp",
-   "machines/brother-f410-960.webp"
-  ],
-  "poids": {
-   "machines/brother-f410-480.webp": 6288,
-   "machines/brother-f410-640.webp": 9600,
-   "machines/brother-f410-960.webp": 17218
-  },
-  "media": "c.media({ nom: 'machines/brother-f410', alt: \"Brother F410\", cadrage: '50% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/brother-f480": {
-  "nom": "machines/brother-f480",
-  "source": "recu/innov-is-f480.jpg",
-  "role": "produit",
-  "alt": "Brother Innov-is F480",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "af0ea39cee31ee1a",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "57% 34%",
-  "sujet": {
-   "x": 0,
-   "y": 20,
-   "l": 86.5,
-   "h": 50
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0.61,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.53,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.43,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.33,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 250,
-   "top": 0,
-   "width": 1663,
-   "height": 1247,
-   "source": [
-    2000,
-    1247
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "machines/brother-f480-480.webp",
-   "machines/brother-f480-640.webp",
-   "machines/brother-f480-960.webp"
-  ],
-  "poids": {
-   "machines/brother-f480-480.webp": 7276,
-   "machines/brother-f480-640.webp": 11020,
-   "machines/brother-f480-960.webp": 20358
-  },
-  "media": "c.media({ nom: 'machines/brother-f480', alt: \"Brother Innov-is F480\", cadrage: '57% 34%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/brother-v5": {
-  "nom": "machines/brother-v5",
-  "source": "recu/machines-coudre-brodeuses-emaginacoudre-2.jpg",
-  "role": "produit",
-  "alt": "Brother V5",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "41b244ecd0094fd6",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "50% 48%",
-  "sujet": {
-   "x": 0,
-   "y": 18.8,
-   "l": 90.4,
-   "h": 56.3
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0.39,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.34,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.23,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.11,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 446,
-   "top": 0,
-   "width": 804,
-   "height": 603,
-   "source": [
-    1250,
-    603
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1250 px de large"
-  ],
-  "avertissements": [
-   "agrandie 1,19 fois (source de 804 px après recadrage)"
-  ],
-  "fichiers": [
-   "machines/brother-v5-480.webp",
-   "machines/brother-v5-640.webp",
-   "machines/brother-v5-960.webp"
-  ],
-  "poids": {
-   "machines/brother-v5-480.webp": 12472,
-   "machines/brother-v5-640.webp": 19442,
-   "machines/brother-v5-960.webp": 33478
-  },
-  "media": "c.media({ nom: 'machines/brother-v5', alt: \"Brother V5\", cadrage: '50% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/brother-v7": {
-  "nom": "machines/brother-v7",
-  "source": "recu/machines-coudre-brodeuses-emaginacoudre-3.jpg",
-  "role": "produit",
-  "alt": "Brother V7",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "6b74347f47fd8d71",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "50% 42%",
-  "sujet": {
-   "x": 0,
-   "y": 13.3,
-   "l": 95.9,
-   "h": 66.7
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0.41,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.14,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.11,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 423,
-   "top": 0,
-   "width": 780,
-   "height": 585,
-   "source": [
-    1250,
-    585
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1250 px de large"
-  ],
-  "avertissements": [
-   "agrandie 1,23 fois (source de 780 px après recadrage)"
-  ],
-  "fichiers": [
-   "machines/brother-v7-480.webp",
-   "machines/brother-v7-640.webp",
-   "machines/brother-v7-960.webp"
-  ],
-  "poids": {
-   "machines/brother-v7-480.webp": 14312,
-   "machines/brother-v7-640.webp": 22244,
-   "machines/brother-v7-960.webp": 36656
-  },
-  "media": "c.media({ nom: 'machines/brother-v7', alt: \"Brother V7\", cadrage: '50% 42%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/brother-xv": {
-  "nom": "machines/brother-xv",
-  "source": "recu/machines-coudre-brodeuses-emaginacoudre.jpg",
-  "role": "produit",
-  "alt": "Brother XV",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "847cf47c4ea59499",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "53% 41%",
-  "sujet": {
-   "x": 0,
-   "y": 16.7,
-   "l": 95.8,
-   "h": 66.7
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0.33,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.06,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.03,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 317,
-   "top": 0,
-   "width": 933,
-   "height": 700,
-   "source": [
-    1250,
-    700
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1250 px de large"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "machines/brother-xv-480.webp",
-   "machines/brother-xv-640.webp",
-   "machines/brother-xv-960.webp"
-  ],
-  "poids": {
-   "machines/brother-xv-480.webp": 13854,
-   "machines/brother-xv-640.webp": 21164,
-   "machines/brother-xv-960.webp": 38528
-  },
-  "media": "c.media({ nom: 'machines/brother-xv', alt: \"Brother XV\", cadrage: '53% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/brother-2104d": {
-  "nom": "machines/brother-2104d",
-  "source": "recu/surjeteuse-2104d-prix-catalogue.jpg",
-  "role": "produit",
-  "alt": "Brother 2104D",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "3a5bb6c70a97af46",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "58% 50%",
-  "sujet": {
-   "x": 28.1,
-   "y": 6.7,
-   "l": 53.1,
-   "h": 77.8
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.71,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.7,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.69,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.6,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 91,
-   "width": 1250,
-   "height": 938,
-   "source": [
-    1250,
-    1191
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1250 px de large"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "machines/brother-2104d-480.webp",
-   "machines/brother-2104d-640.webp",
-   "machines/brother-2104d-960.webp"
-  ],
-  "poids": {
-   "machines/brother-2104d-480.webp": 7724,
-   "machines/brother-2104d-640.webp": 11532,
-   "machines/brother-2104d-960.webp": 20634
-  },
-  "media": "c.media({ nom: 'machines/brother-2104d', alt: \"Brother 2104D\", cadrage: '58% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/brother-3034dwt": {
-  "nom": "machines/brother-3034dwt",
-  "source": "recu/3034dwt.jpg",
-  "role": "produit",
-  "alt": "Brother 3034DWT",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "9cd3a43d464c89e4",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "50% 68%",
-  "sujet": {
-   "x": 31.3,
-   "y": 9.1,
-   "l": 42.2,
-   "h": 81.8
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0.84,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.77,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.76,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.53,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 132,
-   "top": 0,
-   "width": 1777,
-   "height": 1333,
-   "source": [
-    2000,
-    1333
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "machines/brother-3034dwt-480.webp",
-   "machines/brother-3034dwt-640.webp",
-   "machines/brother-3034dwt-960.webp"
-  ],
-  "poids": {
-   "machines/brother-3034dwt-480.webp": 6242,
-   "machines/brother-3034dwt-640.webp": 9240,
-   "machines/brother-3034dwt-960.webp": 15888
-  },
-  "media": "c.media({ nom: 'machines/brother-3034dwt', alt: \"Brother 3034DWT\", cadrage: '50% 68%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/brother-4234d": {
-  "nom": "machines/brother-4234d",
-  "source": "recu/surjeteuse-2104d-prix-catalogue-2.jpg",
-  "role": "produit",
-  "alt": "Brother 4234D",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "fd3c845f6c4a7668",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "52% 61%",
-  "sujet": {
-   "x": 31.3,
-   "y": 2.8,
-   "l": 43.8,
-   "h": 89.1
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0.73,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.59,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.57,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.42,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 12,
-   "width": 1250,
-   "height": 938,
-   "source": [
-    1250,
-    950
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1250 px de large"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "machines/brother-4234d-480.webp",
-   "machines/brother-4234d-640.webp",
-   "machines/brother-4234d-960.webp"
-  ],
-  "poids": {
-   "machines/brother-4234d-480.webp": 5452,
-   "machines/brother-4234d-640.webp": 8354,
-   "machines/brother-4234d-960.webp": 14398
-  },
-  "media": "c.media({ nom: 'machines/brother-4234d', alt: \"Brother 4234D\", cadrage: '52% 61%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/babylock-victory": {
-  "nom": "machines/babylock-victory",
-  "source": "recu/surjeteuse-enspire-prix-catalogue.jpg",
-  "role": "produit",
-  "alt": "Babylock Victory",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "b33f91d2d26bbd4c",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "62% 44%",
-  "sujet": {
-   "x": 28,
-   "y": 13.8,
-   "l": 68,
-   "h": 86.2
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.87,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.69,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.6,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.5,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 375,
-   "width": 1100,
-   "height": 825,
-   "source": [
-    1100,
-    1422
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1100 px de large"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "machines/babylock-victory-480.webp",
-   "machines/babylock-victory-640.webp",
-   "machines/babylock-victory-960.webp"
-  ],
-  "poids": {
-   "machines/babylock-victory-480.webp": 8616,
-   "machines/babylock-victory-640.webp": 12092,
-   "machines/babylock-victory-960.webp": 20270
-  },
-  "media": "c.media({ nom: 'machines/babylock-victory', alt: \"Babylock Victory\", cadrage: '62% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/babylock-enlighten": {
-  "nom": "machines/babylock-enlighten",
-  "source": "recu/surjeteuse-enspire-prix-catalogue-2.jpg",
-  "role": "produit",
-  "alt": "Babylock Enlighten",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "ebe452012b80d8d0",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "66% 42%",
-  "sujet": {
-   "x": 24,
-   "y": 13.8,
-   "l": 68,
-   "h": 86.2
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.91,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.67,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.55,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.51,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 419,
-   "width": 1100,
-   "height": 825,
-   "source": [
-    1100,
-    1422
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1100 px de large"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "machines/babylock-enlighten-480.webp",
-   "machines/babylock-enlighten-640.webp",
-   "machines/babylock-enlighten-960.webp"
-  ],
-  "poids": {
-   "machines/babylock-enlighten-480.webp": 9838,
-   "machines/babylock-enlighten-640.webp": 13858,
-   "machines/babylock-enlighten-960.webp": 23148
-  },
-  "media": "c.media({ nom: 'machines/babylock-enlighten', alt: \"Babylock Enlighten\", cadrage: '66% 42%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/babylock-acclaim": {
-  "nom": "machines/babylock-acclaim",
-  "source": "recu/surjeteuse-enlighten-prix-catalogue.jpg",
-  "role": "produit",
-  "alt": "Babylock Acclaim",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "0e2c19ddc5fd401e",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "63% 34%",
-  "sujet": {
-   "x": 28,
-   "y": 8.5,
-   "l": 64,
-   "h": 91.5
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.86,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.69,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.57,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.42,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 419,
-   "width": 1100,
-   "height": 825,
-   "source": [
-    1100,
-    1422
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1100 px de large"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "machines/babylock-acclaim-480.webp",
-   "machines/babylock-acclaim-640.webp",
-   "machines/babylock-acclaim-960.webp"
-  ],
-  "poids": {
-   "machines/babylock-acclaim-480.webp": 8600,
-   "machines/babylock-acclaim-640.webp": 12450,
-   "machines/babylock-acclaim-960.webp": 21328
-  },
-  "media": "c.media({ nom: 'machines/babylock-acclaim', alt: \"Babylock Acclaim\", cadrage: '63% 34%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/babylock-cover-stitch": {
-  "nom": "machines/babylock-cover-stitch",
-  "source": "recu/recouvreuse-babylock-cover-stitch.jpg",
-  "role": "produit",
-  "alt": "Babylock Cover Stitch",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "2665ef9911cb2a2c",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "65% 50%",
-  "sujet": {
-   "x": 16,
-   "y": 0,
-   "l": 80,
-   "h": 100
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.7,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.58,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.47,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.34,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 313,
-   "width": 1100,
-   "height": 825,
-   "source": [
-    1100,
-    1422
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1100 px de large"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "machines/babylock-cover-stitch-480.webp",
-   "machines/babylock-cover-stitch-640.webp",
-   "machines/babylock-cover-stitch-960.webp"
-  ],
-  "poids": {
-   "machines/babylock-cover-stitch-480.webp": 9570,
-   "machines/babylock-cover-stitch-640.webp": 13402,
-   "machines/babylock-cover-stitch-960.webp": 22226
-  },
-  "media": "c.media({ nom: 'machines/babylock-cover-stitch', alt: \"Babylock Cover Stitch\", cadrage: '65% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/babylock-euphoria": {
-  "nom": "machines/babylock-euphoria",
-  "source": "recu/recouvruese-babylock-euphoria.jpg",
-  "role": "produit",
-  "alt": "Babylock Euphoria",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "f0642d12f24af54f",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "57% 46%",
-  "sujet": {
-   "x": 20,
-   "y": 19.2,
-   "l": 72,
-   "h": 80.8
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.93,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.72,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.66,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.56,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 331,
-   "width": 1100,
-   "height": 825,
-   "source": [
-    1100,
-    1422
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1100 px de large"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "machines/babylock-euphoria-480.webp",
-   "machines/babylock-euphoria-640.webp",
-   "machines/babylock-euphoria-960.webp"
-  ],
-  "poids": {
-   "machines/babylock-euphoria-480.webp": 6566,
-   "machines/babylock-euphoria-640.webp": 9732,
-   "machines/babylock-euphoria-960.webp": 15812
-  },
-  "media": "c.media({ nom: 'machines/babylock-euphoria', alt: \"Babylock Euphoria\", cadrage: '57% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/babylock-primo": {
-  "nom": "machines/babylock-primo",
-  "source": "recu/recouvreuse-babylock-primo.jpg",
-  "role": "produit",
-  "alt": "Babylock Primo",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "30a832e9c76373d7",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "63% 50%",
-  "sujet": {
-   "x": 20,
-   "y": 21.2,
-   "l": 68,
-   "h": 75.5
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.72,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.6,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.59,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.5,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 270,
-   "width": 1100,
-   "height": 825,
-   "source": [
-    1100,
-    1422
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1100 px de large"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "machines/babylock-primo-480.webp",
-   "machines/babylock-primo-640.webp",
-   "machines/babylock-primo-960.webp"
-  ],
-  "poids": {
-   "machines/babylock-primo-480.webp": 7546,
-   "machines/babylock-primo-640.webp": 10942,
-   "machines/babylock-primo-960.webp": 17698
-  },
-  "media": "c.media({ nom: 'machines/babylock-primo', alt: \"Babylock Primo\", cadrage: '63% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/babylock-aspire": {
-  "nom": "machines/babylock-aspire",
-  "source": "recu/aspire.png",
-  "role": "produit",
-  "alt": "Babylock Aspire",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "12db7cf913192fa1",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "56% 50%",
-  "sujet": {
-   "x": 24,
-   "y": 36.4,
-   "l": 60,
-   "h": 53.9
-  },
-  "zones_calmes": [
-   {
-    "cote": "bas",
-    "score": 0.83,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.71,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.64,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.64,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 99,
-   "width": 1100,
-   "height": 825,
-   "source": [
-    1100,
-    1422
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1100 px de large"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "machines/babylock-aspire-480.webp",
-   "machines/babylock-aspire-640.webp",
-   "machines/babylock-aspire-960.webp"
-  ],
-  "poids": {
-   "machines/babylock-aspire-480.webp": 6528,
-   "machines/babylock-aspire-640.webp": 8988,
-   "machines/babylock-aspire-960.webp": 13884
-  },
-  "media": "c.media({ nom: 'machines/babylock-aspire', alt: \"Babylock Aspire\", cadrage: '56% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/babylock-ovation": {
-  "nom": "machines/babylock-ovation",
-  "source": "recu/ovation.jpg",
-  "role": "produit",
-  "alt": "Babylock Ovation",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "cc822bd34b88b4ff",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "62% 50%",
-  "sujet": {
-   "x": 21.9,
-   "y": 22.6,
-   "l": 68.8,
-   "h": 77.4
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0.5,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.41,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.32,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.13,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 17,
-   "width": 800,
-   "height": 600,
-   "source": [
-    800,
-    813
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "800 px de large"
-  ],
-  "avertissements": [
-   "agrandie 1,2 fois (source de 800 px après recadrage)"
-  ],
-  "fichiers": [
-   "machines/babylock-ovation-480.webp",
-   "machines/babylock-ovation-640.webp",
-   "machines/babylock-ovation-960.webp"
-  ],
-  "poids": {
-   "machines/babylock-ovation-480.webp": 9776,
-   "machines/babylock-ovation-640.webp": 13996,
-   "machines/babylock-ovation-960.webp": 22138
-  },
-  "media": "c.media({ nom: 'machines/babylock-ovation', alt: \"Babylock Ovation\", cadrage: '62% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "machines/babylock-gloria": {
-  "nom": "machines/babylock-gloria",
-  "source": "recu/gloria.jpg",
-  "role": "produit",
-  "alt": "Babylock Gloria",
-  "grok": false,
-  "mention": null,
-  "beaute": 4,
-  "empreinte": "2a630b4e140c205f",
-  "ratio": "4:3",
-  "largeurs": [
-   480,
-   640,
-   960
-  ],
-  "mobile": null,
-  "cadrage": "69% 33%",
-  "sujet": {
-   "x": 20,
-   "y": 8.4,
-   "l": 76,
-   "h": 91.5
-  },
-  "zones_calmes": [
-   {
-    "cote": "bas",
-    "score": 0.65,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.64,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.47,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.23,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 286,
-   "width": 1100,
-   "height": 825,
-   "source": [
-    1100,
-    1422
-   ]
-  },
-  "faible": true,
-  "raisons_faible": [
-   "1100 px de large"
-  ],
-  "avertissements": [],
-  "fichiers": [
-   "machines/babylock-gloria-480.webp",
-   "machines/babylock-gloria-640.webp",
-   "machines/babylock-gloria-960.webp"
-  ],
-  "poids": {
-   "machines/babylock-gloria-480.webp": 10772,
-   "machines/babylock-gloria-640.webp": 15380,
-   "machines/babylock-gloria-960.webp": 24566
-  },
-  "media": "c.media({ nom: 'machines/babylock-gloria', alt: \"Babylock Gloria\", cadrage: '69% 33%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
- },
- "grok/accueil-ouverture": {
-  "nom": "grok/accueil-ouverture",
-  "source": "recu/grok/accueil-ouverture.jpg",
-  "role": "ouverture",
-  "alt": "Aiguille d'une machine à coudre piquant une couture framboise dans du lin",
-  "grok": true,
-  "mention": "Illustration générée",
-  "beaute": 5,
-  "empreinte": "fd923bf3b1b2ce40",
-  "ratio": "4:5",
-  "largeurs": [
-   640,
-   1280,
-   1920
-  ],
-  "mobile": {
-   "ratio": "4:5",
-   "largeurs": [
-    640,
-    1080
-   ],
-   "cadrage": "70% 74%"
-  },
-  "cadrage": "70% 74%",
-  "sujet": {
-   "x": 4.5,
-   "y": 18.1,
-   "l": 90.9,
-   "h": 81.9
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.68,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.51,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.29,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0.21,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 336,
-   "width": 1400,
-   "height": 1750,
-   "source": [
-    1400,
-    2086
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [
-   "agrandie 1,37 fois (source de 1400 px après recadrage)"
-  ],
-  "fichiers": [
-   "grok/accueil-ouverture-640.webp",
-   "grok/accueil-ouverture-1280.webp",
-   "grok/accueil-ouverture-1920.webp",
-   "grok/accueil-ouverture-mobile-640.webp",
-   "grok/accueil-ouverture-mobile-1080.webp"
-  ],
-  "poids": {
-   "grok/accueil-ouverture-640.webp": 34636,
-   "grok/accueil-ouverture-1280.webp": 81950,
-   "grok/accueil-ouverture-1920.webp": 132870,
-   "grok/accueil-ouverture-mobile-640.webp": 34636,
-   "grok/accueil-ouverture-mobile-1080.webp": 65710
-  },
-  "media": "c.media({ nom: 'grok/accueil-ouverture', alt: \"Aiguille d'une machine à coudre piquant une couture framboise dans du lin\", cadrage: '70% 74%', cadrageMobile: '70% 74%', sizes: '100vw', priorite: true })"
- },
- "grok/atelier-ouverture": {
-  "nom": "grok/atelier-ouverture",
-  "source": "recu/grok/atelier-ouverture.jpg",
-  "role": "ouverture",
-  "alt": "Établi de réparation : tournevis de précision, boîtier de canette, canettes et petites pièces rangées",
-  "grok": true,
-  "mention": "Illustration générée",
-  "beaute": 4,
-  "empreinte": "1b0411c5b5934e10",
-  "ratio": "4:5",
-  "largeurs": [
-   640,
-   1280,
-   1920
-  ],
-  "mobile": {
-   "ratio": "4:5",
-   "largeurs": [
-    640,
-    1080
-   ],
-   "cadrage": "44% 43%"
-  },
-  "cadrage": "44% 50%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 95.5,
-   "h": 100
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.09,
-    "ton": "moyen"
-   },
-   {
-    "cote": "droite",
-    "score": 0.06,
-    "ton": "sombre"
-   },
-   {
-    "cote": "gauche",
-    "score": 0,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 210,
-   "width": 1400,
-   "height": 1750,
-   "source": [
-    1400,
-    2086
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [
-   "agrandie 1,37 fois (source de 1400 px après recadrage)"
-  ],
-  "fichiers": [
-   "grok/atelier-ouverture-640.webp",
-   "grok/atelier-ouverture-1280.webp",
-   "grok/atelier-ouverture-1920.webp",
-   "grok/atelier-ouverture-mobile-640.webp",
-   "grok/atelier-ouverture-mobile-1080.webp"
-  ],
-  "poids": {
-   "grok/atelier-ouverture-640.webp": 63844,
-   "grok/atelier-ouverture-1280.webp": 155976,
-   "grok/atelier-ouverture-1920.webp": 240010,
-   "grok/atelier-ouverture-mobile-640.webp": 64578,
-   "grok/atelier-ouverture-mobile-1080.webp": 130524
-  },
-  "media": "c.media({ nom: 'grok/atelier-ouverture', alt: \"Établi de réparation : tournevis de précision, boîtier de canette, canettes et petites pièces rangées\", cadrage: '44% 50%', cadrageMobile: '44% 43%', sizes: '100vw', priorite: true })"
- },
- "grok/prise-en-main-ouverture": {
-  "nom": "grok/prise-en-main-ouverture",
-  "source": "recu/grok/prise-en-main-ouverture.jpg",
-  "role": "ouverture",
-  "alt": "Table de cours : bobine framboise, aiguille enfilée, mètre-ruban et essai de points sur coton",
-  "grok": true,
-  "mention": "Illustration générée",
-  "beaute": 4,
-  "empreinte": "1eb0d2277d3f6289",
-  "ratio": "21:9",
-  "largeurs": [
-   640,
-   1280,
-   1920
-  ],
-  "mobile": {
-   "ratio": "4:5",
-   "largeurs": [
-    640,
-    1080
-   ],
-   "cadrage": "55% 57%"
-  },
-  "cadrage": "71% 66%",
-  "sujet": {
-   "x": 9.4,
-   "y": 0,
-   "l": 90.6,
-   "h": 100
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.35,
-    "ton": "clair"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.32,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.12,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.06,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": "haut",
-  "recadrage": {
-   "left": 0,
-   "top": 81,
-   "width": 1752,
-   "height": 751,
-   "source": [
-    1752,
-    1176
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [
-   "agrandie 1,1 fois (source de 1752 px après recadrage)"
-  ],
-  "fichiers": [
-   "grok/prise-en-main-ouverture-640.webp",
-   "grok/prise-en-main-ouverture-1280.webp",
-   "grok/prise-en-main-ouverture-1920.webp",
-   "grok/prise-en-main-ouverture-mobile-640.webp",
-   "grok/prise-en-main-ouverture-mobile-1080.webp"
-  ],
-  "poids": {
-   "grok/prise-en-main-ouverture-640.webp": 8248,
-   "grok/prise-en-main-ouverture-1280.webp": 21422,
-   "grok/prise-en-main-ouverture-1920.webp": 35072,
-   "grok/prise-en-main-ouverture-mobile-640.webp": 44560,
-   "grok/prise-en-main-ouverture-mobile-1080.webp": 92758
-  },
-  "media": "c.media({ nom: 'grok/prise-en-main-ouverture', alt: \"Table de cours : bobine framboise, aiguille enfilée, mètre-ruban et essai de points sur coton\", cadrage: '71% 66%', cadrageMobile: '55% 57%', sizes: '100vw', priorite: true })"
- },
- "grok/la-maison-ouverture": {
-  "nom": "grok/la-maison-ouverture",
-  "source": "recu/grok/la-maison-ouverture.jpg",
-  "role": "ouverture",
-  "alt": "Outils de couture anciens et récents posés sur du lin : bobines en bois, craie de tailleur, ciseaux, épingles",
-  "grok": true,
-  "mention": "Illustration générée",
-  "beaute": 4,
-  "empreinte": "f7c3187f167b8080",
-  "ratio": "16:9",
-  "largeurs": [
-   640,
-   1280,
-   1920
-  ],
-  "mobile": {
-   "ratio": "9:16",
-   "largeurs": [
-    640,
-    1080
-   ],
-   "cadrage": "59% 57%"
-  },
-  "cadrage": "77% 45%",
-  "sujet": {
-   "x": 59.4,
-   "y": 7.8,
-   "l": 37.5,
-   "h": 92.2
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0.68,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.43,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.43,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.05,
-    "ton": "clair"
-   }
-  ],
-  "zone_texte": "gauche",
-  "recadrage": {
-   "left": 0,
-   "top": 83,
-   "width": 1752,
-   "height": 986,
-   "source": [
-    1752,
-    1176
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [
-   "agrandie 1,1 fois (source de 1752 px après recadrage)"
-  ],
-  "fichiers": [
-   "grok/la-maison-ouverture-640.webp",
-   "grok/la-maison-ouverture-1280.webp",
-   "grok/la-maison-ouverture-1920.webp",
-   "grok/la-maison-ouverture-mobile-640.webp",
-   "grok/la-maison-ouverture-mobile-1080.webp"
-  ],
-  "poids": {
-   "grok/la-maison-ouverture-640.webp": 47822,
-   "grok/la-maison-ouverture-1280.webp": 214128,
-   "grok/la-maison-ouverture-1920.webp": 283920,
-   "grok/la-maison-ouverture-mobile-640.webp": 135970,
-   "grok/la-maison-ouverture-mobile-1080.webp": 282480
-  },
-  "media": "c.media({ nom: 'grok/la-maison-ouverture', alt: \"Outils de couture anciens et récents posés sur du lin : bobines en bois, craie de tailleur, ciseaux, épingles\", cadrage: '77% 45%', cadrageMobile: '59% 57%', sizes: '100vw', priorite: true })"
- },
- "grok/contact-ouverture": {
-  "nom": "grok/contact-ouverture",
-  "source": "recu/grok/contact-ouverture.jpg",
-  "role": "ouverture",
-  "alt": "Présentoir mural de bobines de fil, du crème au bleu nuit et au framboise",
-  "grok": true,
-  "mention": "Illustration générée",
-  "beaute": 4,
-  "empreinte": "1bd3d00a14e3c3d7",
-  "ratio": "4:5",
-  "largeurs": [
-   640,
-   1280,
-   1920
-  ],
-  "mobile": {
-   "ratio": "4:5",
-   "largeurs": [
-    640,
-    1080
-   ],
-   "cadrage": "56% 42%"
-  },
-  "cadrage": "56% 50%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 95.5,
-   "h": 100
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.3,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.07,
-    "ton": "moyen"
-   },
-   {
-    "cote": "gauche",
-    "score": 0,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 189,
-   "width": 1400,
-   "height": 1750,
-   "source": [
-    1400,
-    2086
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [
-   "agrandie 1,37 fois (source de 1400 px après recadrage)"
-  ],
-  "fichiers": [
-   "grok/contact-ouverture-640.webp",
-   "grok/contact-ouverture-1280.webp",
-   "grok/contact-ouverture-1920.webp",
-   "grok/contact-ouverture-mobile-640.webp",
-   "grok/contact-ouverture-mobile-1080.webp"
-  ],
-  "poids": {
-   "grok/contact-ouverture-640.webp": 36996,
-   "grok/contact-ouverture-1280.webp": 103030,
-   "grok/contact-ouverture-1920.webp": 165654,
-   "grok/contact-ouverture-mobile-640.webp": 37548,
-   "grok/contact-ouverture-mobile-1080.webp": 83230
-  },
-  "media": "c.media({ nom: 'grok/contact-ouverture', alt: \"Présentoir mural de bobines de fil, du crème au bleu nuit et au framboise\", cadrage: '56% 50%', cadrageMobile: '56% 42%', sizes: '100vw', priorite: true })"
- },
- "grok/404": {
-  "nom": "grok/404",
-  "source": "recu/grok/404.jpg",
-  "role": "404",
-  "alt": "Couture interrompue à mi-chemin, un fil qui pend et l'aiguille posée à côté",
-  "grok": true,
-  "mention": "Illustration générée",
-  "beaute": 4,
-  "empreinte": "89dd206cf2511c20",
-  "ratio": "16:9",
-  "largeurs": [
-   800,
-   1600
-  ],
-  "mobile": {
-   "ratio": "4:5",
-   "largeurs": [
-    640,
-    1080
-   ],
-   "cadrage": "50% 43%"
-  },
-  "cadrage": "56% 50%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 100,
-   "h": 100
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0.2,
-    "ton": "clair"
-   },
-   {
-    "cote": "haut",
-    "score": 0.11,
-    "ton": "moyen"
-   },
-   {
-    "cote": "bas",
-    "score": 0.11,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0.01,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": "gauche",
-  "recadrage": {
-   "left": 0,
-   "top": 13,
-   "width": 1752,
-   "height": 986,
-   "source": [
-    1752,
-    1176
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "grok/404-800.webp",
-   "grok/404-1600.webp",
-   "grok/404-mobile-640.webp",
-   "grok/404-mobile-1080.webp"
-  ],
-  "poids": {
-   "grok/404-800.webp": 41702,
-   "grok/404-1600.webp": 118744,
-   "grok/404-mobile-640.webp": 55980,
-   "grok/404-mobile-1080.webp": 103712
-  },
-  "media": "c.media({ nom: 'grok/404', alt: \"Couture interrompue à mi-chemin, un fil qui pend et l'aiguille posée à côté\", cadrage: '56% 50%', cadrageMobile: '50% 43%', sizes: '100vw', ratio: '16 / 9' })"
- },
- "grok/cours-couture": {
-  "nom": "grok/cours-couture",
-  "source": "recu/grok/cours-couture.jpg",
-  "role": "carte-service",
-  "alt": "Table d'atelier de couture : patrons en papier, épingles, craie et pièces de coton coupées",
-  "grok": true,
-  "mention": "Illustration générée",
-  "beaute": 4,
-  "empreinte": "e4265ff2e10345d7",
-  "ratio": "3:2",
-  "largeurs": [
-   480,
-   640,
-   784
-  ],
-  "mobile": null,
-  "cadrage": "62% 49%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 100,
-   "h": 96.2
-  },
-  "zones_calmes": [
-   {
-    "cote": "gauche",
-    "score": 0.22,
-    "ton": "clair"
-   },
-   {
-    "cote": "droite",
-    "score": 0,
-    "ton": "sombre"
-   },
-   {
-    "cote": "haut",
-    "score": 0,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 0,
-   "width": 1752,
-   "height": 1168,
-   "source": [
-    1752,
-    1176
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "grok/cours-couture-480.webp",
-   "grok/cours-couture-640.webp",
-   "grok/cours-couture-784.webp"
-  ],
-  "poids": {
-   "grok/cours-couture-480.webp": 20236,
-   "grok/cours-couture-640.webp": 34062,
-   "grok/cours-couture-784.webp": 49820
-  },
-  "media": "c.media({ nom: 'grok/cours-couture', alt: \"Table d'atelier de couture : patrons en papier, épingles, craie et pièces de coton coupées\", cadrage: '62% 49%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '3 / 2' })"
- },
- "grok/duo-pascal": {
-  "nom": "grok/duo-pascal",
-  "source": "recu/grok/duo-pascal.jpg",
-  "role": "portrait",
-  "alt": "Réglage d'un boîtier de canette avec un tournevis de précision",
-  "grok": true,
-  "mention": "Illustration générée",
-  "beaute": 4,
-  "empreinte": "7aeeac661de31d5b",
-  "ratio": "4:5",
-  "largeurs": [
-   480,
-   640,
-   784
-  ],
-  "mobile": null,
-  "cadrage": "25% 38%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 95.5,
-   "h": 100
-  },
-  "zones_calmes": [
-   {
-    "cote": "droite",
-    "score": 0.41,
-    "ton": "sombre"
-   },
-   {
-    "cote": "bas",
-    "score": 0.23,
-    "ton": "sombre"
-   },
-   {
-    "cote": "haut",
-    "score": 0.11,
-    "ton": "moyen"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.05,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 44,
-   "width": 1400,
-   "height": 1750,
-   "source": [
-    1400,
-    2086
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "grok/duo-pascal-480.webp",
-   "grok/duo-pascal-640.webp",
-   "grok/duo-pascal-784.webp"
-  ],
-  "poids": {
-   "grok/duo-pascal-480.webp": 35948,
-   "grok/duo-pascal-640.webp": 60368,
-   "grok/duo-pascal-784.webp": 82420
-  },
-  "media": "c.media({ nom: 'grok/duo-pascal', alt: \"Réglage d'un boîtier de canette avec un tournevis de précision\", cadrage: '25% 38%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
- },
- "grok/duo-michele": {
-  "nom": "grok/duo-michele",
-  "source": "recu/grok/duo-michele.jpg",
-  "role": "portrait",
-  "alt": "Coupons de coton et de lin pliés, bobines assorties",
-  "grok": true,
-  "mention": "Illustration générée",
-  "beaute": 4,
-  "empreinte": "f97eeb92c795fbb3",
-  "ratio": "4:5",
-  "largeurs": [
-   480,
-   640,
-   784
-  ],
-  "mobile": null,
-  "cadrage": "42% 50%",
-  "sujet": {
-   "x": 0,
-   "y": 0,
-   "l": 95.5,
-   "h": 100
-  },
-  "zones_calmes": [
-   {
-    "cote": "haut",
-    "score": 0.21,
-    "ton": "clair"
-   },
-   {
-    "cote": "bas",
-    "score": 0.15,
-    "ton": "moyen"
-   },
-   {
-    "cote": "droite",
-    "score": 0.07,
-    "ton": "moyen"
-   },
-   {
-    "cote": "gauche",
-    "score": 0.04,
-    "ton": "moyen"
-   }
-  ],
-  "zone_texte": null,
-  "recadrage": {
-   "left": 0,
-   "top": 336,
-   "width": 1400,
-   "height": 1750,
-   "source": [
-    1400,
-    2086
-   ]
-  },
-  "faible": false,
-  "raisons_faible": [],
-  "avertissements": [],
-  "fichiers": [
-   "grok/duo-michele-480.webp",
-   "grok/duo-michele-640.webp",
-   "grok/duo-michele-784.webp"
-  ],
-  "poids": {
-   "grok/duo-michele-480.webp": 25342,
-   "grok/duo-michele-640.webp": 43272,
-   "grok/duo-michele-784.webp": 60792
-  },
-  "media": "c.media({ nom: 'grok/duo-michele', alt: \"Coupons de coton et de lin pliés, bobines assorties\", cadrage: '42% 50%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
- }
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-entete.png",
+    "role": "logo",
+    "alt": "E-maginacoudre",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "e5b0ff60ad467015",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 6304,
+      "logo-480.webp": 15214
+    },
+    "media": "c.media({ nom: 'logo', alt: \"E-maginacoudre\", sizes: '240px' })"
+  },
+  "michele": {
+    "nom": "michele",
+    "source": "recu/aide-prise-main-emaginacoudre.jpg",
+    "role": "portrait",
+    "alt": "Michèle, qui conseille et forme à la boutique",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "32ef8b79a96f0902",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "52% 38%",
+    "sujet": {
+      "x": 0,
+      "y": 3.4,
+      "l": 100,
+      "h": 96.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 125,
+      "width": 1500,
+      "height": 1875,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "michele-480.webp",
+      "michele-640.webp",
+      "michele-784.webp"
+    ],
+    "poids": {
+      "michele-480.webp": 31684,
+      "michele-640.webp": 47436,
+      "michele-784.webp": 61840
+    },
+    "media": "c.media({ nom: 'michele', alt: \"Michèle, qui conseille et forme à la boutique\", cadrage: '52% 38%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "pascal": {
+    "nom": "pascal",
+    "source": "recu/service-apres-vente-c.jpg",
+    "role": "portrait",
+    "alt": "Pascal au travail sur une machine, à l'atelier",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4bd7e0ffc470da88",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 3.9,
+      "y": 6.9,
+      "l": 96.1,
+      "h": 89.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 153,
+      "top": 0,
+      "width": 574,
+      "height": 718,
+      "source": [
+        800,
+        718
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,37 fois (source de 574 px après recadrage)"
+    ],
+    "fichiers": [
+      "pascal-480.webp",
+      "pascal-640.webp",
+      "pascal-784.webp"
+    ],
+    "poids": {
+      "pascal-480.webp": 21802,
+      "pascal-640.webp": 29444,
+      "pascal-784.webp": 36632
+    },
+    "media": "c.media({ nom: 'pascal', alt: \"Pascal au travail sur une machine, à l'atelier\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "atelier-coeur": {
+    "nom": "atelier-coeur",
+    "source": "recu/operation-maintenance-coeur-ouvert.jpg",
+    "role": "galerie",
+    "alt": "Une machine à coudre entièrement ouverte pendant une révision",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1c0e963927f4608e",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 256,
+      "top": 0,
+      "width": 614,
+      "height": 768,
+      "source": [
+        1024,
+        768
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 960",
+      "1024 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "atelier-coeur-480.webp",
+      "atelier-coeur-640.webp"
+    ],
+    "poids": {
+      "atelier-coeur-480.webp": 32842,
+      "atelier-coeur-640.webp": 44352
+    },
+    "media": "c.media({ nom: 'atelier-coeur', alt: \"Une machine à coudre entièrement ouverte pendant une révision\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "atelier-ouverte": {
+    "nom": "atelier-ouverte",
+    "source": "recu/machine-coudre-ouverte-effectuer.jpg",
+    "role": "galerie",
+    "alt": "Mécanisme d'une machine à coudre ouverte sur l'établi",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "885228c649096513",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 43%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 54,
+      "top": 0,
+      "width": 853,
+      "height": 640,
+      "source": [
+        960,
+        640
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,13 fois (source de 853 px après recadrage)"
+    ],
+    "fichiers": [
+      "atelier-ouverte-480.webp",
+      "atelier-ouverte-640.webp",
+      "atelier-ouverte-960.webp"
+    ],
+    "poids": {
+      "atelier-ouverte-480.webp": 31314,
+      "atelier-ouverte-640.webp": 44190,
+      "atelier-ouverte-960.webp": 67128
+    },
+    "media": "c.media({ nom: 'atelier-ouverte', alt: \"Mécanisme d'une machine à coudre ouverte sur l'établi\", cadrage: '50% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "atelier-test": {
+    "nom": "atelier-test",
+    "source": "recu/depannage-machine-coudre-test.jpg",
+    "role": "galerie",
+    "alt": "Test électronique d'une machine en panne",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f603e563e0c2f1b9",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "61% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 67,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 800 px après recadrage)"
+    ],
+    "fichiers": [
+      "atelier-test-480.webp",
+      "atelier-test-640.webp",
+      "atelier-test-960.webp"
+    ],
+    "poids": {
+      "atelier-test-480.webp": 20662,
+      "atelier-test-640.webp": 27322,
+      "atelier-test-960.webp": 42002
+    },
+    "media": "c.media({ nom: 'atelier-test', alt: \"Test électronique d'une machine en panne\", cadrage: '61% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "boutique-interieur": {
+    "nom": "boutique-interieur",
+    "source": "recu/emaginacoudre-vente-reparations-machines-11.jpg",
+    "role": "galerie",
+    "alt": "L'intérieur de la boutique : étagères de tissus, de créations et de mercerie",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e63eea8968f29ba1",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "44% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boutique-interieur-480.webp",
+      "boutique-interieur-640.webp",
+      "boutique-interieur-960.webp"
+    ],
+    "poids": {
+      "boutique-interieur-480.webp": 29638,
+      "boutique-interieur-640.webp": 46228,
+      "boutique-interieur-960.webp": 88068
+    },
+    "media": "c.media({ nom: 'boutique-interieur', alt: \"L'intérieur de la boutique : étagères de tissus, de créations et de mercerie\", cadrage: '44% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "boutique-tissus": {
+    "nom": "boutique-tissus",
+    "source": "recu/emaginacoudre-vente-reparations-machines-12.jpg",
+    "role": "galerie",
+    "alt": "Tissus fleuris en rouleaux, rouges, bleus et blancs",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "94dadc4fbc12132b",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 540,
+      "top": 0,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boutique-tissus-480.webp",
+      "boutique-tissus-640.webp",
+      "boutique-tissus-960.webp"
+    ],
+    "poids": {
+      "boutique-tissus-480.webp": 91192,
+      "boutique-tissus-640.webp": 130032,
+      "boutique-tissus-960.webp": 234282
+    },
+    "media": "c.media({ nom: 'boutique-tissus', alt: \"Tissus fleuris en rouleaux, rouges, bleus et blancs\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "boutique-machine": {
+    "nom": "boutique-machine",
+    "source": "recu/emaginacoudre-vente-reparations-machines-6.jpg",
+    "role": "galerie",
+    "alt": "Une machine Brother allumée sur une table de la boutique",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "82c59fa0a3e39d8c",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 9.1,
+      "l": 100,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.57,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.51,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.41,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 368,
+      "top": 0,
+      "width": 1064,
+      "height": 1330,
+      "source": [
+        2000,
+        1330
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "boutique-machine-480.webp",
+      "boutique-machine-640.webp",
+      "boutique-machine-960.webp"
+    ],
+    "poids": {
+      "boutique-machine-480.webp": 12534,
+      "boutique-machine-640.webp": 18302,
+      "boutique-machine-960.webp": 30142
+    },
+    "media": "c.media({ nom: 'boutique-machine', alt: \"Une machine Brother allumée sur une table de la boutique\", cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "boutique-vitrine": {
+    "nom": "boutique-vitrine",
+    "source": "recu/vitrine-emaginacoudre-vente-machine.jpg",
+    "role": "galerie",
+    "alt": "La vitrine de la boutique E-maginacoudre, rue Alain-René Lesage à Vannes",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ca4335a9792123b5",
+    "ratio": "16:9",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 93.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 198,
+      "top": 0,
+      "width": 1564,
+      "height": 880,
+      "source": [
+        2000,
+        880
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boutique-vitrine-480.webp",
+      "boutique-vitrine-640.webp",
+      "boutique-vitrine-960.webp"
+    ],
+    "poids": {
+      "boutique-vitrine-480.webp": 17078,
+      "boutique-vitrine-640.webp": 23094,
+      "boutique-vitrine-960.webp": 34998
+    },
+    "media": "c.media({ nom: 'boutique-vitrine', alt: \"La vitrine de la boutique E-maginacoudre, rue Alain-René Lesage à Vannes\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "creation-poupee": {
+    "nom": "creation-poupee",
+    "source": "recu/emaginacoudre-vente-reparations-machines-4.jpg",
+    "role": "galerie",
+    "alt": "Poupée en tissu posée sur les étagères de la boutique",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "11e9ec510de064db",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "41% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1330,
+      "height": 1995,
+      "source": [
+        1330,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "creation-poupee-480.webp",
+      "creation-poupee-640.webp",
+      "creation-poupee-960.webp"
+    ],
+    "poids": {
+      "creation-poupee-480.webp": 34830,
+      "creation-poupee-640.webp": 51378,
+      "creation-poupee-960.webp": 88224
+    },
+    "media": "c.media({ nom: 'creation-poupee', alt: \"Poupée en tissu posée sur les étagères de la boutique\", cadrage: '41% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "creation-theiere": {
+    "nom": "creation-theiere",
+    "source": "recu/emaginacoudre-vente-reparations-machines-5.jpg",
+    "role": "galerie",
+    "alt": "Théière en tissu à pois rouges, cousue main",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7914d018591389d2",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "56% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 5,
+      "top": 0,
+      "width": 1995,
+      "height": 1330,
+      "source": [
+        2000,
+        1330
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "creation-theiere-480.webp",
+      "creation-theiere-640.webp",
+      "creation-theiere-960.webp"
+    ],
+    "poids": {
+      "creation-theiere-480.webp": 17906,
+      "creation-theiere-640.webp": 25174,
+      "creation-theiere-960.webp": 39798
+    },
+    "media": "c.media({ nom: 'creation-theiere', alt: \"Théière en tissu à pois rouges, cousue main\", cadrage: '56% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "creation-sacs": {
+    "nom": "creation-sacs",
+    "source": "recu/emaginacoudre-vente-reparations-machines-7.jpg",
+    "role": "galerie",
+    "alt": "Sac cousu dans un tissu à fleurs, devant des coupons colorés",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b21e58e8cb1ecf0d",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "46% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1995,
+      "height": 1330,
+      "source": [
+        2000,
+        1330
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "creation-sacs-480.webp",
+      "creation-sacs-640.webp",
+      "creation-sacs-960.webp"
+    ],
+    "poids": {
+      "creation-sacs-480.webp": 38562,
+      "creation-sacs-640.webp": 65640,
+      "creation-sacs-960.webp": 129400
+    },
+    "media": "c.media({ nom: 'creation-sacs', alt: \"Sac cousu dans un tissu à fleurs, devant des coupons colorés\", cadrage: '46% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "creation-poupee-pois": {
+    "nom": "creation-poupee-pois",
+    "source": "recu/emaginacoudre-vente-reparations-machines-10.jpg",
+    "role": "galerie",
+    "alt": "Poupée à pois sur un fauteuil en osier, avec des coupons de tissu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "275a947b6f3d369f",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "68% 34%",
+    "sujet": {
+      "x": 0,
+      "y": 6.3,
+      "l": 100,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "creation-poupee-pois-480.webp",
+      "creation-poupee-pois-640.webp",
+      "creation-poupee-pois-960.webp"
+    ],
+    "poids": {
+      "creation-poupee-pois-480.webp": 62122,
+      "creation-poupee-pois-640.webp": 93928,
+      "creation-poupee-pois-960.webp": 178394
+    },
+    "media": "c.media({ nom: 'creation-poupee-pois', alt: \"Poupée à pois sur un fauteuil en osier, avec des coupons de tissu\", cadrage: '68% 34%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "machines/brother-cs70s": {
+    "nom": "machines/brother-cs70s",
+    "source": "recu/brother-cs70s.jpg",
+    "role": "produit",
+    "alt": "Brother CS70s",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "180fb07de039f59a",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 40%",
+    "sujet": {
+      "x": 27.6,
+      "y": 18.2,
+      "l": 59.8,
+      "h": 45.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.78,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.57,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.52,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 72,
+      "top": 0,
+      "width": 1777,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "machines/brother-cs70s-480.webp",
+      "machines/brother-cs70s-640.webp",
+      "machines/brother-cs70s-960.webp"
+    ],
+    "poids": {
+      "machines/brother-cs70s-480.webp": 7970,
+      "machines/brother-cs70s-640.webp": 12288,
+      "machines/brother-cs70s-960.webp": 22258
+    },
+    "media": "c.media({ nom: 'machines/brother-cs70s', alt: \"Brother CS70s\", cadrage: '50% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/brother-a16": {
+    "nom": "machines/brother-a16",
+    "source": "recu/brother-a16.jpg",
+    "role": "produit",
+    "alt": "Brother A16",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ba45826c86206bfa",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "51% 41%",
+    "sujet": {
+      "x": 21.9,
+      "y": 12.2,
+      "l": 59.4,
+      "h": 61.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.82,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.65,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.61,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.55,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1654
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "machines/brother-a16-480.webp",
+      "machines/brother-a16-640.webp",
+      "machines/brother-a16-960.webp"
+    ],
+    "poids": {
+      "machines/brother-a16-480.webp": 7052,
+      "machines/brother-a16-640.webp": 10918,
+      "machines/brother-a16-960.webp": 19260
+    },
+    "media": "c.media({ nom: 'machines/brother-a16', alt: \"Brother A16\", cadrage: '51% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/brother-a65": {
+    "nom": "machines/brother-a65",
+    "source": "recu/brother-a65.png",
+    "role": "produit",
+    "alt": "Brother A65",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "60f1d85d4fcb2a94",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 36%",
+    "sujet": {
+      "x": 23.2,
+      "y": 4.3,
+      "l": 66.1,
+      "h": 60.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.79,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.52,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 655,
+      "height": 491,
+      "source": [
+        693,
+        491
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "693 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,47 fois (source de 655 px après recadrage)"
+    ],
+    "fichiers": [
+      "machines/brother-a65-480.webp",
+      "machines/brother-a65-640.webp",
+      "machines/brother-a65-960.webp"
+    ],
+    "poids": {
+      "machines/brother-a65-480.webp": 9092,
+      "machines/brother-a65-640.webp": 14010,
+      "machines/brother-a65-960.webp": 20766
+    },
+    "media": "c.media({ nom: 'machines/brother-a65', alt: \"Brother A65\", cadrage: '50% 36%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/brother-f400": {
+    "nom": "machines/brother-f400",
+    "source": "recu/brother-f400.jpg",
+    "role": "produit",
+    "alt": "Brother F400",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b0c478ce95a895f0",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "62% 46%",
+    "sujet": {
+      "x": 25,
+      "y": 25,
+      "l": 56.3,
+      "h": 37.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.86,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.77,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.72,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.65,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "machines/brother-f400-480.webp",
+      "machines/brother-f400-640.webp",
+      "machines/brother-f400-960.webp"
+    ],
+    "poids": {
+      "machines/brother-f400-480.webp": 5930,
+      "machines/brother-f400-640.webp": 8990,
+      "machines/brother-f400-960.webp": 16756
+    },
+    "media": "c.media({ nom: 'machines/brother-f400', alt: \"Brother F400\", cadrage: '62% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/brother-f410": {
+    "nom": "machines/brother-f410",
+    "source": "recu/brother-f410.jpg",
+    "role": "produit",
+    "alt": "Brother F410",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5bbe730ea669163d",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 46%",
+    "sujet": {
+      "x": 27.5,
+      "y": 21.7,
+      "l": 60.6,
+      "h": 43.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.75,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.73,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.69,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.58,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 51,
+      "top": 0,
+      "width": 1859,
+      "height": 1394,
+      "source": [
+        2000,
+        1394
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "machines/brother-f410-480.webp",
+      "machines/brother-f410-640.webp",
+      "machines/brother-f410-960.webp"
+    ],
+    "poids": {
+      "machines/brother-f410-480.webp": 6288,
+      "machines/brother-f410-640.webp": 9600,
+      "machines/brother-f410-960.webp": 17218
+    },
+    "media": "c.media({ nom: 'machines/brother-f410', alt: \"Brother F410\", cadrage: '50% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/brother-f480": {
+    "nom": "machines/brother-f480",
+    "source": "recu/innov-is-f480.jpg",
+    "role": "produit",
+    "alt": "Brother Innov-is F480",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "af0ea39cee31ee1a",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "57% 34%",
+    "sujet": {
+      "x": 0,
+      "y": 20,
+      "l": 86.5,
+      "h": 50
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.61,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 250,
+      "top": 0,
+      "width": 1663,
+      "height": 1247,
+      "source": [
+        2000,
+        1247
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "machines/brother-f480-480.webp",
+      "machines/brother-f480-640.webp",
+      "machines/brother-f480-960.webp"
+    ],
+    "poids": {
+      "machines/brother-f480-480.webp": 7276,
+      "machines/brother-f480-640.webp": 11020,
+      "machines/brother-f480-960.webp": 20358
+    },
+    "media": "c.media({ nom: 'machines/brother-f480', alt: \"Brother Innov-is F480\", cadrage: '57% 34%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/brother-v5": {
+    "nom": "machines/brother-v5",
+    "source": "recu/machines-coudre-brodeuses-emaginacoudre-2.jpg",
+    "role": "produit",
+    "alt": "Brother V5",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "41b244ecd0094fd6",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 18.8,
+      "l": 90.4,
+      "h": 56.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.39,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.34,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 446,
+      "top": 0,
+      "width": 804,
+      "height": 603,
+      "source": [
+        1250,
+        603
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1250 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,19 fois (source de 804 px après recadrage)"
+    ],
+    "fichiers": [
+      "machines/brother-v5-480.webp",
+      "machines/brother-v5-640.webp",
+      "machines/brother-v5-960.webp"
+    ],
+    "poids": {
+      "machines/brother-v5-480.webp": 12472,
+      "machines/brother-v5-640.webp": 19442,
+      "machines/brother-v5-960.webp": 33478
+    },
+    "media": "c.media({ nom: 'machines/brother-v5', alt: \"Brother V5\", cadrage: '50% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/brother-v7": {
+    "nom": "machines/brother-v7",
+    "source": "recu/machines-coudre-brodeuses-emaginacoudre-3.jpg",
+    "role": "produit",
+    "alt": "Brother V7",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6b74347f47fd8d71",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 0,
+      "y": 13.3,
+      "l": 95.9,
+      "h": 66.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 423,
+      "top": 0,
+      "width": 780,
+      "height": 585,
+      "source": [
+        1250,
+        585
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1250 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,23 fois (source de 780 px après recadrage)"
+    ],
+    "fichiers": [
+      "machines/brother-v7-480.webp",
+      "machines/brother-v7-640.webp",
+      "machines/brother-v7-960.webp"
+    ],
+    "poids": {
+      "machines/brother-v7-480.webp": 14312,
+      "machines/brother-v7-640.webp": 22244,
+      "machines/brother-v7-960.webp": 36656
+    },
+    "media": "c.media({ nom: 'machines/brother-v7', alt: \"Brother V7\", cadrage: '50% 42%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/brother-xv": {
+    "nom": "machines/brother-xv",
+    "source": "recu/machines-coudre-brodeuses-emaginacoudre.jpg",
+    "role": "produit",
+    "alt": "Brother XV",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "847cf47c4ea59499",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "53% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 16.7,
+      "l": 95.8,
+      "h": 66.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 317,
+      "top": 0,
+      "width": 933,
+      "height": 700,
+      "source": [
+        1250,
+        700
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1250 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "machines/brother-xv-480.webp",
+      "machines/brother-xv-640.webp",
+      "machines/brother-xv-960.webp"
+    ],
+    "poids": {
+      "machines/brother-xv-480.webp": 13854,
+      "machines/brother-xv-640.webp": 21164,
+      "machines/brother-xv-960.webp": 38528
+    },
+    "media": "c.media({ nom: 'machines/brother-xv', alt: \"Brother XV\", cadrage: '53% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/brother-2104d": {
+    "nom": "machines/brother-2104d",
+    "source": "recu/surjeteuse-2104d-prix-catalogue.jpg",
+    "role": "produit",
+    "alt": "Brother 2104D",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3a5bb6c70a97af46",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "58% 50%",
+    "sujet": {
+      "x": 28.1,
+      "y": 6.7,
+      "l": 53.1,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.71,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.7,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.69,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.6,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 91,
+      "width": 1250,
+      "height": 938,
+      "source": [
+        1250,
+        1191
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1250 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "machines/brother-2104d-480.webp",
+      "machines/brother-2104d-640.webp",
+      "machines/brother-2104d-960.webp"
+    ],
+    "poids": {
+      "machines/brother-2104d-480.webp": 7724,
+      "machines/brother-2104d-640.webp": 11532,
+      "machines/brother-2104d-960.webp": 20634
+    },
+    "media": "c.media({ nom: 'machines/brother-2104d', alt: \"Brother 2104D\", cadrage: '58% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/brother-3034dwt": {
+    "nom": "machines/brother-3034dwt",
+    "source": "recu/3034dwt.jpg",
+    "role": "produit",
+    "alt": "Brother 3034DWT",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9cd3a43d464c89e4",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 68%",
+    "sujet": {
+      "x": 31.3,
+      "y": 9.1,
+      "l": 42.2,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.84,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.77,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.76,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.53,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 132,
+      "top": 0,
+      "width": 1777,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "machines/brother-3034dwt-480.webp",
+      "machines/brother-3034dwt-640.webp",
+      "machines/brother-3034dwt-960.webp"
+    ],
+    "poids": {
+      "machines/brother-3034dwt-480.webp": 6242,
+      "machines/brother-3034dwt-640.webp": 9240,
+      "machines/brother-3034dwt-960.webp": 15888
+    },
+    "media": "c.media({ nom: 'machines/brother-3034dwt', alt: \"Brother 3034DWT\", cadrage: '50% 68%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/brother-4234d": {
+    "nom": "machines/brother-4234d",
+    "source": "recu/surjeteuse-2104d-prix-catalogue-2.jpg",
+    "role": "produit",
+    "alt": "Brother 4234D",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "fd3c845f6c4a7668",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "52% 61%",
+    "sujet": {
+      "x": 31.3,
+      "y": 2.8,
+      "l": 43.8,
+      "h": 89.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.73,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.59,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.57,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 12,
+      "width": 1250,
+      "height": 938,
+      "source": [
+        1250,
+        950
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1250 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "machines/brother-4234d-480.webp",
+      "machines/brother-4234d-640.webp",
+      "machines/brother-4234d-960.webp"
+    ],
+    "poids": {
+      "machines/brother-4234d-480.webp": 5452,
+      "machines/brother-4234d-640.webp": 8354,
+      "machines/brother-4234d-960.webp": 14398
+    },
+    "media": "c.media({ nom: 'machines/brother-4234d', alt: \"Brother 4234D\", cadrage: '52% 61%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/babylock-victory": {
+    "nom": "machines/babylock-victory",
+    "source": "recu/surjeteuse-enspire-prix-catalogue.jpg",
+    "role": "produit",
+    "alt": "Babylock Victory",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b33f91d2d26bbd4c",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "62% 44%",
+    "sujet": {
+      "x": 28,
+      "y": 13.8,
+      "l": 68,
+      "h": 86.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.87,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.69,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.5,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 375,
+      "width": 1100,
+      "height": 825,
+      "source": [
+        1100,
+        1422
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1100 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "machines/babylock-victory-480.webp",
+      "machines/babylock-victory-640.webp",
+      "machines/babylock-victory-960.webp"
+    ],
+    "poids": {
+      "machines/babylock-victory-480.webp": 8616,
+      "machines/babylock-victory-640.webp": 12092,
+      "machines/babylock-victory-960.webp": 20270
+    },
+    "media": "c.media({ nom: 'machines/babylock-victory', alt: \"Babylock Victory\", cadrage: '62% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/babylock-enlighten": {
+    "nom": "machines/babylock-enlighten",
+    "source": "recu/surjeteuse-enspire-prix-catalogue-2.jpg",
+    "role": "produit",
+    "alt": "Babylock Enlighten",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ebe452012b80d8d0",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "66% 42%",
+    "sujet": {
+      "x": 24,
+      "y": 13.8,
+      "l": 68,
+      "h": 86.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.91,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.67,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.51,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 419,
+      "width": 1100,
+      "height": 825,
+      "source": [
+        1100,
+        1422
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1100 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "machines/babylock-enlighten-480.webp",
+      "machines/babylock-enlighten-640.webp",
+      "machines/babylock-enlighten-960.webp"
+    ],
+    "poids": {
+      "machines/babylock-enlighten-480.webp": 9838,
+      "machines/babylock-enlighten-640.webp": 13858,
+      "machines/babylock-enlighten-960.webp": 23148
+    },
+    "media": "c.media({ nom: 'machines/babylock-enlighten', alt: \"Babylock Enlighten\", cadrage: '66% 42%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/babylock-acclaim": {
+    "nom": "machines/babylock-acclaim",
+    "source": "recu/surjeteuse-enlighten-prix-catalogue.jpg",
+    "role": "produit",
+    "alt": "Babylock Acclaim",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0e2c19ddc5fd401e",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "63% 34%",
+    "sujet": {
+      "x": 28,
+      "y": 8.5,
+      "l": 64,
+      "h": 91.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.86,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.69,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.57,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.42,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 419,
+      "width": 1100,
+      "height": 825,
+      "source": [
+        1100,
+        1422
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1100 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "machines/babylock-acclaim-480.webp",
+      "machines/babylock-acclaim-640.webp",
+      "machines/babylock-acclaim-960.webp"
+    ],
+    "poids": {
+      "machines/babylock-acclaim-480.webp": 8600,
+      "machines/babylock-acclaim-640.webp": 12450,
+      "machines/babylock-acclaim-960.webp": 21328
+    },
+    "media": "c.media({ nom: 'machines/babylock-acclaim', alt: \"Babylock Acclaim\", cadrage: '63% 34%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/babylock-cover-stitch": {
+    "nom": "machines/babylock-cover-stitch",
+    "source": "recu/recouvreuse-babylock-cover-stitch.jpg",
+    "role": "produit",
+    "alt": "Babylock Cover Stitch",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2665ef9911cb2a2c",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "65% 50%",
+    "sujet": {
+      "x": 16,
+      "y": 0,
+      "l": 80,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.7,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.58,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.34,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 313,
+      "width": 1100,
+      "height": 825,
+      "source": [
+        1100,
+        1422
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1100 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "machines/babylock-cover-stitch-480.webp",
+      "machines/babylock-cover-stitch-640.webp",
+      "machines/babylock-cover-stitch-960.webp"
+    ],
+    "poids": {
+      "machines/babylock-cover-stitch-480.webp": 9570,
+      "machines/babylock-cover-stitch-640.webp": 13402,
+      "machines/babylock-cover-stitch-960.webp": 22226
+    },
+    "media": "c.media({ nom: 'machines/babylock-cover-stitch', alt: \"Babylock Cover Stitch\", cadrage: '65% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/babylock-euphoria": {
+    "nom": "machines/babylock-euphoria",
+    "source": "recu/recouvruese-babylock-euphoria.jpg",
+    "role": "produit",
+    "alt": "Babylock Euphoria",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f0642d12f24af54f",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "57% 46%",
+    "sujet": {
+      "x": 20,
+      "y": 19.2,
+      "l": 72,
+      "h": 80.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.93,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.72,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.66,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.56,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 331,
+      "width": 1100,
+      "height": 825,
+      "source": [
+        1100,
+        1422
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1100 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "machines/babylock-euphoria-480.webp",
+      "machines/babylock-euphoria-640.webp",
+      "machines/babylock-euphoria-960.webp"
+    ],
+    "poids": {
+      "machines/babylock-euphoria-480.webp": 6566,
+      "machines/babylock-euphoria-640.webp": 9732,
+      "machines/babylock-euphoria-960.webp": 15812
+    },
+    "media": "c.media({ nom: 'machines/babylock-euphoria', alt: \"Babylock Euphoria\", cadrage: '57% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/babylock-primo": {
+    "nom": "machines/babylock-primo",
+    "source": "recu/recouvreuse-babylock-primo.jpg",
+    "role": "produit",
+    "alt": "Babylock Primo",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "30a832e9c76373d7",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "63% 50%",
+    "sujet": {
+      "x": 20,
+      "y": 21.2,
+      "l": 68,
+      "h": 75.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.72,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.59,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.5,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 270,
+      "width": 1100,
+      "height": 825,
+      "source": [
+        1100,
+        1422
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1100 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "machines/babylock-primo-480.webp",
+      "machines/babylock-primo-640.webp",
+      "machines/babylock-primo-960.webp"
+    ],
+    "poids": {
+      "machines/babylock-primo-480.webp": 7546,
+      "machines/babylock-primo-640.webp": 10942,
+      "machines/babylock-primo-960.webp": 17698
+    },
+    "media": "c.media({ nom: 'machines/babylock-primo', alt: \"Babylock Primo\", cadrage: '63% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/babylock-aspire": {
+    "nom": "machines/babylock-aspire",
+    "source": "recu/aspire.png",
+    "role": "produit",
+    "alt": "Babylock Aspire",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "12db7cf913192fa1",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "56% 50%",
+    "sujet": {
+      "x": 24,
+      "y": 36.4,
+      "l": 60,
+      "h": 53.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.83,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.71,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.64,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.64,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 99,
+      "width": 1100,
+      "height": 825,
+      "source": [
+        1100,
+        1422
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1100 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "machines/babylock-aspire-480.webp",
+      "machines/babylock-aspire-640.webp",
+      "machines/babylock-aspire-960.webp"
+    ],
+    "poids": {
+      "machines/babylock-aspire-480.webp": 6528,
+      "machines/babylock-aspire-640.webp": 8988,
+      "machines/babylock-aspire-960.webp": 13884
+    },
+    "media": "c.media({ nom: 'machines/babylock-aspire', alt: \"Babylock Aspire\", cadrage: '56% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/babylock-ovation": {
+    "nom": "machines/babylock-ovation",
+    "source": "recu/ovation.jpg",
+    "role": "produit",
+    "alt": "Babylock Ovation",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "cc822bd34b88b4ff",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "62% 50%",
+    "sujet": {
+      "x": 21.9,
+      "y": 22.6,
+      "l": 68.8,
+      "h": 77.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.5,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 17,
+      "width": 800,
+      "height": 600,
+      "source": [
+        800,
+        813
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 800 px après recadrage)"
+    ],
+    "fichiers": [
+      "machines/babylock-ovation-480.webp",
+      "machines/babylock-ovation-640.webp",
+      "machines/babylock-ovation-960.webp"
+    ],
+    "poids": {
+      "machines/babylock-ovation-480.webp": 9776,
+      "machines/babylock-ovation-640.webp": 13996,
+      "machines/babylock-ovation-960.webp": 22138
+    },
+    "media": "c.media({ nom: 'machines/babylock-ovation', alt: \"Babylock Ovation\", cadrage: '62% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "machines/babylock-gloria": {
+    "nom": "machines/babylock-gloria",
+    "source": "recu/gloria.jpg",
+    "role": "produit",
+    "alt": "Babylock Gloria",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2a630b4e140c205f",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "69% 33%",
+    "sujet": {
+      "x": 20,
+      "y": 8.4,
+      "l": 76,
+      "h": 91.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.65,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.64,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 286,
+      "width": 1100,
+      "height": 825,
+      "source": [
+        1100,
+        1422
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1100 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "machines/babylock-gloria-480.webp",
+      "machines/babylock-gloria-640.webp",
+      "machines/babylock-gloria-960.webp"
+    ],
+    "poids": {
+      "machines/babylock-gloria-480.webp": 10772,
+      "machines/babylock-gloria-640.webp": 15380,
+      "machines/babylock-gloria-960.webp": 24566
+    },
+    "media": "c.media({ nom: 'machines/babylock-gloria', alt: \"Babylock Gloria\", cadrage: '69% 33%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/accueil-ouverture": {
+    "nom": "grok/accueil-ouverture",
+    "source": "recu/grok/accueil-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Aiguille d'une machine à coudre piquant une couture framboise dans du lin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "fd923bf3b1b2ce40",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "70% 74%"
+    },
+    "cadrage": "70% 74%",
+    "sujet": {
+      "x": 4.5,
+      "y": 18.1,
+      "l": 90.9,
+      "h": 81.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.68,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.51,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 336,
+      "width": 1400,
+      "height": 1750,
+      "source": [
+        1400,
+        2086
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,37 fois (source de 1400 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-ouverture-640.webp",
+      "grok/accueil-ouverture-1280.webp",
+      "grok/accueil-ouverture-1920.webp",
+      "grok/accueil-ouverture-mobile-640.webp",
+      "grok/accueil-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/accueil-ouverture-640.webp": 34636,
+      "grok/accueil-ouverture-1280.webp": 81950,
+      "grok/accueil-ouverture-1920.webp": 132870,
+      "grok/accueil-ouverture-mobile-640.webp": 34636,
+      "grok/accueil-ouverture-mobile-1080.webp": 65710
+    },
+    "media": "c.media({ nom: 'grok/accueil-ouverture', alt: \"Aiguille d'une machine à coudre piquant une couture framboise dans du lin\", cadrage: '70% 74%', cadrageMobile: '70% 74%', sizes: '100vw', priorite: true })"
+  },
+  "grok/atelier-ouverture": {
+    "nom": "grok/atelier-ouverture",
+    "source": "recu/grok/atelier-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Établi de réparation : tournevis de précision, boîtier de canette, canettes et petites pièces rangées",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "1b0411c5b5934e10",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "44% 43%"
+    },
+    "cadrage": "44% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 210,
+      "width": 1400,
+      "height": 1750,
+      "source": [
+        1400,
+        2086
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,37 fois (source de 1400 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/atelier-ouverture-640.webp",
+      "grok/atelier-ouverture-1280.webp",
+      "grok/atelier-ouverture-1920.webp",
+      "grok/atelier-ouverture-mobile-640.webp",
+      "grok/atelier-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/atelier-ouverture-640.webp": 63844,
+      "grok/atelier-ouverture-1280.webp": 155976,
+      "grok/atelier-ouverture-1920.webp": 240010,
+      "grok/atelier-ouverture-mobile-640.webp": 64578,
+      "grok/atelier-ouverture-mobile-1080.webp": 130524
+    },
+    "media": "c.media({ nom: 'grok/atelier-ouverture', alt: \"Établi de réparation : tournevis de précision, boîtier de canette, canettes et petites pièces rangées\", cadrage: '44% 50%', cadrageMobile: '44% 43%', sizes: '100vw', priorite: true })"
+  },
+  "grok/prise-en-main-ouverture": {
+    "nom": "grok/prise-en-main-ouverture",
+    "source": "recu/grok/prise-en-main-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Table de cours : bobine framboise, aiguille enfilée, mètre-ruban et essai de points sur coton",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "1eb0d2277d3f6289",
+    "ratio": "21:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "55% 57%"
+    },
+    "cadrage": "71% 66%",
+    "sujet": {
+      "x": 9.4,
+      "y": 0,
+      "l": 90.6,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 81,
+      "width": 1752,
+      "height": 751,
+      "source": [
+        1752,
+        1176
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1752 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/prise-en-main-ouverture-640.webp",
+      "grok/prise-en-main-ouverture-1280.webp",
+      "grok/prise-en-main-ouverture-1920.webp",
+      "grok/prise-en-main-ouverture-mobile-640.webp",
+      "grok/prise-en-main-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/prise-en-main-ouverture-640.webp": 8248,
+      "grok/prise-en-main-ouverture-1280.webp": 21422,
+      "grok/prise-en-main-ouverture-1920.webp": 35072,
+      "grok/prise-en-main-ouverture-mobile-640.webp": 44560,
+      "grok/prise-en-main-ouverture-mobile-1080.webp": 92758
+    },
+    "media": "c.media({ nom: 'grok/prise-en-main-ouverture', alt: \"Table de cours : bobine framboise, aiguille enfilée, mètre-ruban et essai de points sur coton\", cadrage: '71% 66%', cadrageMobile: '55% 57%', sizes: '100vw', priorite: true })"
+  },
+  "grok/la-maison-ouverture": {
+    "nom": "grok/la-maison-ouverture",
+    "source": "recu/grok/la-maison-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Outils de couture anciens et récents posés sur du lin : bobines en bois, craie de tailleur, ciseaux, épingles",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "f7c3187f167b8080",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "59% 57%"
+    },
+    "cadrage": "77% 45%",
+    "sujet": {
+      "x": 59.4,
+      "y": 7.8,
+      "l": 37.5,
+      "h": 92.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.68,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 83,
+      "width": 1752,
+      "height": 986,
+      "source": [
+        1752,
+        1176
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1752 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/la-maison-ouverture-640.webp",
+      "grok/la-maison-ouverture-1280.webp",
+      "grok/la-maison-ouverture-1920.webp",
+      "grok/la-maison-ouverture-mobile-640.webp",
+      "grok/la-maison-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/la-maison-ouverture-640.webp": 47822,
+      "grok/la-maison-ouverture-1280.webp": 214128,
+      "grok/la-maison-ouverture-1920.webp": 283920,
+      "grok/la-maison-ouverture-mobile-640.webp": 135970,
+      "grok/la-maison-ouverture-mobile-1080.webp": 282480
+    },
+    "media": "c.media({ nom: 'grok/la-maison-ouverture', alt: \"Outils de couture anciens et récents posés sur du lin : bobines en bois, craie de tailleur, ciseaux, épingles\", cadrage: '77% 45%', cadrageMobile: '59% 57%', sizes: '100vw', priorite: true })"
+  },
+  "grok/contact-ouverture": {
+    "nom": "grok/contact-ouverture",
+    "source": "recu/grok/contact-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Présentoir mural de bobines de fil, du crème au bleu nuit et au framboise",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "1bd3d00a14e3c3d7",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "56% 42%"
+    },
+    "cadrage": "56% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 189,
+      "width": 1400,
+      "height": 1750,
+      "source": [
+        1400,
+        2086
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,37 fois (source de 1400 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/contact-ouverture-640.webp",
+      "grok/contact-ouverture-1280.webp",
+      "grok/contact-ouverture-1920.webp",
+      "grok/contact-ouverture-mobile-640.webp",
+      "grok/contact-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/contact-ouverture-640.webp": 36996,
+      "grok/contact-ouverture-1280.webp": 103030,
+      "grok/contact-ouverture-1920.webp": 165654,
+      "grok/contact-ouverture-mobile-640.webp": 37548,
+      "grok/contact-ouverture-mobile-1080.webp": 83230
+    },
+    "media": "c.media({ nom: 'grok/contact-ouverture', alt: \"Présentoir mural de bobines de fil, du crème au bleu nuit et au framboise\", cadrage: '56% 50%', cadrageMobile: '56% 42%', sizes: '100vw', priorite: true })"
+  },
+  "grok/404": {
+    "nom": "grok/404",
+    "source": "recu/grok/404.jpg",
+    "role": "404",
+    "alt": "Couture interrompue à mi-chemin, un fil qui pend et l'aiguille posée à côté",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "89dd206cf2511c20",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 43%"
+    },
+    "cadrage": "56% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 13,
+      "width": 1752,
+      "height": 986,
+      "source": [
+        1752,
+        1176
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/404-800.webp",
+      "grok/404-1600.webp",
+      "grok/404-mobile-640.webp",
+      "grok/404-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/404-800.webp": 41702,
+      "grok/404-1600.webp": 118744,
+      "grok/404-mobile-640.webp": 55980,
+      "grok/404-mobile-1080.webp": 103712
+    },
+    "media": "c.media({ nom: 'grok/404', alt: \"Couture interrompue à mi-chemin, un fil qui pend et l'aiguille posée à côté\", cadrage: '56% 50%', cadrageMobile: '50% 43%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "grok/cours-couture": {
+    "nom": "grok/cours-couture",
+    "source": "recu/grok/cours-couture.jpg",
+    "role": "carte-service",
+    "alt": "Table d'atelier de couture : patrons en papier, épingles, craie et pièces de coton coupées",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "e4265ff2e10345d7",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "62% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1752,
+      "height": 1168,
+      "source": [
+        1752,
+        1176
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/cours-couture-480.webp",
+      "grok/cours-couture-640.webp",
+      "grok/cours-couture-784.webp"
+    ],
+    "poids": {
+      "grok/cours-couture-480.webp": 20236,
+      "grok/cours-couture-640.webp": 34062,
+      "grok/cours-couture-784.webp": 49820
+    },
+    "media": "c.media({ nom: 'grok/cours-couture', alt: \"Table d'atelier de couture : patrons en papier, épingles, craie et pièces de coton coupées\", cadrage: '62% 49%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '3 / 2' })"
+  },
+  "grok/duo-pascal": {
+    "nom": "grok/duo-pascal",
+    "source": "recu/grok/duo-pascal.jpg",
+    "role": "portrait",
+    "alt": "Réglage d'un boîtier de canette avec un tournevis de précision",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "7aeeac661de31d5b",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "25% 38%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.41,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 44,
+      "width": 1400,
+      "height": 1750,
+      "source": [
+        1400,
+        2086
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/duo-pascal-480.webp",
+      "grok/duo-pascal-640.webp",
+      "grok/duo-pascal-784.webp"
+    ],
+    "poids": {
+      "grok/duo-pascal-480.webp": 35948,
+      "grok/duo-pascal-640.webp": 60368,
+      "grok/duo-pascal-784.webp": 82420
+    },
+    "media": "c.media({ nom: 'grok/duo-pascal', alt: \"Réglage d'un boîtier de canette avec un tournevis de précision\", cadrage: '25% 38%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "grok/duo-michele": {
+    "nom": "grok/duo-michele",
+    "source": "recu/grok/duo-michele.jpg",
+    "role": "portrait",
+    "alt": "Coupons de coton et de lin pliés, bobines assorties",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "f97eeb92c795fbb3",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "42% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 336,
+      "width": 1400,
+      "height": 1750,
+      "source": [
+        1400,
+        2086
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/duo-michele-480.webp",
+      "grok/duo-michele-640.webp",
+      "grok/duo-michele-784.webp"
+    ],
+    "poids": {
+      "grok/duo-michele-480.webp": 25342,
+      "grok/duo-michele-640.webp": 43272,
+      "grok/duo-michele-784.webp": 60792
+    },
+    "media": "c.media({ nom: 'grok/duo-michele', alt: \"Coupons de coton et de lin pliés, bobines assorties\", cadrage: '42% 50%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "boutique-plein": {
+    "nom": "boutique-plein",
+    "source": "recu/emaginacoudre-vente-reparations-machines-11.jpg",
+    "role": "section-fond",
+    "alt": "L'intérieur de la boutique : étagères de tissus, de créations et de mercerie",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5638b8c0a6c5d7fe",
+    "ratio": "16:9",
+    "largeurs": [
+      960,
+      1600,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 54%"
+    },
+    "cadrage": "44% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 248,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "boutique-plein-960.webp",
+      "boutique-plein-1600.webp",
+      "boutique-plein-1920.webp",
+      "boutique-plein-mobile-640.webp",
+      "boutique-plein-mobile-1080.webp"
+    ],
+    "poids": {
+      "boutique-plein-960.webp": 65294,
+      "boutique-plein-1600.webp": 164406,
+      "boutique-plein-1920.webp": 220774,
+      "boutique-plein-mobile-640.webp": 77586,
+      "boutique-plein-mobile-1080.webp": 162788
+    },
+    "media": "c.media({ nom: 'boutique-plein', alt: \"L'intérieur de la boutique : étagères de tissus, de créations et de mercerie\", cadrage: '44% 50%', cadrageMobile: '50% 54%', sizes: '100vw' })"
+  }
 }

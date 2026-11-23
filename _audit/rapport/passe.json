@@ -1,15 +1,18 @@
 {
- "id": "20261120-161140-complet-cible-partiel",
- "date": "2026-11-20T16:13:27.272Z",
+ "id": "20261123-144652-complet-cible-partiel",
+ "date": "2026-11-23T14:53:52.351Z",
  "niveau": "complet",
- "pages": "/,/404",
+ "pages": "/,/atelier",
  "etapes": [
   "fichiers",
-  "mesures"
+  "mesures",
+  "parcours",
+  "mouvement",
+  "ecran"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 1,
+ "aRegarder": 5,
  "nonLances": 0,
  "manquants": 0,
  "statut": "complet"
